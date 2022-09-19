@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "list_type_id": 10,
+    "parent_id": null,
+    "image": null,
+    "slug": "boshqaruv",
+    "status": 2,
+    "creator_id": 1,
+    "modifier_id": null,
+    "deleted_at": null,
+    "created_at": "2022-09-19 18:35:13",
+    "updated_at": "2022-09-19 18:35:13"
+  }
+]

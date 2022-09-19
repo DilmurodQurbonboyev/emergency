@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "menu_id": 1,
+    "title": "Asosiy",
+    "locale": "oz"
+  },
+  {
+    "id": 2,
+    "menu_id": 1,
+    "title": "Асосий",
+    "locale": "uz"
+  },
+  {
+    "id": 3,
+    "menu_id": 1,
+    "title": "Главная",
+    "locale": "ru"
+  },
+  {
+    "id": 4,
+    "menu_id": 1,
+    "title": "Main",
+    "locale": "en"
+  },
+  {
+    "id": 5,
+    "menu_id": 2,
+    "title": "Boshqarma",
+    "locale": "oz"
+  },
+  {
+    "id": 6,
+    "menu_id": 2,
+    "title": "Бошқарма",
+    "locale": "uz"
+  },
+  {
+    "id": 7,
+    "menu_id": 2,
+    "title": "Центр",
+    "locale": "ru"
+  },
+  {
+    "id": 8,
+    "menu_id": 2,
+    "title": "Centre",
+    "locale": "en"
+  },
+  {
+    "id": 9,
+    "menu_id": 3,
+    "title": "Hujjatlar",
+    "locale": "oz"
+  },
+  {
+    "id": 10,
+    "menu_id": 3,
+    "title": "Ҳужжатлар",
+    "locale": "uz"
+  },
+  {
+    "id": 11,
+    "menu_id": 3,
+    "title": "Документы",
+    "locale": "ru"
+  },
+  {
+    "id": 12,
+    "menu_id": 3,
+    "title": null,
+    "locale": "en"
+  },
+  {
+    "id": 13,
+    "menu_id": 4,
+    "title": null,
+    "locale": "oz"
+  },
+  {
+    "id": 14,
+    "menu_id": 4,
+    "title": null,
+    "locale": "uz"
+  },
+  {
+    "id": 15,
+    "menu_id": 4,
+    "title": "Филиалы",
+    "locale": "ru"
+  },
+  {
+    "id": 16,
+    "menu_id": 4,
+    "title": null,
+    "locale": "en"
+  },
+  {
+    "id": 17,
+    "menu_id": 5,
+    "title": null,
+    "locale": "oz"
+  },
+  {
+    "id": 18,
+    "menu_id": 5,
+    "title": null,
+    "locale": "uz"
+  },
+  {
+    "id": 19,
+    "menu_id": 5,
+    "title": "Пресс-центр",
+    "locale": "ru"
+  },
+  {
+    "id": 20,
+    "menu_id": 5,
+    "title": null,
+    "locale": "en"
+  },
+  {
+    "id": 21,
+    "menu_id": 6,
+    "title": null,
+    "locale": "oz"
+  },
+  {
+    "id": 22,
+    "menu_id": 6,
+    "title": null,
+    "locale": "uz"
+  },
+  {
+    "id": 23,
+    "menu_id": 6,
+    "title": "Образование",
+    "locale": "ru"
+  },
+  {
+    "id": 24,
+    "menu_id": 6,
+    "title": null,
+    "locale": "en"
+  },
+  {
+    "id": 25,
+    "menu_id": 7,
+    "title": null,
+    "locale": "oz"
+  },
+  {
+    "id": 26,
+    "menu_id": 7,
+    "title": null,
+    "locale": "uz"
+  },
+  {
+    "id": 27,
+    "menu_id": 7,
+    "title": "Контакты",
+    "locale": "ru"
+  },
+  {
+    "id": 28,
+    "menu_id": 7,
+    "title": null,
+    "locale": "en"
+  }
+]

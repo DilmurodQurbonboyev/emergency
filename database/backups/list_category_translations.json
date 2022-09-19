@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "list_category_id": 1,
+    "title": "Yangiliklar",
+    "locale": "oz"
+  },
+  {
+    "id": 2,
+    "list_category_id": 1,
+    "title": "Янгиликлар",
+    "locale": "uz"
+  },
+  {
+    "id": 3,
+    "list_category_id": 1,
+    "title": "Новости",
+    "locale": "ru"
+  },
+  {
+    "id": 4,
+    "list_category_id": 1,
+    "title": "News",
+    "locale": "en"
+  },
+  {
+    "id": 5,
+    "list_category_id": 2,
+    "title": "Hamkorlar",
+    "locale": "oz"
+  },
+  {
+    "id": 6,
+    "list_category_id": 2,
+    "title": "Ҳамкорлар",
+    "locale": "uz"
+  },
+  {
+    "id": 7,
+    "list_category_id": 2,
+    "title": "Партнеры",
+    "locale": "ru"
+  },
+  {
+    "id": 8,
+    "list_category_id": 2,
+    "title": "Partners",
+    "locale": "en"
+  },
+  {
+    "id": 9,
+    "list_category_id": 3,
+    "title": "Foydali havolalar",
+    "locale": "oz"
+  },
+  {
+    "id": 10,
+    "list_category_id": 3,
+    "title": "Фойдали ҳаволалар",
+    "locale": "uz"
+  },
+  {
+    "id": 11,
+    "list_category_id": 3,
+    "title": "Полезные ссылки",
+    "locale": "ru"
+  },
+  {
+    "id": 12,
+    "list_category_id": 3,
+    "title": "Useful links",
+    "locale": "en"
+  },
+  {
+    "id": 13,
+    "list_category_id": 4,
+    "title": "Tadbirlar",
+    "locale": "oz"
+  },
+  {
+    "id": 14,
+    "list_category_id": 4,
+    "title": "Тадбирлар",
+    "locale": "uz"
+  },
+  {
+    "id": 15,
+    "list_category_id": 4,
+    "title": "Мероприятия",
+    "locale": "ru"
+  },
+  {
+    "id": 16,
+    "list_category_id": 4,
+    "title": "Events",
+    "locale": "en"
+  },
+  {
+    "id": 17,
+    "list_category_id": 5,
+    "title": "Ijtimoiy tarmoqlar",
+    "locale": "oz"
+  },
+  {
+    "id": 18,
+    "list_category_id": 5,
+    "title": "Ижтимоий тармоқлар",
+    "locale": "uz"
+  },
+  {
+    "id": 19,
+    "list_category_id": 5,
+    "title": "Социальные сети",
+    "locale": "ru"
+  },
+  {
+    "id": 20,
+    "list_category_id": 5,
+    "title": "Social networks",
+    "locale": "en"
+  },
+  {
+    "id": 21,
+    "list_category_id": 6,
+    "title": "Fotogalereya",
+    "locale": "oz"
+  },
+  {
+    "id": 22,
+    "list_category_id": 6,
+    "title": "Фотогалерея",
+    "locale": "uz"
+  },
+  {
+    "id": 23,
+    "list_category_id": 6,
+    "title": "Фотогалерея",
+    "locale": "ru"
+  },
+  {
+    "id": 24,
+    "list_category_id": 6,
+    "title": "Photogallery",
+    "locale": "en"
+  },
+  {
+    "id": 25,
+    "list_category_id": 7,
+    "title": "Videogalereya",
+    "locale": "oz"
+  },
+  {
+    "id": 26,
+    "list_category_id": 7,
+    "title": "Видеогалерея",
+    "locale": "uz"
+  },
+  {
+    "id": 27,
+    "list_category_id": 7,
+    "title": "Видеогалерея",
+    "locale": "ru"
+  },
+  {
+    "id": 28,
+    "list_category_id": 7,
+    "title": "Videogallery",
+    "locale": "en"
+  }
+]

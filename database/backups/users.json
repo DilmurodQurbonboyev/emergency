@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "dilmurod9820",
+        "email": "dilmurodqurbonboyev9820@gmail.com",
+        "picture": null,
+        "email_verified_at": null,
+        "password": "31510986500028",
+        "remember_token": null,
+        "created_at": "2022-01-23 11:58:45",
+        "updated_at": "2022-01-23 11:58:45"
+    },
+    {
+        "id": 2,
+        "name": "obakhtiev",
+        "email": "bakhtiev.olimjon@gmail.com",
+        "picture": null,
+        "email_verified_at": null,
+        "password": "30908770100032",
+        "remember_token": null,
+        "created_at": "2022-04-11 06:19:00",
+        "updated_at": "2022-04-11 06:19:00"
+    }
+]

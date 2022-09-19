@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "menus_category_id": 1,
+    "title": "Navbar",
+    "locale": "oz",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 2,
+    "menus_category_id": 1,
+    "title": "Навбар",
+    "locale": "uz",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 3,
+    "menus_category_id": 1,
+    "title": "Навбар",
+    "locale": "ru",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 4,
+    "menus_category_id": 1,
+    "title": "Navbar",
+    "locale": "en",
+    "created_at": null,
+    "updated_at": null
+  }
+]
