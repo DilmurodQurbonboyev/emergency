@@ -44,7 +44,7 @@
                     <div class="lang">
                         <div class="dropdown">
                             <button class="lang-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span>{{ LaravelLocalization::getCurrentLocaleNative() }}</span>
+                                <span>{{ LaravelLocalization::getCurrentLocaleName() }}</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12.711" height="7.239"
                                      viewBox="0 0 12.711 7.239">
                                     <path
@@ -57,7 +57,7 @@
                                     <li>
                                         <a class="dropdown-item" rel="alternate" hreflang="{{ $localeCode }}"
                                            href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                            {{ $properties['native'] }}
+                                            {{ $properties['name'] }}
                                         </a>
                                     </li>
                                 @endforeach

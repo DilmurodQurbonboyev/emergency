@@ -2,10 +2,30 @@
 
 return [
     'supportedLocales' => [
-        'uz' => ['name' => 'Уз', 'script' => 'Cyrl', 'native' => 'ЎЗБ', 'regional' => 'uz_UZ'],
-        'oz' => ['name' => 'O‘z', 'script' => 'Latn', 'native' => 'O‘ZB', 'regional' => 'uz_UZ'],
-        'ru' => ['name' => 'Ру', 'script' => 'Cyrl', 'native' => 'РУС', 'regional' => 'ru_RU'],
-        'en' => ['name' => 'En', 'script' => 'Latn', 'native' => 'ENG', 'regional' => 'en_GB'],
+        'uz' => [
+            'name' => 'Ўзбек',
+            'script' => 'Cyrl',
+            'native' => 'ЎЗБ',
+            'regional' => 'uz_UZ',
+        ],
+        'oz' => [
+            'name' => "O'zbek",
+            'script' => 'Latn',
+            'native' => 'O‘ZB',
+            'regional' => 'uz_UZ',
+        ],
+        'ru' => [
+            'name' => 'Русский',
+            'script' => 'Cyrl',
+            'native' => 'РУС',
+            'regional' => 'ru_RU',
+        ],
+        'en' => [
+            'name' => 'English',
+            'script' => 'Latn',
+            'native' => 'ENG',
+            'regional' => 'en_GB',
+        ],
     ],
     'useAcceptLanguageHeader' => true,
     'hideDefaultLocaleInURL' => false,

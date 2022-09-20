@@ -12,18 +12,21 @@ class Useful extends Component
     public function __construct()
     {
         $this->usefuls = Lists::query()
+            ->select([
+                'lists.link_type',
+                'lists_translations.title',
+                'lists.date',
+                'lists.image',
+                'lists.link'
+            ])
+            ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->where('lists_translations.title', '!=', null)
+            ->where('lists_translations.locale', '=', app()->getLocale())
             ->where('list_type_id', 6)
             ->where('lists_category_id', 3)
-            ->orderBy('date', 'desc')
-            ->orderBy('order')
-            ->orderBy('id', 'desc')
-            ->with(
-                [
-                    'translations' => function ($query) {
-                        $query->where('locale', app()->getLocale());
-                    }
-                ]
-            )
+            ->orderBy('lists.date', 'desc')
+            ->orderBy('lists.order')
+            ->orderBy('lists.id', 'desc')
             ->get();
     }
 

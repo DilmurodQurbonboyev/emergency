@@ -12,19 +12,26 @@
             </div>
             <div class="main-hr"></div>
         </div>
+
         <div class="owl-sites">
             <div class="owl-carousel owl-theme">
                 @foreach($usefuls as $useful)
                     <div class="item">
                         <div class="sites-in">
                             <div class="sites-icon">
-                                <a href="{{ hrefType($useful->link_type, $useful->link) }}" target="{{ targetType($useful->link_type) }}">
+                                <a href="{{ hrefType($useful->link_type, $useful->link) }}"
+                                   target="{{ targetType($useful->link_type) }}">
                                     <img src="{{ $useful->image ?? '' }}" alt="{{ $useful->title ?? '' }}">
-                                </a>
-                            </div>
+                                </a></div>
                             <div class="sites-right">
-                                <a class="sites-title" target="{{ targetType($useful->link_type) }}" href="{{ hrefType($useful->link_type, $useful->link) }}">O’zbekiston Respublikasi Aloqa vazirligi</a>
-                                <a class="sites-link" href="{{ hrefType($useful->link_type, $useful->link) }}" target="{{ targetType($useful->link_type) }}">{{ $useful->link ?? '' }}</a>
+                                <a class="sites-title" target="{{ targetType($useful->link_type) }}"
+                                   href="{{ hrefType($useful->link_type, $useful->link) }}">
+                                    {{ $useful->title ?? '' }}
+                                </a>
+                                <a class="sites-link" href="{{ hrefType($useful->link_type, $useful->link) }}"
+                                   target="{{ targetType($useful->link_type) }}">
+                                    {{ $useful->link ?? '' }}
+                                </a>
                             </div>
                         </div>
                     </div>

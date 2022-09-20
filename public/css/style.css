@@ -648,6 +648,10 @@ footer {
 .owl-sites .owl-carousel .owl-item img {
     width: auto;
     display: inline-block;
+    transition: 0.2s;
+}
+.owl-sites .owl-carousel .owl-item a:hover img {
+    transform: scale(0.8);
 }
 .sites-icon {}
 .sites-icon a {}
@@ -697,6 +701,10 @@ footer {
     width: auto;
     display: inline-block;
     max-width: 100%;
+    transition: 0.2s;
+}
+.owl-partners .owl-carousel .owl-item a:hover img {
+    transform: scale(0.8);
 }
 .owl-partners .owl-nav {
     text-align: center;
@@ -1003,6 +1011,7 @@ footer {
 .banner-background {
     background-color: rgba(28, 61, 129, 1.0);
     position: relative;
+    overflow: hidden;
 }
 .banner-right {
     position: relative;
@@ -1080,12 +1089,16 @@ footer {
     .banner-background:before {
         position: absolute;
         content: '';
-        left: 0;
-        bottom: 0;
+        left: 10px;
+        bottom: 10px;
         background-image: url(../img/banner-logo.png);
         width: 245px;
         height: 245px;
         z-index: 1;
+        animation-name: circle;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
     }
 }
 @media (max-width: 991px) {
@@ -1099,7 +1112,14 @@ footer {
         height: 480px;
     }
 }
-
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
 /*-------------banner-----------*/
 
 

@@ -55,19 +55,6 @@ class SiteController extends Controller
                 break;
         }
 
-        if ($category->id == 6) {
-            $lists = Lists::query()
-                ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
-                ->where('lists_translations.title', '!=', null)
-                ->where('lists_translations.locale', '=', app()->getLocale())
-                ->where('lists.list_type_id', $category->list_type_id)
-                ->orderBy('lists.date', 'desc')
-                ->orderBy('lists.order')
-                ->orderBy('lists.id', 'desc')
-                ->where('lists.status', 2)
-                ->paginate(12);
-            return view($view, compact('lists', 'category'));
-        }
         $lists = Lists::query()
             ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
             ->where('lists_translations.title', '!=', null)
