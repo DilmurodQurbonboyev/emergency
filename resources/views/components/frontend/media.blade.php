@@ -73,4 +73,10 @@
             @endforeach
         </div>
     </div>
+    <div class="container">
+        <div class="news-all">
+            <a href="#">{{ tr('All PhotoGallery') }}</a>
+            <a href="#">{{ tr('All VideoGallery') }}</a>
+        </div>
+    </div>
 </section>

@@ -26,7 +26,7 @@
                                     </div>
                                     <div class="news-before">
                                         <div class="news-left-date">
-                                            <span>{{ tr('Published') }}: {{ displayDateOnly($lastItem->created_at ?? '') }}</span>
+                                            <span>{{ tr('Published') }}: {{ displayDateOnly($lastItem->date ?? '') }}</span>
                                         </div>
                                         <div class="news-left-title">
                                             <span>{{ $lastItem->title ?? '' }}</span>
@@ -56,7 +56,7 @@
                                     <div class="col-md-8">
                                         <div class="news-right-date">
                                             <a href="{{ route('news', $new->slug) }}">{{ $new->category->title ?? '' }}</a>
-                                            <span>{{ tr('Published') }}: {{ displayDateOnly($new->created_at) }}</span>
+                                            <span>{{ tr('Published') }}: {{ displayDateOnly($new->date) }}</span>
                                         </div>
                                         <div class="news-right-title">
                                             <a href="{{ route('news', $new->slug) }}">{{ $new->title ?? '' }}</a>
@@ -73,6 +73,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="news-all">
+            <a href="#">{{ tr('All news') }}</a>
         </div>
     </div>
 </section>

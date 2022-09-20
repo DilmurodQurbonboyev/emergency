@@ -20,7 +20,7 @@
                     <div class="banner-text-out">
                         <div class="banner-text-span">
                                 <span>
-                                    {{ tr('Welcome to the website of the Republican Ambulance Center') }}
+                                    {!! tr('Welcome to the website of the Republican Ambulance Center') !!}
                                 </span>
                         </div>
                         <div class="banner-link">

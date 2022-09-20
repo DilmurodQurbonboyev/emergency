@@ -4,7 +4,7 @@
             <div class="col-xl-3 col-md-6">
                 <div class="service-in">
                     <div class="service-icon">
-                        <img src="img/ser1.png">
+                        <img src="{{ asset('img/ser1.png') }}">
                     </div>
                     <div class="service-hr"></div>
                     <div class="service-number">
@@ -18,7 +18,7 @@
             <div class="col-xl-3 col-md-6">
                 <div class="service-in">
                     <div class="service-icon">
-                        <img src="img/ser2.png">
+                        <img src="{{ asset('img/ser2.png') }}">
                     </div>
                     <div class="service-hr"></div>
                     <div class="service-number">
@@ -32,7 +32,7 @@
             <div class="col-xl-3 col-md-6">
                 <div class="service-in">
                     <div class="service-icon">
-                        <img src="img/ser3.png">
+                        <img src="{{ asset('img/ser3.png') }}">
                     </div>
                     <div class="service-hr"></div>
                     <div class="service-number">
@@ -46,7 +46,7 @@
             <div class="col-xl-3 col-md-6">
                 <div class="service-in">
                     <div class="service-icon">
-                        <img src="img/ser4.png">
+                        <img src="{{ asset('img/ser4.png') }}">
                     </div>
                     <div class="service-hr"></div>
                     <div class="service-number">
