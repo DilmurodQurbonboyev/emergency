@@ -21,6 +21,8 @@ use Database\Seeders\Backup\MenusCategorySeeder;
 use Database\Seeders\Backup\MenusCategoryTranslationSeeder;
 use Database\Seeders\Backup\MenuSeeder;
 use Database\Seeders\Backup\MenuTranslationSeeder;
+use Database\Seeders\Backup\MessageSeeder;
+use Database\Seeders\Backup\MessageTranslationSeeder;
 use Database\Seeders\Backup\RegionSeeder;
 use Database\Seeders\Backup\UserDataSeeder;
 use Database\Seeders\Backup\UserRoleLinkSeeder;
@@ -53,6 +55,8 @@ class DatabaseSeeder extends Seeder
         $this->call(MCategoryTranslationSeeder::class);
         $this->call(MenuSeeder::class);
         $this->call(MenuTranslationSeeder::class);
+        $this->call(MessageSeeder::class);
+        $this->call(MessageTranslationSeeder::class);
 //        $this->call(ListSeeder::class);
 //        $this->call(ListsTranslationSeeder::class);
 //        $this->call(ManagementSeeder::class);
