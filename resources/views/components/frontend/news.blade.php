@@ -1,4 +1,9 @@
-@php use Illuminate\Support\Str; @endphp
+@php
+    use Illuminate\Support\Str;
+/**
+* @var $news
+*/
+@endphp
 <section class="news">
     <div class="container">
         <div class="main-title">
@@ -15,63 +20,71 @@
         </div>
         <div class="news-row">
             <div class="row">
+                <?php
+                if (count($news) > 1){
+                    $item = $news[0];
+                    ?>
                 <div class="col-xl-6">
-                    @isset($lastItem->description)
-                        <div class="news-left">
-                            <a href="{{ route('news', $lastItem->slug ?? '') }}">
-                                <div class="news-left-in">
-                                    <div class="news-left-img">
-                                        <img src="{{ $lastItem->anons_image ?? '' }}"
-                                             alt="{{ $lastItem->title ?? '' }}">
-                                    </div>
-                                    <div class="news-before">
-                                        <div class="news-left-date">
-                                            <span>{{ tr('Published') }}: {{ displayDateOnly($lastItem->date ?? '') }}</span>
-                                        </div>
-                                        <div class="news-left-title">
-                                            <span>{{ $lastItem->title ?? '' }}</span>
-                                        </div>
-                                        <div class="news-left-description">
-                                            <span>{!! Str::words($lastItem->description, 5) !!}</span>
-                                        </div>
-                                    </div>
+                    <div class="news-left">
+                        <a href="{{ route('news', $item->slug ?? '') }}">
+                            <div class="news-left-in">
+                                <div class="news-left-img">
+                                    <img src="{{ $item->anons_image ?? '' }}"
+                                         alt="{{ $item->title ?? '' }}">
                                 </div>
-                            </a>
-                        </div>
-                    @endif
-                </div>
-                <div class="col-xl-6">
-                    <div class="news-right">
-                        @foreach($news as $new)
-                            <div class="news-right-item">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="news-right-img">
-                                            <a href="{{ route('news', $new->slug) }}">
-                                                <img
-                                                    src="{{ $new->anons_image ?? '' }}" alt="{{ $new->title ?? '' }}">
-                                            </a>
-                                        </div>
+                                <div class="news-before">
+                                    <div class="news-left-date">
+                                        <span>{{ tr('Published') }}: {{ displayDateOnly($item->date ?? '') }}</span>
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="news-right-date">
-                                            <a href="{{ route('news', $new->slug) }}">{{ $new->category->title ?? '' }}</a>
-                                            <span>{{ tr('Published') }}: {{ displayDateOnly($new->date) }}</span>
-                                        </div>
-                                        <div class="news-right-title">
-                                            <a href="{{ route('news', $new->slug) }}">{{ $new->title ?? '' }}</a>
-                                        </div>
-                                        <div class="news-right-description">
-                                            <a href="{{ route('news', $new->slug) }}">
-                                                {!! Str::words($new->description, 5) !!}
-                                            </a>
-                                        </div>
+                                    <div class="news-left-title">
+                                        <span>{{ $item->title ?? '' }}</span>
+                                    </div>
+                                    <div class="news-left-description">
+                                        <span>{!! Str::words($item->description, 5) !!}</span>
                                     </div>
                                 </div>
                             </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="news-right">
+                            <?php $i = 0; ?>
+                        @foreach ($news as $item)
+                            @if($i != 0 && $i < 5)
+                                <div class="news-right-item">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="news-right-img">
+                                                <a href="{{ route('news', $item->slug) }}">
+                                                    <img
+                                                        src="{{ $item->anons_image ?? '' }}"
+                                                        alt="{{ $item->title ?? '' }}">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="news-right-date">
+                                                <a href="{{ route('news', $item->slug) }}">{{ $item->category->title ?? '' }}</a>
+                                                <span>{{ tr('Published') }}: {{ displayDateOnly($item->date) }}</span>
+                                            </div>
+                                            <div class="news-right-title">
+                                                <a href="{{ route('news', $item->slug) }}">{{ $item->title ?? '' }}</a>
+                                            </div>
+                                            <div class="news-right-description">
+                                                <a href="{{ route('news', $item->slug) }}">
+                                                    {!! Str::words($item->description, 5) !!}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+                                <?php $i++; ?>
                         @endforeach
                     </div>
                 </div>
+                <?php } ?>
             </div>
         </div>
         <div class="news-all">

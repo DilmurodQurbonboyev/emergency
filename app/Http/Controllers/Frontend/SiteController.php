@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Frontend;
 
-use App\Models\ListCategory;
 use App\Models\Lists;
 use App\Helpers\ListType;
 use Illuminate\Http\Request;
+use App\Models\ListCategory;
 use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
 
@@ -56,17 +56,40 @@ class SiteController extends Controller
         }
 
         $lists = Lists::query()
+            ->select([
+                'lists.id',
+                'lists_translations.title',
+                'lists_translations.description',
+                'lists_translations.content',
+                'lists_translations.pdf_title',
+                'lists_translations.pdf',
+                'lists.anons_image',
+                'lists.body_image',
+                'lists.date',
+                'lists.slug',
+                'lists.count_view',
+                'lists.media_type',
+                'lists.link_type',
+                'lists.link',
+                'lists.video_code',
+                'lists.show_on_slider',
+                'list_category_translations.title as category_title'
+            ])
             ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->join('list_categories', 'lists.lists_category_id', '=', 'list_categories.id')
+            ->join('list_category_translations', 'list_categories.id', '=', 'list_category_translations.list_category_id')
             ->where('lists_translations.title', '!=', null)
             ->where('lists_translations.locale', '=', app()->getLocale())
+            ->where('list_category_translations.title', '!=', null)
+            ->where('list_category_translations.locale', '=', app()->getLocale())
             ->where('lists.list_type_id', $category->list_type_id)
             ->where('lists.lists_category_id', $category->id)
+            ->where('lists.status', 2)
             ->orderBy('lists.date', 'desc')
             ->orderBy('lists.order')
-            ->orderBy('lists.id', 'desc')
-            ->where('lists.status', 2)
             ->paginate(12);
-        return view($view, compact('lists', 'category'));
+
+        return view ($view, compact('lists', 'category'));
     }
 
     public function search(Request $request)
@@ -78,7 +101,7 @@ class SiteController extends Controller
         return view("frontend.search", compact('lists'));
     }
 
-    public function rss()
+    public function rss(): Response
     {
         $posts = Lists::query()->where('list_type_id', ListType::NEWS)->latest()->get();
         return response()->view('frontend.rss', compact('posts'))->header('Content-Type', 'text/xml');

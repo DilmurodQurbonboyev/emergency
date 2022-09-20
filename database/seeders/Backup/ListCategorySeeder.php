@@ -5,6 +5,7 @@ namespace Database\Seeders\Backup;
 use File;
 use App\Models\ListCategory;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class ListCategorySeeder extends Seeder
 {
@@ -19,7 +20,7 @@ class ListCategorySeeder extends Seeder
         $listCategories = json_decode($json);
 
         foreach ($listCategories as $listCategory) {
-            ListCategory::query()->create([
+            DB::table('list_categories')->insert([
                 "id" => $listCategory->id,
                 "list_type_id" => $listCategory->list_type_id,
                 "parent_id" => $listCategory->parent_id,

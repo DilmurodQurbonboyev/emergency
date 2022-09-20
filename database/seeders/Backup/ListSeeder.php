@@ -5,6 +5,7 @@ namespace Database\Seeders\Backup;
 use File;
 use App\Models\Lists;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 
 class ListSeeder extends Seeder
@@ -20,7 +21,7 @@ class ListSeeder extends Seeder
         $lists = json_decode($json);
 
         foreach ($lists as $list) {
-            Lists::query()->create([
+            DB::table('lists')->insert([
                 "id" => $list->id,
                 "list_type_id" => $list->list_type_id,
                 "lists_category_id" => $list->lists_category_id,

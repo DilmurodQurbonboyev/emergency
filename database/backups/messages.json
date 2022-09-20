@@ -2038,5 +2038,29 @@
         "key": "Lunch",
         "created_at": "2022-09-20 10:59:35",
         "updated_at": "2022-09-20 10:59:35"
+    },
+    {
+        "id": 341,
+        "key": "We always inform you about our achievements and publish the latest news",
+        "created_at": "2022-09-20 12:47:18",
+        "updated_at": "2022-09-20 12:47:18"
+    },
+    {
+        "id": 342,
+        "key": "An immersion into our sphere through the prism of our photos and videos",
+        "created_at": "2022-09-20 12:49:49",
+        "updated_at": "2022-09-20 12:49:49"
+    },
+    {
+        "id": 343,
+        "key": "Our doctors are guided by the main principle of their work",
+        "created_at": "2022-09-20 12:50:53",
+        "updated_at": "2022-09-20 12:50:53"
+    },
+    {
+        "id": 344,
+        "key": "This is an opportunity to get acquainted and go to other useful resources and to the websites of state bodies.",
+        "created_at": "2022-09-20 12:53:13",
+        "updated_at": "2022-09-20 12:53:13"
     }
 ]

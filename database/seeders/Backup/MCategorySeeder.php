@@ -5,6 +5,7 @@ namespace Database\Seeders\Backup;
 use File;
 use App\Models\MCategory;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class MCategorySeeder extends Seeder
 {
@@ -19,7 +20,7 @@ class MCategorySeeder extends Seeder
         $managements = json_decode($json);
 
         foreach ($managements as $management) {
-            MCategory::query()->create([
+            DB::table('m_categories')->insert([
                 "id" => $management->id,
                 "list_type_id" => $management->list_type_id,
                 "parent_id" => $management->parent_id,

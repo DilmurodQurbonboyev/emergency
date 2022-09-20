@@ -6518,7 +6518,7 @@
     {
         "id": 1087,
         "message_id": 272,
-        "title": "город Ташкент",
+        "title": "Город Ташкент",
         "locale": "ru"
     },
     {
@@ -8157,6 +8157,102 @@
         "id": 1360,
         "message_id": 340,
         "title": "Lunch",
+        "locale": "en"
+    },
+    {
+        "id": 1361,
+        "message_id": 341,
+        "title": "Biz Sizni har doim yutuqlarimiz haqida xabardor qilamiz va eng so'nggi yangiliklarni e'lon qilamiz",
+        "locale": "oz"
+    },
+    {
+        "id": 1362,
+        "message_id": 341,
+        "title": "Биз Сизни ҳар доим ютуқларимиз ҳақида хабардор қиламиз ва энг сўнгги янгиликларни эълон қиламиз",
+        "locale": "uz"
+    },
+    {
+        "id": 1363,
+        "message_id": 341,
+        "title": "Мы всегда информируем Вас о наших достижениях и публикуем свежие новости",
+        "locale": "ru"
+    },
+    {
+        "id": 1364,
+        "message_id": 341,
+        "title": "We always inform you about our achievements and publish the latest news",
+        "locale": "en"
+    },
+    {
+        "id": 1365,
+        "message_id": 342,
+        "title": "Bizning fotosuratlarimiz va videolarimiz prizmasi orqali bizning sohamiz bilan tanishing",
+        "locale": "oz"
+    },
+    {
+        "id": 1366,
+        "message_id": 342,
+        "title": "Бизнинг фотосуратларимиз ва видеоларимиз призмаси орқали бизнинг соҳамиз билан танишинг",
+        "locale": "uz"
+    },
+    {
+        "id": 1367,
+        "message_id": 342,
+        "title": "Погрузитесь в нашу сферу через призму наших фотографий и видеоматериалов",
+        "locale": "ru"
+    },
+    {
+        "id": 1368,
+        "message_id": 342,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1369,
+        "message_id": 343,
+        "title": "Shifokorlarimiz o'z ishining asosiy tamoyiliga amal qiladilar",
+        "locale": "oz"
+    },
+    {
+        "id": 1370,
+        "message_id": 343,
+        "title": "Шифокорларимиз ўз ишининг асосий тамойилига амал қиладилар",
+        "locale": "uz"
+    },
+    {
+        "id": 1371,
+        "message_id": 343,
+        "title": "Наши врачи руководствуются главным принципом своей работы",
+        "locale": "ru"
+    },
+    {
+        "id": 1372,
+        "message_id": 343,
+        "title": "Our doctors are guided by the main principle of their work",
+        "locale": "en"
+    },
+    {
+        "id": 1373,
+        "message_id": 344,
+        "title": "Bu davlat organlarining boshqa foydali resurslari va veb-saytlariga kirish imkoniyatidir",
+        "locale": "oz"
+    },
+    {
+        "id": 1374,
+        "message_id": 344,
+        "title": "Бу давлат органларининг бошқа фойдали ресурслари ва веб-сайтларига кириш имкониятидир",
+        "locale": "uz"
+    },
+    {
+        "id": 1375,
+        "message_id": 344,
+        "title": "Это возможность перехода в другие полезные ресурсы и на сайты государственных органов",
+        "locale": "ru"
+    },
+    {
+        "id": 1376,
+        "message_id": 344,
+        "title": "This is an opportunity to go to other useful resources and websites of government agencies",
         "locale": "en"
     }
 ]

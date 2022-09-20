@@ -17,7 +17,7 @@ class ListCategory extends Model implements TranslatableContract
     use Translatable, Sluggable;
 
     public $useTranslationFallback = true;
-    public array $translatedAttributes = ['title'];
+    public $translatedAttributes = ['title'];
 
     protected $fillable = [
         'list_type_id',

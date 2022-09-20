@@ -18,12 +18,22 @@ class Block extends Component
     public function __construct()
     {
         $this->blocks = Lists::query()
-            ->where('list_type_id', 1)
-            ->where('lists_category_id', 4)
-            ->where('status', 2)
-            ->orderBy('date', 'desc')
-            ->orderBy('order')
-            ->orderBy('id', 'desc')
+            ->select([
+                'lists.id',
+                'lists_translations.title',
+                'lists_translations.description',
+                'lists.anons_image',
+                'lists.slug',
+                'lists.date',
+            ])
+            ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->where('lists_translations.title', '!=', null)
+            ->where('lists_translations.locale', '=', app()->getLocale())
+            ->where('lists.list_type_id', 1)
+            ->where('lists.lists_category_id', 4)
+            ->where('lists.status', 2)
+            ->orderBy('lists.date', 'desc')
+            ->orderBy('lists.order')
             ->get();
     }
 

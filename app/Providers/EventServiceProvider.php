@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Event;
 
 class EventServiceProvider extends ServiceProvider
 {
+
     /**
      * The event to listener mappings for the application.
      *
@@ -35,10 +36,10 @@ class EventServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        ListCategory::observe(ListCategoryObserver::class);
-//        Lists::observe(ListsObserver::class);
-//        MCategory::observe(MCategoryObserver::class);
-//        Management::observe(ManagementObserver::class);
+        ListCategory::observe(ListCategoryObserver::class);
+        Lists::observe(ListsObserver::class);
+        MCategory::observe(MCategoryObserver::class);
+        Management::observe(ManagementObserver::class);
     }
 
     /**

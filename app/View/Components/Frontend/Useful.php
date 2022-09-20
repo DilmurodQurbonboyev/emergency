@@ -26,7 +26,6 @@ class Useful extends Component
             ->where('lists_category_id', 3)
             ->orderBy('lists.date', 'desc')
             ->orderBy('lists.order')
-            ->orderBy('lists.id', 'desc')
             ->get();
     }
 

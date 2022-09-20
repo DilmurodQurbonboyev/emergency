@@ -5,6 +5,7 @@ namespace Database\Seeders\Backup;
 use File;
 use App\Models\Management;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class ManagementSeeder extends Seeder
 {
@@ -19,7 +20,7 @@ class ManagementSeeder extends Seeder
         $managements = json_decode($json);
 
         foreach ($managements as $management) {
-            Management::query()->create([
+            DB::table('management')->insert([
                 "id" => $management->id,
                 "list_type_id" => $management->list_type_id,
                 "m_category_id" => $management->m_category_id,

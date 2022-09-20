@@ -7,6 +7,7 @@ use Astrotomic\Translatable\Translatable;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Cviebrock\EloquentSluggable\Services\SlugService;
 use Astrotomic\Translatable\Contracts\Translatable as TranslatableContract;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 
 class Lists extends Model implements TranslatableContract
@@ -70,7 +71,7 @@ class Lists extends Model implements TranslatableContract
         return $this->belongsTo(Lists::class, 'title');
     }
 
-    public function category()
+    public function category(): BelongsTo
     {
         return $this->belongsTo(ListCategory::class, 'lists_category_id');
     }

@@ -8,9 +8,7 @@ use Illuminate\View\Component;
 
 class News extends Component
 {
-    public $categories;
     public $news;
-    public $lastItem;
 
     /**
      * Create a new component instance.
@@ -19,29 +17,25 @@ class News extends Component
      */
     public function __construct()
     {
-        $this->lastItem = Lists::query()
-            ->where('list_type_id', 1)
-            ->where('lists_category_id', 1)
-            ->where('status', 2)
-            ->latest()
-            ->first();
-
-        $this->categories = ListCategory::query()
-            ->where('list_type_id', 1)
-            ->where('parent_id', '!=', null)
-            ->where('status', 2)
-            ->with('lists')
-            ->get();
-
         $this->news = Lists::query()
-            ->where('list_type_id', 1)
-            ->where('lists_category_id', 1)
-            ->where('status', 2)
-            ->orderBy('date', 'desc')
-            ->orderBy('order')
-            ->orderBy('id', 'desc')
-            ->skip(1)
-            ->take(4)
+            ->select([
+                'lists_translations.title',
+                'lists.anons_image',
+                'lists.slug',
+                'lists_translations.description',
+                'lists.date',
+                'lists.image',
+                'lists.link'
+            ])
+            ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->where('lists_translations.title', '!=', null)
+            ->where('lists_translations.locale', '=', app()->getLocale())
+            ->where('lists.list_type_id', 1)
+            ->where('lists.lists_category_id', 1)
+            ->where('lists.status', 2)
+            ->orderBy('lists.date', 'desc')
+            ->orderBy('lists.order')
+            ->take(5)
             ->get();
     }
 

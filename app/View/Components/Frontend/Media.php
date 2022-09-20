@@ -9,11 +9,6 @@ class Media extends Component
 {
     public $medias;
 
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->medias = Lists::query()
@@ -23,11 +18,6 @@ class Media extends Component
             ->get();
     }
 
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
-     */
     public function render()
     {
         return view('components.frontend.media');

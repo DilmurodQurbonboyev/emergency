@@ -82,6 +82,202 @@ button:focus {
 }
 /*===rgba(28, 61, 129, 1.0)=====*/
 /*-------------all--------------*/
+/*=============news list========*/
+.news-page {
+    padding: 15px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+.news-image {}
+.news-image a {}
+.news-image a img {
+    width: 100%;
+    border-radius: 5px;
+}
+.date-category {
+    margin-top: 10px;
+}
+.date-category span {
+    color: rgba(112, 112, 112, 1);
+}
+.date-category a {
+    color: rgba(4, 69, 177, 1);
+}
+.news-title {
+    margin-top: 10px;
+}
+.news-title a {
+    font-family: "Roboto-500";
+    font-size: 20px;
+    color: rgba(28, 28, 28, 1);
+}
+.news-title a:hover {
+    color: rgba(28, 61, 129, 1);
+}
+.news-description {
+    margin-top: 10px;
+}
+.news-description span {
+    color: rgba(77, 77, 77, 1);
+}
+.news-link {
+    margin-top: 10px;
+}
+.news-link a {
+    font-family: "Roboto-500";
+    color: rgba(112, 112, 112, 1);
+}
+.news-link a:hover {
+    color: rgba(28, 61, 129, 1);
+}
+@media (min-width: 576px) {
+    .news-image a img {
+        height: 240px;
+        object-fit: cover;
+    }
+    .news-title a {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        height: 54px;
+    }
+    .news-description span {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        height: 72px;
+    }
+    .news-page {
+        margin-top: 30px;
+    }
+}
+/*-------------news list--------*/
+/*=============pagination=======*/
+.page-pagination {
+    margin-top: 30px;
+}
+.page-pagination nav {}
+.page-pagination nav ul {
+    justify-content: center;
+}
+.page-pagination nav ul li a {
+    color: rgba(13, 64, 119, 1);
+}
+/*-------------pagination-------*/
+/*=============page=============*/
+.page {}
+.page-in {}
+.document a {}
+.document-in {
+    padding: 30px;
+    background-color: rgba(242, 244, 248, 1);
+}
+.document-icon {}
+.document-icon img {}
+.document-hr {
+    border-top: 1px solid rgba(28, 61, 129, 0.2);
+    margin-top: 15px;
+    width: 60px;
+}
+.document-title {
+    margin-top: 15px;
+}
+.document-title span {
+    font-family: "Roboto-700";
+    font-size: 20px;
+    color: rgba(13, 64, 119, 1);
+}
+.document-description {
+    margin-top: 15px;
+}
+.document-description span {
+    color: rgba(92, 92, 92, 1);
+}
+@media (min-width: 576px) {
+    .page {
+        margin-top: 80px;
+    }
+    .document {
+        margin-top: 30px;
+    }
+    .document-description span {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        height: 72px;
+    }
+}
+@media (max-width: 575px) {
+    .page {
+        margin-top: 30px;
+    }
+    .document {
+        margin-top: 15px;
+    }
+    .document-title span {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        height: 60px;
+    }
+}
+
+/*-------------page-------------*/
+/*=============inner============*/
+.inner {}
+.inner-in {
+    position: relative;
+}
+.inner-in:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/inner.png);
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+.inner-in:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 61, 129, 0.81);
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+.inner-name {
+    text-align: center;
+}
+.inner-name span {
+    font-family: "Roboto-500";
+    color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 1200px) {
+    .inner-name span {
+        font-size: 54px;
+    }
+    .inner-out {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+}
+@media (max-width: 1199px) {
+    .inner-name span {
+        font-size: 36px;
+    }
+    .inner-out {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+/*-------------inner------------*/
 /*=============menu=============*/
 .menu {}
 .menu .navbar-nav {}
@@ -150,6 +346,12 @@ button:focus {
         right: 0;
         z-index: 20;
         top: 0;
+    }
+}
+@media (min-width: 1400px) {}
+@media (min-width: 1199px) and (max-width: 1499px) {
+    .call-center {
+        display: none;
     }
 }
 @media (max-width: 1199px) {

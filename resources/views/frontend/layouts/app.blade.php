@@ -14,7 +14,7 @@
 <body>
 
 <div class="wrapper">
-    <x-frontend.banner />
+    <x-frontend.header/>
     @yield('content')
     <x-frontend.footer />
 </div>

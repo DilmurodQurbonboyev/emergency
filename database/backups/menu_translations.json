@@ -1,170 +1,698 @@
 [
-  {
-    "id": 1,
-    "menu_id": 1,
-    "title": "Asosiy",
-    "locale": "oz"
-  },
-  {
-    "id": 2,
-    "menu_id": 1,
-    "title": "Асосий",
-    "locale": "uz"
-  },
-  {
-    "id": 3,
-    "menu_id": 1,
-    "title": "Главная",
-    "locale": "ru"
-  },
-  {
-    "id": 4,
-    "menu_id": 1,
-    "title": "Main",
-    "locale": "en"
-  },
-  {
-    "id": 5,
-    "menu_id": 2,
-    "title": "Boshqarma",
-    "locale": "oz"
-  },
-  {
-    "id": 6,
-    "menu_id": 2,
-    "title": "Бошқарма",
-    "locale": "uz"
-  },
-  {
-    "id": 7,
-    "menu_id": 2,
-    "title": "Центр",
-    "locale": "ru"
-  },
-  {
-    "id": 8,
-    "menu_id": 2,
-    "title": "Centre",
-    "locale": "en"
-  },
-  {
-    "id": 9,
-    "menu_id": 3,
-    "title": "Hujjatlar",
-    "locale": "oz"
-  },
-  {
-    "id": 10,
-    "menu_id": 3,
-    "title": "Ҳужжатлар",
-    "locale": "uz"
-  },
-  {
-    "id": 11,
-    "menu_id": 3,
-    "title": "Документы",
-    "locale": "ru"
-  },
-  {
-    "id": 12,
-    "menu_id": 3,
-    "title": null,
-    "locale": "en"
-  },
-  {
-    "id": 13,
-    "menu_id": 4,
-    "title": null,
-    "locale": "oz"
-  },
-  {
-    "id": 14,
-    "menu_id": 4,
-    "title": null,
-    "locale": "uz"
-  },
-  {
-    "id": 15,
-    "menu_id": 4,
-    "title": "Филиалы",
-    "locale": "ru"
-  },
-  {
-    "id": 16,
-    "menu_id": 4,
-    "title": null,
-    "locale": "en"
-  },
-  {
-    "id": 17,
-    "menu_id": 5,
-    "title": null,
-    "locale": "oz"
-  },
-  {
-    "id": 18,
-    "menu_id": 5,
-    "title": null,
-    "locale": "uz"
-  },
-  {
-    "id": 19,
-    "menu_id": 5,
-    "title": "Пресс-центр",
-    "locale": "ru"
-  },
-  {
-    "id": 20,
-    "menu_id": 5,
-    "title": null,
-    "locale": "en"
-  },
-  {
-    "id": 21,
-    "menu_id": 6,
-    "title": null,
-    "locale": "oz"
-  },
-  {
-    "id": 22,
-    "menu_id": 6,
-    "title": null,
-    "locale": "uz"
-  },
-  {
-    "id": 23,
-    "menu_id": 6,
-    "title": "Образование",
-    "locale": "ru"
-  },
-  {
-    "id": 24,
-    "menu_id": 6,
-    "title": null,
-    "locale": "en"
-  },
-  {
-    "id": 25,
-    "menu_id": 7,
-    "title": null,
-    "locale": "oz"
-  },
-  {
-    "id": 26,
-    "menu_id": 7,
-    "title": null,
-    "locale": "uz"
-  },
-  {
-    "id": 27,
-    "menu_id": 7,
-    "title": "Контакты",
-    "locale": "ru"
-  },
-  {
-    "id": 28,
-    "menu_id": 7,
-    "title": null,
-    "locale": "en"
-  }
+    {
+        "id": 1,
+        "menu_id": 1,
+        "title": "Asosiy",
+        "locale": "oz"
+    },
+    {
+        "id": 2,
+        "menu_id": 1,
+        "title": "Асосий",
+        "locale": "uz"
+    },
+    {
+        "id": 3,
+        "menu_id": 1,
+        "title": "Главная",
+        "locale": "ru"
+    },
+    {
+        "id": 4,
+        "menu_id": 1,
+        "title": "Main",
+        "locale": "en"
+    },
+    {
+        "id": 5,
+        "menu_id": 2,
+        "title": "Markaz",
+        "locale": "oz"
+    },
+    {
+        "id": 6,
+        "menu_id": 2,
+        "title": "Марказ",
+        "locale": "uz"
+    },
+    {
+        "id": 7,
+        "menu_id": 2,
+        "title": "Центр",
+        "locale": "ru"
+    },
+    {
+        "id": 8,
+        "menu_id": 2,
+        "title": "Centre",
+        "locale": "en"
+    },
+    {
+        "id": 9,
+        "menu_id": 3,
+        "title": "Hujjatlar",
+        "locale": "oz"
+    },
+    {
+        "id": 10,
+        "menu_id": 3,
+        "title": "Ҳужжатлар",
+        "locale": "uz"
+    },
+    {
+        "id": 11,
+        "menu_id": 3,
+        "title": "Документы",
+        "locale": "ru"
+    },
+    {
+        "id": 12,
+        "menu_id": 3,
+        "title": "Documents",
+        "locale": "en"
+    },
+    {
+        "id": 13,
+        "menu_id": 4,
+        "title": "Filiallar",
+        "locale": "oz"
+    },
+    {
+        "id": 14,
+        "menu_id": 4,
+        "title": "Филиаллар",
+        "locale": "uz"
+    },
+    {
+        "id": 15,
+        "menu_id": 4,
+        "title": "Филиалы",
+        "locale": "ru"
+    },
+    {
+        "id": 16,
+        "menu_id": 4,
+        "title": "Branches",
+        "locale": "en"
+    },
+    {
+        "id": 17,
+        "menu_id": 5,
+        "title": "Matbuot markazi",
+        "locale": "oz"
+    },
+    {
+        "id": 18,
+        "menu_id": 5,
+        "title": "Матбуот маркази",
+        "locale": "uz"
+    },
+    {
+        "id": 19,
+        "menu_id": 5,
+        "title": "Пресс-центр",
+        "locale": "ru"
+    },
+    {
+        "id": 20,
+        "menu_id": 5,
+        "title": "Press center",
+        "locale": "en"
+    },
+    {
+        "id": 21,
+        "menu_id": 6,
+        "title": null,
+        "locale": "oz"
+    },
+    {
+        "id": 22,
+        "menu_id": 6,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 23,
+        "menu_id": 6,
+        "title": "Образование",
+        "locale": "ru"
+    },
+    {
+        "id": 24,
+        "menu_id": 6,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 25,
+        "menu_id": 7,
+        "title": "Aloqa",
+        "locale": "oz"
+    },
+    {
+        "id": 26,
+        "menu_id": 7,
+        "title": "Алоқа",
+        "locale": "uz"
+    },
+    {
+        "id": 27,
+        "menu_id": 7,
+        "title": "Контакты",
+        "locale": "ru"
+    },
+    {
+        "id": 28,
+        "menu_id": 7,
+        "title": "Contacts",
+        "locale": "en"
+    },
+    {
+        "id": 29,
+        "menu_id": 8,
+        "title": "Markaz haqida",
+        "locale": "oz"
+    },
+    {
+        "id": 30,
+        "menu_id": 8,
+        "title": "Марказ ҳақида",
+        "locale": "uz"
+    },
+    {
+        "id": 31,
+        "menu_id": 8,
+        "title": "О центре",
+        "locale": "ru"
+    },
+    {
+        "id": 32,
+        "menu_id": 8,
+        "title": "About centre",
+        "locale": "en"
+    },
+    {
+        "id": 33,
+        "menu_id": 9,
+        "title": "Rahbariyat",
+        "locale": "oz"
+    },
+    {
+        "id": 34,
+        "menu_id": 9,
+        "title": "Раҳбарият",
+        "locale": "uz"
+    },
+    {
+        "id": 35,
+        "menu_id": 9,
+        "title": "Руководство",
+        "locale": "ru"
+    },
+    {
+        "id": 36,
+        "menu_id": 9,
+        "title": "Management",
+        "locale": "en"
+    },
+    {
+        "id": 37,
+        "menu_id": 10,
+        "title": "Markaziy apparat",
+        "locale": "oz"
+    },
+    {
+        "id": 38,
+        "menu_id": 10,
+        "title": "Марказий аппарат",
+        "locale": "uz"
+    },
+    {
+        "id": 39,
+        "menu_id": 10,
+        "title": "Центральный аппарат",
+        "locale": "ru"
+    },
+    {
+        "id": 40,
+        "menu_id": 10,
+        "title": "Central office",
+        "locale": "en"
+    },
+    {
+        "id": 41,
+        "menu_id": 11,
+        "title": "Aholiga tez tibbiy yordam ko‘rsatish tizimini takomillashtirish to‘g‘risida",
+        "locale": "oz"
+    },
+    {
+        "id": 42,
+        "menu_id": 11,
+        "title": "Аҳолига тез тиббий ёрдам кўрсатиш тизимини такомиллаштириш тўғрисида",
+        "locale": "uz"
+    },
+    {
+        "id": 43,
+        "menu_id": 11,
+        "title": "О совершенствовании системы оказания населению скорой медицинской помощи",
+        "locale": "ru"
+    },
+    {
+        "id": 44,
+        "menu_id": 11,
+        "title": "On improving the system of providing emergency medical care to the population",
+        "locale": "en"
+    },
+    {
+        "id": 45,
+        "menu_id": 12,
+        "title": "Tez tibbiy yordam xodimlarini qo‘shimcha moddiy rag‘batlantirish to‘g‘risida",
+        "locale": "oz"
+    },
+    {
+        "id": 46,
+        "menu_id": 12,
+        "title": "Тез тиббий ёрдам ходимларини қўшимча моддий рағбатлантириш тўғрисида",
+        "locale": "uz"
+    },
+    {
+        "id": 47,
+        "menu_id": 12,
+        "title": "О дополнительном материальном стимулировании работников скорой помощи",
+        "locale": "ru"
+    },
+    {
+        "id": 48,
+        "menu_id": 12,
+        "title": "On additional financial incentives for ambulance workers",
+        "locale": "en"
+    },
+    {
+        "id": 49,
+        "menu_id": 13,
+        "title": "O‘zbekiston Respublikasida tez tibbiy yordam xizmatini takomillashtirish chora-tadbirlari to‘g‘risida",
+        "locale": "oz"
+    },
+    {
+        "id": 50,
+        "menu_id": 13,
+        "title": "Ўзбекистон Республикасида тез тиббий ёрдам хизматини такомиллаштириш чора-тадбирлари тўғрисида",
+        "locale": "uz"
+    },
+    {
+        "id": 51,
+        "menu_id": 13,
+        "title": "О мерах по совершенствованию службы скорой медицинской помощи в Республике Узбекистан",
+        "locale": "ru"
+    },
+    {
+        "id": 52,
+        "menu_id": 13,
+        "title": "On measures to improve the ambulance service in the Republic of Uzbekistan",
+        "locale": "en"
+    },
+    {
+        "id": 53,
+        "menu_id": 14,
+        "title": "Shoshilinch tibbiy yordam xizmatining faoliyatini tashkil etishni yanada takomillashtirish va moddiy-texnika bazasini mustahkamlash chora-tadbirlari to‘g‘risida",
+        "locale": "oz"
+    },
+    {
+        "id": 54,
+        "menu_id": 14,
+        "title": "Шошилинч тиббий ёрдам хизматининг фаолиятини ташкил этишни янада такомиллаштириш ва моддий-техника базасини мустаҳкамлаш чора-тадбирлари тўғрисида",
+        "locale": "uz"
+    },
+    {
+        "id": 55,
+        "menu_id": 14,
+        "title": "О мерах по дальнейшему укреплению материально-технической базы и организации деятельности системы экстренной медицинской помощи",
+        "locale": "ru"
+    },
+    {
+        "id": 56,
+        "menu_id": 14,
+        "title": "On measures to further strengthen the material and technical base and organize the activities of the emergency medical care system",
+        "locale": "en"
+    },
+    {
+        "id": 57,
+        "menu_id": 15,
+        "title": "Qoraqalpog‘iston Respublikasi",
+        "locale": "oz"
+    },
+    {
+        "id": 58,
+        "menu_id": 15,
+        "title": "Қорақалпоғистон Республикаси",
+        "locale": "uz"
+    },
+    {
+        "id": 59,
+        "menu_id": 15,
+        "title": "Республика Каракалпакстан",
+        "locale": "ru"
+    },
+    {
+        "id": 60,
+        "menu_id": 15,
+        "title": "Republic of Karakalpakstan",
+        "locale": "en"
+    },
+    {
+        "id": 61,
+        "menu_id": 16,
+        "title": "Andijon viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 62,
+        "menu_id": 16,
+        "title": "Андижон вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 63,
+        "menu_id": 16,
+        "title": "Андижанская область",
+        "locale": "ru"
+    },
+    {
+        "id": 64,
+        "menu_id": 16,
+        "title": "Andijan region",
+        "locale": "en"
+    },
+    {
+        "id": 65,
+        "menu_id": 17,
+        "title": "Buxoro viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 66,
+        "menu_id": 17,
+        "title": "Бухоро вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 67,
+        "menu_id": 17,
+        "title": "Бухарская область",
+        "locale": "ru"
+    },
+    {
+        "id": 68,
+        "menu_id": 17,
+        "title": "Bukhara region",
+        "locale": "en"
+    },
+    {
+        "id": 69,
+        "menu_id": 18,
+        "title": "Jizzax viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 70,
+        "menu_id": 18,
+        "title": "Жиззах вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 71,
+        "menu_id": 18,
+        "title": "Джизакская область",
+        "locale": "ru"
+    },
+    {
+        "id": 72,
+        "menu_id": 18,
+        "title": "Jizzakh region",
+        "locale": "en"
+    },
+    {
+        "id": 73,
+        "menu_id": 19,
+        "title": "Navoiy viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 74,
+        "menu_id": 19,
+        "title": "Навоий вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 75,
+        "menu_id": 19,
+        "title": "Навоийская область",
+        "locale": "ru"
+    },
+    {
+        "id": 76,
+        "menu_id": 19,
+        "title": "Navoi region",
+        "locale": "en"
+    },
+    {
+        "id": 77,
+        "menu_id": 20,
+        "title": "Namangan viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 78,
+        "menu_id": 20,
+        "title": "Наманган вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 79,
+        "menu_id": 20,
+        "title": "Наманганская область",
+        "locale": "ru"
+    },
+    {
+        "id": 80,
+        "menu_id": 20,
+        "title": "Namangan region",
+        "locale": "en"
+    },
+    {
+        "id": 81,
+        "menu_id": 21,
+        "title": "Samarqand viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 82,
+        "menu_id": 21,
+        "title": "Самарқанд вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 83,
+        "menu_id": 21,
+        "title": "Самаркандская область",
+        "locale": "ru"
+    },
+    {
+        "id": 84,
+        "menu_id": 21,
+        "title": "Samarkand region",
+        "locale": "en"
+    },
+    {
+        "id": 85,
+        "menu_id": 22,
+        "title": "Sirdaryo viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 86,
+        "menu_id": 22,
+        "title": "Сирдарё вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 87,
+        "menu_id": 22,
+        "title": "Сырдарьинская область",
+        "locale": "ru"
+    },
+    {
+        "id": 88,
+        "menu_id": 22,
+        "title": "Syrdarya region",
+        "locale": "en"
+    },
+    {
+        "id": 89,
+        "menu_id": 23,
+        "title": "Surxondaryo viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 90,
+        "menu_id": 23,
+        "title": "Сурхондарё вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 91,
+        "menu_id": 23,
+        "title": "Сурхандарьинская область",
+        "locale": "ru"
+    },
+    {
+        "id": 92,
+        "menu_id": 23,
+        "title": "Surkhandarya region",
+        "locale": "en"
+    },
+    {
+        "id": 93,
+        "menu_id": 24,
+        "title": "Toshkent viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 94,
+        "menu_id": 24,
+        "title": "Тошкент вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 95,
+        "menu_id": 24,
+        "title": "Ташкентская область",
+        "locale": "ru"
+    },
+    {
+        "id": 96,
+        "menu_id": 24,
+        "title": "Tashkent region",
+        "locale": "en"
+    },
+    {
+        "id": 97,
+        "menu_id": 25,
+        "title": "Farg'ona viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 98,
+        "menu_id": 25,
+        "title": "Фарғона вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 99,
+        "menu_id": 25,
+        "title": "Ферганская область",
+        "locale": "ru"
+    },
+    {
+        "id": 100,
+        "menu_id": 25,
+        "title": "Fergana region",
+        "locale": "en"
+    },
+    {
+        "id": 101,
+        "menu_id": 26,
+        "title": "Xorazm viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 102,
+        "menu_id": 26,
+        "title": "Хоразм вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 103,
+        "menu_id": 26,
+        "title": "Хорезмская область",
+        "locale": "ru"
+    },
+    {
+        "id": 104,
+        "menu_id": 26,
+        "title": "Khorezm region",
+        "locale": "en"
+    },
+    {
+        "id": 105,
+        "menu_id": 27,
+        "title": "Qashqadaryo viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 106,
+        "menu_id": 27,
+        "title": "Қашқадарё вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 107,
+        "menu_id": 27,
+        "title": "Кашкадарьинская область",
+        "locale": "ru"
+    },
+    {
+        "id": 108,
+        "menu_id": 27,
+        "title": "Kashkadarya region",
+        "locale": "en"
+    },
+    {
+        "id": 109,
+        "menu_id": 28,
+        "title": "Toshkent shahri",
+        "locale": "oz"
+    },
+    {
+        "id": 110,
+        "menu_id": 28,
+        "title": "Тошкент шаҳри",
+        "locale": "uz"
+    },
+    {
+        "id": 111,
+        "menu_id": 28,
+        "title": "город Ташкент",
+        "locale": "ru"
+    },
+    {
+        "id": 112,
+        "menu_id": 28,
+        "title": "Tashkent city",
+        "locale": "en"
+    },
+    {
+        "id": 113,
+        "menu_id": 29,
+        "title": "Normativ hujjatlar",
+        "locale": "oz"
+    },
+    {
+        "id": 114,
+        "menu_id": 29,
+        "title": "Норматив ҳужжатлар",
+        "locale": "uz"
+    },
+    {
+        "id": 115,
+        "menu_id": 29,
+        "title": "Нормативные документы",
+        "locale": "ru"
+    },
+    {
+        "id": 116,
+        "menu_id": 29,
+        "title": "Regulations",
+        "locale": "en"
+    }
 ]
