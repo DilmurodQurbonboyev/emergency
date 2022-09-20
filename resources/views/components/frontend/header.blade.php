@@ -64,7 +64,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="app-link">
+                    <div class="app-link d-none">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25.65" height="21.169"
                                  viewBox="0 0 25.65 21.169">
