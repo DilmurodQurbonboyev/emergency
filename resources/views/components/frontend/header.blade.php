@@ -9,7 +9,7 @@
                                 <img src="{{ asset('img/logo.png') }}">
                             </div>
                             <div class="logo-right">
-                                <span>{{ tr('Republican ambulance center') }}</span>
+                                <span>{!! tr('Republican ambulance center') !!}</span>
                             </div>
                         </div>
                     </a>

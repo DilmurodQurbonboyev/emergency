@@ -1,1922 +1,2042 @@
 [
-  {
-    "id": 1,
-    "key": "Dashboard",
-    "created_at": "2022-01-27 07:05:48",
-    "updated_at": "2022-01-27 07:05:48"
-  },
-  {
-    "id": 2,
-    "key": "Menus",
-    "created_at": "2022-01-27 07:09:32",
-    "updated_at": "2022-01-27 07:09:32"
-  },
-  {
-    "id": 3,
-    "key": "Menu Categories",
-    "created_at": "2022-01-27 07:11:07",
-    "updated_at": "2022-01-27 07:11:07"
-  },
-  {
-    "id": 4,
-    "key": "News",
-    "created_at": "2022-01-27 07:15:06",
-    "updated_at": "2022-01-27 07:15:06"
-  },
-  {
-    "id": 5,
-    "key": "News Categories",
-    "created_at": "2022-01-27 07:15:55",
-    "updated_at": "2022-01-27 07:15:55"
-  },
-  {
-    "id": 6,
-    "key": "Posters",
-    "created_at": "2022-01-27 07:18:42",
-    "updated_at": "2022-01-27 07:18:42"
-  },
-  {
-    "id": 7,
-    "key": "Poster Categories",
-    "created_at": "2022-01-27 07:21:13",
-    "updated_at": "2022-01-27 07:21:13"
-  },
-  {
-    "id": 8,
-    "key": "Pages",
-    "created_at": "2022-01-27 07:22:20",
-    "updated_at": "2022-01-27 07:22:20"
-  },
-  {
-    "id": 9,
-    "key": "Page Categories",
-    "created_at": "2022-01-27 07:24:15",
-    "updated_at": "2022-01-27 07:24:15"
-  },
-  {
-    "id": 10,
-    "key": "Useful",
-    "created_at": "2022-01-27 07:25:15",
-    "updated_at": "2022-01-27 07:25:15"
-  },
-  {
-    "id": 11,
-    "key": "Useful Categories",
-    "created_at": "2022-01-27 07:27:13",
-    "updated_at": "2022-01-27 07:27:13"
-  },
-  {
-    "id": 12,
-    "key": "Photos",
-    "created_at": "2022-01-27 07:28:59",
-    "updated_at": "2022-01-27 07:28:59"
-  },
-  {
-    "id": 13,
-    "key": "Photos Categories",
-    "created_at": "2022-01-27 07:31:09",
-    "updated_at": "2022-01-27 07:31:09"
-  },
-  {
-    "id": 14,
-    "key": "Video Gallery",
-    "created_at": "2022-01-27 07:32:49",
-    "updated_at": "2022-01-27 07:32:49"
-  },
-  {
-    "id": 15,
-    "key": "Videos Categories",
-    "created_at": "2022-01-27 07:37:32",
-    "updated_at": "2022-01-27 07:37:32"
-  },
-  {
-    "id": 16,
-    "key": "Managements",
-    "created_at": "2022-01-27 07:38:52",
-    "updated_at": "2022-01-27 07:38:52"
-  },
-  {
-    "id": 17,
-    "key": "Management Categories",
-    "created_at": "2022-01-27 07:42:10",
-    "updated_at": "2022-01-27 07:42:10"
-  },
-  {
-    "id": 18,
-    "key": "Messages",
-    "created_at": "2022-01-27 07:44:05",
-    "updated_at": "2022-01-27 07:44:05"
-  },
-  {
-    "id": 19,
-    "key": "Logs",
-    "created_at": "2022-01-27 07:45:11",
-    "updated_at": "2022-01-27 07:45:11"
-  },
-  {
-    "id": 20,
-    "key": "Appeals",
-    "created_at": "2022-01-27 07:45:55",
-    "updated_at": "2022-01-27 07:45:55"
-  },
-  {
-    "id": 21,
-    "key": "Super Admin",
-    "created_at": "2022-01-27 07:46:43",
-    "updated_at": "2022-01-27 07:46:43"
-  },
-  {
-    "id": 22,
-    "key": "Users",
-    "created_at": "2022-01-27 07:47:54",
-    "updated_at": "2022-01-27 07:47:54"
-  },
-  {
-    "id": 23,
-    "key": "Roles",
-    "created_at": "2022-01-27 07:48:56",
-    "updated_at": "2022-01-27 07:48:56"
-  },
-  {
-    "id": 24,
-    "key": "Permissions",
-    "created_at": "2022-01-27 07:51:06",
-    "updated_at": "2022-01-27 07:51:06"
-  },
-  {
-    "id": 25,
-    "key": "Id",
-    "created_at": "2022-01-27 07:52:30",
-    "updated_at": "2022-01-27 07:52:30"
-  },
-  {
-    "id": 26,
-    "key": "Category",
-    "created_at": "2022-01-27 07:54:08",
-    "updated_at": "2022-01-27 07:54:08"
-  },
-  {
-    "id": 27,
-    "key": "Title",
-    "created_at": "2022-01-27 08:06:55",
-    "updated_at": "2022-01-27 08:06:55"
-  },
-  {
-    "id": 28,
-    "key": "Slug",
-    "created_at": "2022-01-27 08:08:41",
-    "updated_at": "2022-01-27 08:08:41"
-  },
-  {
-    "id": 29,
-    "key": "Description",
-    "created_at": "2022-01-27 08:43:07",
-    "updated_at": "2022-01-27 08:43:07"
-  },
-  {
-    "id": 30,
-    "key": "Count Views",
-    "created_at": "2022-01-27 08:45:04",
-    "updated_at": "2022-01-27 08:45:04"
-  },
-  {
-    "id": 31,
-    "key": "Status",
-    "created_at": "2022-01-27 08:45:51",
-    "updated_at": "2022-01-27 08:45:51"
-  },
-  {
-    "id": 32,
-    "key": "Creator",
-    "created_at": "2022-01-27 08:46:38",
-    "updated_at": "2022-01-27 08:46:38"
-  },
-  {
-    "id": 33,
-    "key": "Modifier",
-    "created_at": "2022-01-27 09:02:28",
-    "updated_at": "2022-01-27 09:02:28"
-  },
-  {
-    "id": 34,
-    "key": "Create Menu Category",
-    "created_at": "2022-01-27 09:06:29",
-    "updated_at": "2022-01-27 09:06:29"
-  },
-  {
-    "id": 35,
-    "key": "Create Menu",
-    "created_at": "2022-01-27 09:07:10",
-    "updated_at": "2022-01-27 09:07:10"
-  },
-  {
-    "id": 36,
-    "key": "Link Type",
-    "created_at": "2022-01-27 09:08:14",
-    "updated_at": "2022-01-27 09:08:14"
-  },
-  {
-    "id": 37,
-    "key": "Link",
-    "created_at": "2022-01-27 09:08:40",
-    "updated_at": "2022-01-27 09:08:40"
-  },
-  {
-    "id": 38,
-    "key": "Main",
-    "created_at": "2022-01-27 09:11:00",
-    "updated_at": "2022-01-27 09:11:00"
-  },
-  {
-    "id": 39,
-    "key": "Create News Category",
-    "created_at": "2022-01-27 09:12:31",
-    "updated_at": "2022-01-27 09:12:31"
-  },
-  {
-    "id": 40,
-    "key": "Create News",
-    "created_at": "2022-01-27 09:14:56",
-    "updated_at": "2022-01-27 09:14:56"
-  },
-  {
-    "id": 41,
-    "key": "Create Page Category",
-    "created_at": "2022-01-27 09:18:15",
-    "updated_at": "2022-01-27 09:18:15"
-  },
-  {
-    "id": 42,
-    "key": "Create Page",
-    "created_at": "2022-01-27 09:21:08",
-    "updated_at": "2022-01-27 09:21:08"
-  },
-  {
-    "id": 43,
-    "key": "Create Useful Category",
-    "created_at": "2022-01-27 09:22:11",
-    "updated_at": "2022-01-27 09:22:11"
-  },
-  {
-    "id": 44,
-    "key": "Create Useful",
-    "created_at": "2022-01-27 09:24:20",
-    "updated_at": "2022-01-27 09:24:20"
-  },
-  {
-    "id": 45,
-    "key": "Create Photo",
-    "created_at": "2022-01-27 09:27:01",
-    "updated_at": "2022-01-27 09:27:01"
-  },
-  {
-    "id": 46,
-    "key": "Content",
-    "created_at": "2022-01-27 09:28:17",
-    "updated_at": "2022-01-27 09:28:17"
-  },
-  {
-    "id": 47,
-    "key": "Pdf title",
-    "created_at": "2022-01-27 09:29:03",
-    "updated_at": "2022-01-27 09:29:03"
-  },
-  {
-    "id": 48,
-    "key": "Anons Image",
-    "created_at": "2022-01-27 09:30:58",
-    "updated_at": "2022-01-27 09:30:58"
-  },
-  {
-    "id": 49,
-    "key": "Add",
-    "created_at": "2022-02-13 16:03:24",
-    "updated_at": "2022-02-13 16:03:24"
-  },
-  {
-    "id": 50,
-    "key": "Update",
-    "created_at": "2022-02-13 16:05:30",
-    "updated_at": "2022-02-13 16:05:30"
-  },
-  {
-    "id": 51,
-    "key": "Successfully saved",
-    "created_at": "2022-02-13 16:06:32",
-    "updated_at": "2022-02-13 16:06:32"
-  },
-  {
-    "id": 52,
-    "key": "Successfully updated",
-    "created_at": "2022-02-13 16:07:49",
-    "updated_at": "2022-02-13 16:07:49"
-  },
-  {
-    "id": 53,
-    "key": "Successfully deleted",
-    "created_at": "2022-02-13 16:08:58",
-    "updated_at": "2022-02-13 16:08:58"
-  },
-  {
-    "id": 54,
-    "key": "Welcome to Dashboard",
-    "created_at": "2022-02-13 16:10:50",
-    "updated_at": "2022-02-13 16:10:50"
-  },
-  {
-    "id": 55,
-    "key": "Image",
-    "created_at": "2022-02-13 16:12:15",
-    "updated_at": "2022-02-13 16:12:15"
-  },
-  {
-    "id": 56,
-    "key": "Order",
-    "created_at": "2022-02-13 16:13:54",
-    "updated_at": "2022-02-13 16:13:54"
-  },
-  {
-    "id": 57,
-    "key": "Choose",
-    "created_at": "2022-02-13 16:14:44",
-    "updated_at": "2022-02-13 16:14:44"
-  },
-  {
-    "id": 58,
-    "key": "Active",
-    "created_at": "2022-02-13 16:17:40",
-    "updated_at": "2022-02-13 16:17:40"
-  },
-  {
-    "id": 59,
-    "key": "Inactive",
-    "created_at": "2022-02-13 16:18:31",
-    "updated_at": "2022-02-13 16:18:31"
-  },
-  {
-    "id": 60,
-    "key": "Create News Category",
-    "created_at": "2022-02-13 16:20:29",
-    "updated_at": "2022-02-13 16:20:29"
-  },
-  {
-    "id": 61,
-    "key": "Pdf Type",
-    "created_at": "2022-02-13 16:23:16",
-    "updated_at": "2022-02-13 16:23:16"
-  },
-  {
-    "id": 62,
-    "key": "Body Image",
-    "created_at": "2022-02-13 16:24:12",
-    "updated_at": "2022-02-13 16:24:12"
-  },
-  {
-    "id": 63,
-    "key": "Show on slider",
-    "created_at": "2022-02-13 16:25:15",
-    "updated_at": "2022-02-13 16:25:15"
-  },
-  {
-    "id": 64,
-    "key": "Right Menu",
-    "created_at": "2022-02-13 16:26:16",
-    "updated_at": "2022-02-13 16:26:16"
-  },
-  {
-    "id": 65,
-    "key": "Date",
-    "created_at": "2022-02-13 16:27:35",
-    "updated_at": "2022-02-13 16:27:35"
-  },
-  {
-    "id": 66,
-    "key": "Local opens in this window",
-    "created_at": "2022-02-13 16:45:26",
-    "updated_at": "2022-02-13 16:45:26"
-  },
-  {
-    "id": 67,
-    "key": "Local opens in a new window",
-    "created_at": "2022-02-13 16:46:56",
-    "updated_at": "2022-02-13 16:46:56"
-  },
-  {
-    "id": 68,
-    "key": "Global opens in this window",
-    "created_at": "2022-02-13 16:48:06",
-    "updated_at": "2022-02-13 16:48:06"
-  },
-  {
-    "id": 69,
-    "key": "Global opens in a new window",
-    "created_at": "2022-02-13 16:49:22",
-    "updated_at": "2022-02-13 16:49:22"
-  },
-  {
-    "id": 70,
-    "key": "Recycle bin",
-    "created_at": "2022-02-22 15:18:41",
-    "updated_at": "2022-02-22 15:18:41"
-  },
-  {
-    "id": 71,
-    "key": "Are you sure",
-    "created_at": "2022-02-22 15:21:04",
-    "updated_at": "2022-02-22 15:21:04"
-  },
-  {
-    "id": 72,
-    "key": "This information will be deleted",
-    "created_at": "2022-02-22 15:21:56",
-    "updated_at": "2022-02-22 15:21:56"
-  },
-  {
-    "id": 73,
-    "key": "Delete",
-    "created_at": "2022-02-22 15:27:35",
-    "updated_at": "2022-02-22 15:27:35"
-  },
-  {
-    "id": 74,
-    "key": "Cancel",
-    "created_at": "2022-02-22 15:28:09",
-    "updated_at": "2022-02-22 15:28:09"
-  },
-  {
-    "id": 75,
-    "key": "Back",
-    "created_at": "2022-02-22 15:29:44",
-    "updated_at": "2022-02-22 15:29:44"
-  },
-  {
-    "id": 76,
-    "key": "Restore",
-    "created_at": "2022-02-22 15:30:36",
-    "updated_at": "2022-02-22 15:30:36"
-  },
-  {
-    "id": 77,
-    "key": "This information will be restored",
-    "created_at": "2022-02-22 15:31:49",
-    "updated_at": "2022-02-22 15:31:49"
-  },
-  {
-    "id": 78,
-    "key": "You can not restore this information",
-    "created_at": "2022-02-22 15:34:53",
-    "updated_at": "2022-02-22 15:34:53"
-  },
-  {
-    "id": 79,
-    "key": "Successfully restored",
-    "created_at": "2022-02-22 15:35:55",
-    "updated_at": "2022-02-22 15:35:55"
-  },
-  {
-    "id": 80,
-    "key": "Children's Public Foundation Platform",
-    "created_at": "2022-03-30 10:46:59",
-    "updated_at": "2022-03-30 10:46:59"
-  },
-  {
-    "id": 81,
-    "key": "Applications",
-    "created_at": "2022-03-30 10:48:29",
-    "updated_at": "2022-03-30 10:48:29"
-  },
-  {
-    "id": 82,
-    "key": "Site Management",
-    "created_at": "2022-03-30 10:51:05",
-    "updated_at": "2022-03-30 10:51:05"
-  },
-  {
-    "id": 83,
-    "key": "Admin Panel",
-    "created_at": "2022-03-30 10:54:39",
-    "updated_at": "2022-03-30 10:54:39"
-  },
-  {
-    "id": 84,
-    "key": "Application",
-    "created_at": "2022-03-30 11:43:28",
-    "updated_at": "2022-03-30 11:43:28"
-  },
-  {
-    "id": 85,
-    "key": "User Information",
-    "created_at": "2022-03-30 11:45:05",
-    "updated_at": "2022-03-30 11:45:05"
-  },
-  {
-    "id": 86,
-    "key": "Timeline of actions",
-    "created_at": "2022-03-30 11:46:49",
-    "updated_at": "2022-03-30 11:46:49"
-  },
-  {
-    "id": 87,
-    "key": "General information",
-    "created_at": "2022-03-30 11:48:11",
-    "updated_at": "2022-03-30 11:48:11"
-  },
-  {
-    "id": 88,
-    "key": "Comment",
-    "created_at": "2022-03-30 11:49:52",
-    "updated_at": "2022-03-30 11:49:52"
-  },
-  {
-    "id": 89,
-    "key": "Deadline",
-    "created_at": "2022-03-30 11:50:54",
-    "updated_at": "2022-03-30 11:50:54"
-  },
-  {
-    "id": 90,
-    "key": "Result given by",
-    "created_at": "2022-03-30 11:51:48",
-    "updated_at": "2022-03-30 11:51:48"
-  },
-  {
-    "id": 91,
-    "key": "Phone",
-    "created_at": "2022-03-30 11:52:16",
-    "updated_at": "2022-03-30 11:52:16"
-  },
-  {
-    "id": 92,
-    "key": "All",
-    "created_at": "2022-03-30 11:54:06",
-    "updated_at": "2022-03-30 11:54:06"
-  },
-  {
-    "id": 93,
-    "key": "New",
-    "created_at": "2022-03-30 11:54:49",
-    "updated_at": "2022-03-30 11:54:49"
-  },
-  {
-    "id": 94,
-    "key": "Process",
-    "created_at": "2022-03-30 11:55:40",
-    "updated_at": "2022-03-30 11:55:40"
-  },
-  {
-    "id": 95,
-    "key": "Accepted",
-    "created_at": "2022-03-30 11:56:44",
-    "updated_at": "2022-03-30 11:56:44"
-  },
-  {
-    "id": 96,
-    "key": "Rejected",
-    "created_at": "2022-03-30 11:57:23",
-    "updated_at": "2022-03-30 11:57:23"
-  },
-  {
-    "id": 97,
-    "key": "Deadline expired",
-    "created_at": "2022-03-30 11:58:04",
-    "updated_at": "2022-03-30 11:58:04"
-  },
-  {
-    "id": 98,
-    "key": "Holidays",
-    "created_at": "2022-04-10 04:40:10",
-    "updated_at": "2022-04-10 04:40:10"
-  },
-  {
-    "id": 99,
-    "key": "Steps",
-    "created_at": "2022-04-10 04:42:51",
-    "updated_at": "2022-04-10 04:42:51"
-  },
-  {
-    "id": 100,
-    "key": "Experts",
-    "created_at": "2022-04-10 04:45:18",
-    "updated_at": "2022-04-10 04:45:18"
-  },
-  {
-    "id": 101,
-    "key": "Authorities",
-    "created_at": "2022-04-10 04:47:47",
-    "updated_at": "2022-04-10 04:47:47"
-  },
-  {
-    "id": 102,
-    "key": "Categories",
-    "created_at": "2022-04-10 04:52:57",
-    "updated_at": "2022-04-10 04:52:57"
-  },
-  {
-    "id": 103,
-    "key": "Overall statistics",
-    "created_at": "2022-04-10 05:11:55",
-    "updated_at": "2022-04-10 05:11:55"
-  },
-  {
-    "id": 104,
-    "key": "Statistics of the children's public fund",
-    "created_at": "2022-04-11 09:26:40",
-    "updated_at": "2022-04-11 09:26:40"
-  },
-  {
-    "id": 105,
-    "key": "total number of satisfied references",
-    "created_at": "2022-04-11 09:52:59",
-    "updated_at": "2022-04-11 09:52:59"
-  },
-  {
-    "id": 106,
-    "key": "number of rejected appeals",
-    "created_at": "2022-04-11 09:59:10",
-    "updated_at": "2022-04-11 09:59:10"
-  },
-  {
-    "id": 107,
-    "key": "total number of requests received",
-    "created_at": "2022-04-11 10:10:47",
-    "updated_at": "2022-04-11 10:10:47"
-  },
-  {
-    "id": 108,
-    "key": "number of appeals under consideration",
-    "created_at": "2022-04-11 10:11:50",
-    "updated_at": "2022-04-11 10:11:50"
-  },
-  {
-    "id": 109,
-    "key": "compared to last year",
-    "created_at": "2022-04-11 11:03:53",
-    "updated_at": "2022-04-11 11:03:53"
-  },
-  {
-    "id": 110,
-    "key": "Closed after deadline expiration",
-    "created_at": "2022-04-13 05:19:45",
-    "updated_at": "2022-04-13 05:19:45"
-  },
-  {
-    "id": 111,
-    "key": "Republic of Uzbekistan",
-    "created_at": "2022-04-20 04:17:50",
-    "updated_at": "2022-04-20 04:17:50"
-  },
-  {
-    "id": 112,
-    "key": "Respublika bo'yicha",
-    "created_at": "2022-04-20 04:19:00",
-    "updated_at": "2022-04-20 04:19:00"
-  },
-  {
-    "id": 113,
-    "key": "Republic",
-    "created_at": "2022-04-20 04:21:12",
-    "updated_at": "2022-04-20 04:21:12"
-  },
-  {
-    "id": 114,
-    "key": "Send application",
-    "created_at": "2022-04-20 04:23:40",
-    "updated_at": "2022-04-20 04:23:40"
-  },
-  {
-    "id": 115,
-    "key": "All news",
-    "created_at": "2022-04-20 04:24:42",
-    "updated_at": "2022-04-20 04:24:42"
-  },
-  {
-    "id": 116,
-    "key": "Profile",
-    "created_at": "2022-04-20 04:25:56",
-    "updated_at": "2022-04-20 04:25:56"
-  },
-  {
-    "id": 117,
-    "key": "My applications",
-    "created_at": "2022-04-20 04:40:56",
-    "updated_at": "2022-04-20 04:40:56"
-  },
-  {
-    "id": 118,
-    "key": "Logout",
-    "created_at": "2022-04-20 04:42:13",
-    "updated_at": "2022-04-20 04:42:13"
-  },
-  {
-    "id": 119,
-    "key": "Profile",
-    "created_at": "2022-04-20 04:43:07",
-    "updated_at": "2022-04-20 04:43:07"
-  },
-  {
-    "id": 120,
-    "key": "Log in to system",
-    "created_at": "2022-04-20 04:44:26",
-    "updated_at": "2022-04-20 04:44:26"
-  },
-  {
-    "id": 121,
-    "key": "FIO",
-    "created_at": "2022-04-20 04:45:15",
-    "updated_at": "2022-04-20 04:45:15"
-  },
-  {
-    "id": 122,
-    "key": "Date of birth",
-    "created_at": "2022-04-20 04:46:08",
-    "updated_at": "2022-04-20 04:46:08"
-  },
-  {
-    "id": 123,
-    "key": "Gender",
-    "created_at": "2022-04-20 04:46:35",
-    "updated_at": "2022-04-20 04:46:35"
-  },
-  {
-    "id": 124,
-    "key": "Male",
-    "created_at": "2022-04-20 04:47:09",
-    "updated_at": "2022-04-20 04:47:09"
-  },
-  {
-    "id": 125,
-    "key": "Passport data",
-    "created_at": "2022-04-20 04:48:11",
-    "updated_at": "2022-04-20 04:48:11"
-  },
-  {
-    "id": 126,
-    "key": "Passport number",
-    "created_at": "2022-04-20 04:49:08",
-    "updated_at": "2022-04-20 04:49:08"
-  },
-  {
-    "id": 127,
-    "key": "Place of birth",
-    "created_at": "2022-04-20 04:54:53",
-    "updated_at": "2022-04-20 04:54:53"
-  },
-  {
-    "id": 128,
-    "key": "Citizen",
-    "created_at": "2022-04-20 04:55:50",
-    "updated_at": "2022-04-20 04:55:50"
-  },
-  {
-    "id": 129,
-    "key": "Pinfl",
-    "created_at": "2022-04-20 04:56:25",
-    "updated_at": "2022-04-20 04:56:25"
-  },
-  {
-    "id": 130,
-    "key": "Passport Issue Place",
-    "created_at": "2022-04-20 04:57:14",
-    "updated_at": "2022-04-20 04:57:14"
-  },
-  {
-    "id": 131,
-    "key": "Passport Issue Date",
-    "created_at": "2022-04-20 04:58:04",
-    "updated_at": "2022-04-20 04:58:04"
-  },
-  {
-    "id": 132,
-    "key": "Passport Expiration Date",
-    "created_at": "2022-04-20 04:59:17",
-    "updated_at": "2022-04-20 04:59:17"
-  },
-  {
-    "id": 133,
-    "key": "Application number",
-    "created_at": "2022-04-20 05:00:35",
-    "updated_at": "2022-04-20 05:00:35"
-  },
-  {
-    "id": 134,
-    "key": "Type of financing",
-    "created_at": "2022-04-20 05:01:22",
-    "updated_at": "2022-04-20 05:01:22"
-  },
-  {
-    "id": 135,
-    "key": "Step",
-    "created_at": "2022-04-20 05:02:13",
-    "updated_at": "2022-04-20 05:02:13"
-  },
-  {
-    "id": 136,
-    "key": "Public Offer",
-    "created_at": "2022-04-20 05:22:42",
-    "updated_at": "2022-04-20 05:22:42"
-  },
-  {
-    "id": 137,
-    "key": "User consent",
-    "created_at": "2022-04-20 05:23:39",
-    "updated_at": "2022-04-20 05:23:39"
-  },
-  {
-    "id": 138,
-    "key": "I got acquainted with the rules",
-    "created_at": "2022-04-20 05:24:54",
-    "updated_at": "2022-04-20 05:24:54"
-  },
-  {
-    "id": 139,
-    "key": "Next",
-    "created_at": "2022-04-20 05:25:27",
-    "updated_at": "2022-04-20 05:25:27"
-  },
-  {
-    "id": 140,
-    "key": "Region",
-    "created_at": "2022-04-20 05:26:38",
-    "updated_at": "2022-04-20 05:26:38"
-  },
-  {
-    "id": 141,
-    "key": "Select Region",
-    "created_at": "2022-04-20 05:27:29",
-    "updated_at": "2022-04-20 05:27:29"
-  },
-  {
-    "id": 142,
-    "key": "District",
-    "created_at": "2022-04-20 05:28:00",
-    "updated_at": "2022-04-20 05:28:00"
-  },
-  {
-    "id": 143,
-    "key": "Select",
-    "created_at": "2022-04-20 05:28:52",
-    "updated_at": "2022-04-20 05:28:52"
-  },
-  {
-    "id": 144,
-    "key": "Emergency statements",
-    "created_at": "2022-04-20 05:31:12",
-    "updated_at": "2022-04-20 05:31:12"
-  },
-  {
-    "id": 145,
-    "key": "Emergency File",
-    "created_at": "2022-04-20 05:33:07",
-    "updated_at": "2022-04-20 05:33:07"
-  },
-  {
-    "id": 146,
-    "key": "Emergency file is required",
-    "created_at": "2022-04-20 05:34:47",
-    "updated_at": "2022-04-20 05:34:47"
-  },
-  {
-    "id": 147,
-    "key": "District field is required",
-    "created_at": "2022-04-20 05:36:03",
-    "updated_at": "2022-04-20 05:36:03"
-  },
-  {
-    "id": 148,
-    "key": "Province field is required",
-    "created_at": "2022-04-20 05:37:30",
-    "updated_at": "2022-04-20 05:37:30"
-  },
-  {
-    "id": 149,
-    "key": "Category field is required",
-    "created_at": "2022-04-20 05:38:37",
-    "updated_at": "2022-04-20 05:38:37"
-  },
-  {
-    "id": 150,
-    "key": "Register Certificate",
-    "created_at": "2022-04-20 05:41:22",
-    "updated_at": "2022-04-20 05:41:22"
-  },
-  {
-    "id": 151,
-    "key": "Passport Copy",
-    "created_at": "2022-04-20 05:42:04",
-    "updated_at": "2022-04-20 05:42:04"
-  },
-  {
-    "id": 152,
-    "key": "Medical Conclusion",
-    "created_at": "2022-04-20 05:43:06",
-    "updated_at": "2022-04-20 05:43:06"
-  },
-  {
-    "id": 153,
-    "key": "Birth Certificate",
-    "created_at": "2022-04-20 05:44:01",
-    "updated_at": "2022-04-20 05:44:01"
-  },
-  {
-    "id": 154,
-    "key": "Register Certificate field is required",
-    "created_at": "2022-04-20 05:45:39",
-    "updated_at": "2022-04-20 05:45:39"
-  },
-  {
-    "id": 155,
-    "key": "Passport Copy field is required",
-    "created_at": "2022-04-20 05:46:46",
-    "updated_at": "2022-04-20 05:46:46"
-  },
-  {
-    "id": 156,
-    "key": "Medical Conclusion field is required",
-    "created_at": "2022-04-20 05:48:00",
-    "updated_at": "2022-04-20 05:48:00"
-  },
-  {
-    "id": 157,
-    "key": "Birth Certificate field is required",
-    "created_at": "2022-04-20 05:49:05",
-    "updated_at": "2022-04-20 05:49:05"
-  },
-  {
-    "id": 158,
-    "key": "Province",
-    "created_at": "2022-04-20 05:50:36",
-    "updated_at": "2022-04-20 05:50:36"
-  },
-  {
-    "id": 159,
-    "key": "Download",
-    "created_at": "2022-04-20 05:51:15",
-    "updated_at": "2022-04-20 05:51:15"
-  },
-  {
-    "id": 160,
-    "key": "Birth Place",
-    "created_at": "2022-04-20 05:52:12",
-    "updated_at": "2022-04-20 05:52:12"
-  },
-  {
-    "id": 161,
-    "key": "Working days",
-    "created_at": "2022-04-20 06:13:13",
-    "updated_at": "2022-04-20 06:33:19"
-  },
-  {
-    "id": 162,
-    "key": "Watch role",
-    "created_at": "2022-04-20 06:36:18",
-    "updated_at": "2022-04-20 06:36:18"
-  },
-  {
-    "id": 163,
-    "key": "Emergency Applications",
-    "created_at": "2022-04-20 06:37:33",
-    "updated_at": "2022-04-20 06:37:33"
-  },
-  {
-    "id": 164,
-    "key": "Change Role",
-    "created_at": "2022-04-20 06:38:52",
-    "updated_at": "2022-04-20 06:38:52"
-  },
-  {
-    "id": 165,
-    "key": "Sign out",
-    "created_at": "2022-04-20 06:39:40",
-    "updated_at": "2022-04-20 06:39:40"
-  },
-  {
-    "id": 166,
-    "key": "New application",
-    "created_at": "2022-04-20 06:41:31",
-    "updated_at": "2022-04-20 06:41:31"
-  },
-  {
-    "id": 167,
-    "key": "See All Notifications",
-    "created_at": "2022-04-20 06:42:40",
-    "updated_at": "2022-04-20 06:42:40"
-  },
-  {
-    "id": 168,
-    "key": "Full Name",
-    "created_at": "2022-04-20 06:43:54",
-    "updated_at": "2022-04-20 06:43:54"
-  },
-  {
-    "id": 169,
-    "key": "Given date",
-    "created_at": "2022-04-20 06:45:05",
-    "updated_at": "2022-04-20 06:45:05"
-  },
-  {
-    "id": 170,
-    "key": "Detailed",
-    "created_at": "2022-04-20 06:45:50",
-    "updated_at": "2022-04-20 06:45:50"
-  },
-  {
-    "id": 171,
-    "key": "Not checked yet!",
-    "created_at": "2022-04-20 06:47:47",
-    "updated_at": "2022-04-20 06:47:47"
-  },
-  {
-    "id": 172,
-    "key": "Fullname",
-    "created_at": "2022-04-20 06:52:31",
-    "updated_at": "2022-04-20 06:52:31"
-  },
-  {
-    "id": 173,
-    "key": "Authority",
-    "created_at": "2022-04-20 06:56:42",
-    "updated_at": "2022-04-20 06:56:42"
-  },
-  {
-    "id": 174,
-    "key": "User",
-    "created_at": "2022-04-20 06:57:51",
-    "updated_at": "2022-04-20 06:57:51"
-  },
-  {
-    "id": 175,
-    "key": "User OneId data",
-    "created_at": "2022-04-20 06:59:19",
-    "updated_at": "2022-04-20 06:59:19"
-  },
-  {
-    "id": 176,
-    "key": "Created At",
-    "created_at": "2022-04-20 07:00:26",
-    "updated_at": "2022-04-20 07:00:26"
-  },
-  {
-    "id": 177,
-    "key": "Not checked yet",
-    "created_at": "2022-04-20 07:10:21",
-    "updated_at": "2022-04-20 07:12:05"
-  },
-  {
-    "id": 178,
-    "key": "Create Message",
-    "created_at": "2022-04-20 07:15:33",
-    "updated_at": "2022-04-20 07:15:33"
-  },
-  {
-    "id": 179,
-    "key": "Links",
-    "created_at": "2022-04-21 08:34:16",
-    "updated_at": "2022-04-21 08:34:16"
-  },
-  {
-    "id": 180,
-    "key": "Link Categories",
-    "created_at": "2022-04-21 08:35:41",
-    "updated_at": "2022-04-21 08:35:41"
-  },
-  {
-    "id": 181,
-    "key": "Create Link Category",
-    "created_at": "2022-04-21 08:48:26",
-    "updated_at": "2022-04-21 08:48:26"
-  },
-  {
-    "id": 182,
-    "key": "educational programs",
-    "created_at": "2022-04-21 10:24:36",
-    "updated_at": "2022-04-21 10:24:36"
-  },
-  {
-    "id": 183,
-    "key": "test",
-    "created_at": "2022-04-21 10:27:26",
-    "updated_at": "2022-04-21 10:27:26"
-  },
-  {
-    "id": 184,
-    "key": "Create Management",
-    "created_at": "2022-04-22 04:47:06",
-    "updated_at": "2022-04-22 04:47:06"
-  },
-  {
-    "id": 185,
-    "key": "Leader",
-    "created_at": "2022-04-22 04:47:54",
-    "updated_at": "2022-04-22 04:47:54"
-  },
-  {
-    "id": 186,
-    "key": "Main Category",
-    "created_at": "2022-04-22 04:49:15",
-    "updated_at": "2022-04-22 04:49:15"
-  },
-  {
-    "id": 187,
-    "key": "Satisfied",
-    "created_at": "2022-04-22 12:38:06",
-    "updated_at": "2022-04-22 12:38:06"
-  },
-  {
-    "id": 188,
-    "key": "Save",
-    "created_at": "2022-04-22 12:43:11",
-    "updated_at": "2022-04-22 12:43:11"
-  },
-  {
-    "id": 189,
-    "key": "Clear All",
-    "created_at": "2022-04-22 12:44:32",
-    "updated_at": "2022-04-22 12:44:32"
-  },
-  {
-    "id": 190,
-    "key": "Purposefully",
-    "created_at": "2022-04-22 12:47:30",
-    "updated_at": "2022-04-22 12:47:30"
-  },
-  {
-    "id": 191,
-    "key": "Not suitable for purpose",
-    "created_at": "2022-04-22 12:48:19",
-    "updated_at": "2022-04-22 12:48:19"
-  },
-  {
-    "id": 192,
-    "key": "Commission summary",
-    "created_at": "2022-04-22 12:51:46",
-    "updated_at": "2022-04-22 12:51:46"
-  },
-  {
-    "id": 193,
-    "key": "Profile",
-    "created_at": "2022-04-25 04:13:12",
-    "updated_at": "2022-04-25 04:13:12"
-  },
-  {
-    "id": 194,
-    "key": "Reception",
-    "created_at": "2022-04-25 04:54:18",
-    "updated_at": "2022-04-25 04:54:18"
-  },
-  {
-    "id": 195,
-    "key": "Contact",
-    "created_at": "2022-04-25 04:56:16",
-    "updated_at": "2022-04-25 04:56:16"
-  },
-  {
-    "id": 196,
-    "key": "medical programs",
-    "created_at": "2022-04-25 04:58:08",
-    "updated_at": "2022-04-25 04:58:08"
-  },
-  {
-    "id": 197,
-    "key": "Summarize the application",
-    "created_at": "2022-04-25 05:08:31",
-    "updated_at": "2022-04-25 05:08:31"
-  },
-  {
-    "id": 198,
-    "key": "Not Emergency application",
-    "created_at": "2022-04-25 05:09:52",
-    "updated_at": "2022-04-25 05:09:52"
-  },
-  {
-    "id": 199,
-    "key": "Select Result",
-    "created_at": "2022-04-25 05:12:27",
-    "updated_at": "2022-04-25 05:12:27"
-  },
-  {
-    "id": 200,
-    "key": "I want to help",
-    "created_at": "2022-04-25 09:26:49",
-    "updated_at": "2022-04-25 09:26:49"
-  },
-  {
-    "id": 201,
-    "key": "Working time",
-    "created_at": "2022-04-25 09:28:14",
-    "updated_at": "2022-04-25 09:28:14"
-  },
-  {
-    "id": 202,
-    "key": "Address",
-    "created_at": "2022-04-25 09:28:40",
-    "updated_at": "2022-04-25 09:28:40"
-  },
-  {
-    "id": 203,
-    "key": "Contacts",
-    "created_at": "2022-04-25 09:30:46",
-    "updated_at": "2022-04-25 09:30:46"
-  },
-  {
-    "id": 204,
-    "key": "Create Contact",
-    "created_at": "2022-04-25 09:31:58",
-    "updated_at": "2022-04-25 09:31:58"
-  },
-  {
-    "id": 205,
-    "key": "When using materials, a link to www.bjf.uz is required",
-    "created_at": "2022-04-25 09:44:19",
-    "updated_at": "2022-04-25 09:44:19"
-  },
-  {
-    "id": 206,
-    "key": "All rights reserved 2022",
-    "created_at": "2022-04-25 09:45:47",
-    "updated_at": "2022-04-25 09:45:47"
-  },
-  {
-    "id": 207,
-    "key": "Attention! If you find an error in the text, select it and press Ctrl + Enter to notify the administration",
-    "created_at": "2022-04-25 09:47:25",
-    "updated_at": "2022-04-25 09:47:25"
-  },
-  {
-    "id": 208,
-    "key": "files",
-    "created_at": "2022-04-26 04:34:53",
-    "updated_at": "2022-04-26 04:34:53"
-  },
-  {
-    "id": 209,
-    "key": "Result",
-    "created_at": "2022-04-26 04:37:49",
-    "updated_at": "2022-04-26 04:37:49"
-  },
-  {
-    "id": 210,
-    "key": "Home",
-    "created_at": "2022-04-26 04:45:08",
-    "updated_at": "2022-04-26 04:45:08"
-  },
-  {
-    "id": 211,
-    "key": "By status",
-    "created_at": "2022-04-26 04:45:30",
-    "updated_at": "2022-04-26 04:45:30"
-  },
-  {
-    "id": 212,
-    "key": "Biography",
-    "created_at": "2022-04-26 04:50:13",
-    "updated_at": "2022-04-26 04:50:13"
-  },
-  {
-    "id": 213,
-    "key": "Functions",
-    "created_at": "2022-04-26 04:50:48",
-    "updated_at": "2022-04-26 04:50:48"
-  },
-  {
-    "id": 214,
-    "key": "Send",
-    "created_at": "2022-04-26 04:58:16",
-    "updated_at": "2022-04-26 04:58:16"
-  },
-  {
-    "id": 215,
-    "key": "Create Authority",
-    "created_at": "2022-04-26 05:02:36",
-    "updated_at": "2022-04-26 05:02:36"
-  },
-  {
-    "id": 216,
-    "key": "Days",
-    "created_at": "2022-04-26 05:03:59",
-    "updated_at": "2022-04-26 05:03:59"
-  },
-  {
-    "id": 217,
-    "key": "More",
-    "created_at": "2022-04-26 05:05:29",
-    "updated_at": "2022-04-26 05:05:29"
-  },
-  {
-    "id": 218,
-    "key": "Create Step",
-    "created_at": "2022-04-26 05:06:09",
-    "updated_at": "2022-04-26 05:06:09"
-  },
-  {
-    "id": 219,
-    "key": "Search",
-    "created_at": "2022-04-26 05:06:56",
-    "updated_at": "2022-04-26 05:06:56"
-  },
-  {
-    "id": 220,
-    "key": "Create Holiday",
-    "created_at": "2022-04-26 05:07:49",
-    "updated_at": "2022-04-26 05:07:49"
-  },
-  {
-    "id": 221,
-    "key": "Search results",
-    "created_at": "2022-04-26 05:08:17",
-    "updated_at": "2022-04-26 05:08:17"
-  },
-  {
-    "id": 222,
-    "key": "Working Type",
-    "created_at": "2022-04-26 05:09:05",
-    "updated_at": "2022-04-26 05:09:05"
-  },
-  {
-    "id": 223,
-    "key": "Create Expert",
-    "created_at": "2022-04-26 05:10:25",
-    "updated_at": "2022-04-26 05:10:25"
-  },
-  {
-    "id": 224,
-    "key": "Create Category",
-    "created_at": "2022-04-26 05:12:36",
-    "updated_at": "2022-04-26 05:12:36"
-  },
-  {
-    "id": 225,
-    "key": "The application was considered",
-    "created_at": "2022-04-26 05:15:34",
-    "updated_at": "2022-04-26 05:15:34"
-  },
-  {
-    "id": 226,
-    "key": "The application was rejected",
-    "created_at": "2022-04-26 05:31:22",
-    "updated_at": "2022-04-26 05:31:22"
-  },
-  {
-    "id": 227,
-    "key": "Select role",
-    "created_at": "2022-04-26 05:32:07",
-    "updated_at": "2022-04-26 05:32:07"
-  },
-  {
-    "id": 228,
-    "key": "File field is required",
-    "created_at": "2022-04-26 05:49:34",
-    "updated_at": "2022-04-26 05:49:34"
-  },
-  {
-    "id": 229,
-    "key": "Signing",
-    "created_at": "2022-04-29 18:24:48",
-    "updated_at": "2022-04-29 18:24:48"
-  },
-  {
-    "id": 230,
-    "key": "Ministries and departments",
-    "created_at": "2022-04-29 18:28:57",
-    "updated_at": "2022-04-29 18:28:57"
-  },
-  {
-    "id": 231,
-    "key": "Group of Experts",
-    "created_at": "2022-04-29 18:29:41",
-    "updated_at": "2022-04-29 18:29:41"
-  },
-  {
-    "id": 232,
-    "key": "Successfully signed",
-    "created_at": "2022-04-29 18:30:48",
-    "updated_at": "2022-04-29 18:30:48"
-  },
-  {
-    "id": 233,
-    "key": "Protocols",
-    "created_at": "2022-05-11 10:37:49",
-    "updated_at": "2022-05-11 10:37:49"
-  },
-  {
-    "id": 234,
-    "key": "Create Protcol",
-    "created_at": "2022-05-11 10:38:59",
-    "updated_at": "2022-05-11 10:38:59"
-  },
-  {
-    "id": 235,
-    "key": "Protocol Number",
-    "created_at": "2022-05-11 10:39:43",
-    "updated_at": "2022-05-11 10:39:43"
-  },
-  {
-    "id": 236,
-    "key": "Create Protocol",
-    "created_at": "2022-05-11 10:40:11",
-    "updated_at": "2022-05-11 10:40:11"
-  },
-  {
-    "id": 237,
-    "key": "About Protocol",
-    "created_at": "2022-05-11 10:43:55",
-    "updated_at": "2022-05-11 10:43:55"
-  },
-  {
-    "id": 238,
-    "key": "Applications included in the protocol",
-    "created_at": "2022-05-11 10:44:37",
-    "updated_at": "2022-05-11 10:44:37"
-  },
-  {
-    "id": 239,
-    "key": "The total value of all applications",
-    "created_at": "2022-05-11 10:46:00",
-    "updated_at": "2022-05-11 10:46:00"
-  },
-  {
-    "id": 240,
-    "key": "Money",
-    "created_at": "2022-05-11 10:46:41",
-    "updated_at": "2022-05-11 10:46:41"
-  },
-  {
-    "id": 241,
-    "key": "Protocol",
-    "created_at": "2022-05-11 10:47:59",
-    "updated_at": "2022-05-11 10:47:59"
-  },
-  {
-    "id": 242,
-    "key": "At least one authority must be selected",
-    "created_at": "2022-05-25 11:27:32",
-    "updated_at": "2022-05-25 11:27:32"
-  },
-  {
-    "id": 243,
-    "key": "Oops Something went wrong",
-    "created_at": "2022-05-25 11:28:51",
-    "updated_at": "2022-05-25 11:28:51"
-  },
-  {
-    "id": 244,
-    "key": "Edc Sign",
-    "created_at": "2022-05-25 11:29:59",
-    "updated_at": "2022-05-25 11:29:59"
-  },
-  {
-    "id": 245,
-    "key": "Your role",
-    "created_at": "2022-05-25 11:32:52",
-    "updated_at": "2022-05-25 11:32:52"
-  },
-  {
-    "id": 246,
-    "key": "Closing the protocol",
-    "created_at": "2022-05-25 11:33:35",
-    "updated_at": "2022-05-25 11:33:35"
-  },
-  {
-    "id": 247,
-    "key": "Returned",
-    "created_at": "2022-05-25 11:36:51",
-    "updated_at": "2022-05-25 11:36:51"
-  },
-  {
-    "id": 248,
-    "key": "Updated At",
-    "created_at": "2022-05-25 15:55:57",
-    "updated_at": "2022-05-25 15:55:57"
-  },
-  {
-    "id": 249,
-    "key": "Organization Image",
-    "created_at": "2022-05-25 15:57:48",
-    "updated_at": "2022-05-25 15:57:48"
-  },
-  {
-    "id": 250,
-    "key": "Leader Image",
-    "created_at": "2022-05-25 15:58:24",
-    "updated_at": "2022-05-25 15:58:24"
-  },
-  {
-    "id": 251,
-    "key": "Authentification Logs",
-    "created_at": "2022-05-25 16:31:24",
-    "updated_at": "2022-05-25 16:31:24"
-  },
-  {
-    "id": 252,
-    "key": "App Config",
-    "created_at": "2022-05-25 16:33:31",
-    "updated_at": "2022-05-25 16:33:31"
-  },
-  {
-    "id": 253,
-    "key": "Configs",
-    "created_at": "2022-05-25 16:34:39",
-    "updated_at": "2022-05-25 16:34:39"
-  },
-  {
-    "id": 254,
-    "key": "Iron notebook",
-    "created_at": "2022-05-25 17:20:25",
-    "updated_at": "2022-05-25 17:20:25"
-  },
-  {
-    "id": 255,
-    "key": "Women's notebook",
-    "created_at": "2022-05-25 17:22:55",
-    "updated_at": "2022-05-25 17:22:55"
-  },
-  {
-    "id": 256,
-    "key": "Single register of social protection",
-    "created_at": "2022-05-25 17:26:23",
-    "updated_at": "2022-05-25 17:26:23"
-  },
-  {
-    "id": 257,
-    "key": "Information on medical and social expertise",
-    "created_at": "2022-05-25 17:30:03",
-    "updated_at": "2022-05-25 17:30:03"
-  },
-  {
-    "id": 258,
-    "key": "Select File",
-    "created_at": "2022-05-25 17:33:17",
-    "updated_at": "2022-05-25 17:33:17"
-  },
-  {
-    "id": 259,
-    "key": "Close",
-    "created_at": "2022-05-25 17:55:49",
-    "updated_at": "2022-05-25 17:55:49"
-  },
-  {
-    "id": 260,
-    "key": "Signed",
-    "created_at": "2022-05-26 11:28:51",
-    "updated_at": "2022-05-26 11:28:51"
-  },
-  {
-    "id": 261,
-    "key": "Disagree Expert List",
-    "created_at": "2022-05-26 11:32:24",
-    "updated_at": "2022-05-26 11:32:24"
-  },
-  {
-    "id": 262,
-    "key": "Name",
-    "created_at": "2022-05-26 11:33:24",
-    "updated_at": "2022-05-26 11:33:24"
-  },
-  {
-    "id": 263,
-    "key": "Position",
-    "created_at": "2022-05-26 11:34:11",
-    "updated_at": "2022-05-26 11:34:11"
-  },
-  {
-    "id": 264,
-    "key": "file",
-    "created_at": "2022-05-26 11:34:36",
-    "updated_at": "2022-05-26 11:34:36"
-  },
-  {
-    "id": 265,
-    "key": "Choose the key",
-    "created_at": "2022-05-26 11:35:57",
-    "updated_at": "2022-05-26 11:35:57"
-  },
-  {
-    "id": 266,
-    "key": "Create Management Category",
-    "created_at": "2022-05-26 14:50:10",
-    "updated_at": "2022-05-26 14:50:10"
-  },
-  {
-    "id": 267,
-    "key": "Site Logs",
-    "created_at": "2022-05-26 14:55:28",
-    "updated_at": "2022-05-26 14:55:28"
-  },
-  {
-    "id": 268,
-    "key": "New Protocols",
-    "created_at": "2022-05-26 14:59:47",
-    "updated_at": "2022-05-26 14:59:47"
-  },
-  {
-    "id": 269,
-    "key": "Disagree count",
-    "created_at": "2022-05-26 18:26:07",
-    "updated_at": "2022-05-26 18:26:07"
-  },
-  {
-    "id": 270,
-    "key": "Andijan region",
-    "created_at": "2022-05-27 10:34:56",
-    "updated_at": "2022-05-27 10:34:56"
-  },
-  {
-    "id": 271,
-    "key": "The Republic of Karakalpakstan",
-    "created_at": "2022-05-27 10:45:34",
-    "updated_at": "2022-05-27 10:45:34"
-  },
-  {
-    "id": 272,
-    "key": "Tashkent",
-    "created_at": "2022-05-27 10:48:03",
-    "updated_at": "2022-05-27 10:48:03"
-  },
-  {
-    "id": 273,
-    "key": "Tashkent Region",
-    "created_at": "2022-05-27 10:49:07",
-    "updated_at": "2022-05-27 10:49:07"
-  },
-  {
-    "id": 274,
-    "key": "Comment field is required",
-    "created_at": "2022-05-30 12:42:49",
-    "updated_at": "2022-05-30 12:42:49"
-  },
-  {
-    "id": 275,
-    "key": "File field is required",
-    "created_at": "2022-05-30 12:45:33",
-    "updated_at": "2022-05-30 12:45:33"
-  },
-  {
-    "id": 276,
-    "key": "Sign field is required",
-    "created_at": "2022-05-30 12:46:44",
-    "updated_at": "2022-05-30 12:46:44"
-  },
-  {
-    "id": 277,
-    "key": "Please fill the protocol number",
-    "created_at": "2022-05-30 12:47:48",
-    "updated_at": "2022-05-30 12:47:48"
-  },
-  {
-    "id": 278,
-    "key": "Result field is required",
-    "created_at": "2022-05-30 12:49:44",
-    "updated_at": "2022-05-30 12:49:44"
-  },
-  {
-    "id": 279,
-    "key": "At least one authority must be selected",
-    "created_at": "2022-05-30 12:51:03",
-    "updated_at": "2022-05-30 12:51:03"
-  },
-  {
-    "id": 280,
-    "key": "Upload at least one of the following files",
-    "created_at": "2022-05-30 12:52:11",
-    "updated_at": "2022-05-30 12:52:11"
-  },
-  {
-    "id": 281,
-    "key": "Actions",
-    "created_at": "2022-06-27 18:21:10",
-    "updated_at": "2022-06-27 18:21:10"
-  },
-  {
-    "id": 282,
-    "key": "Step Action",
-    "created_at": "2022-06-27 18:26:21",
-    "updated_at": "2022-06-27 18:26:21"
-  },
-  {
-    "id": 283,
-    "key": "Bukhara region",
-    "created_at": "2022-07-13 15:05:59",
-    "updated_at": "2022-07-13 15:05:59"
-  },
-  {
-    "id": 284,
-    "key": "Kashkadarya region",
-    "created_at": "2022-07-13 15:06:58",
-    "updated_at": "2022-07-13 15:06:58"
-  },
-  {
-    "id": 285,
-    "key": "Navoi region",
-    "created_at": "2022-07-13 15:07:23",
-    "updated_at": "2022-07-13 15:07:23"
-  },
-  {
-    "id": 286,
-    "key": "Samarkand region",
-    "created_at": "2022-07-13 15:07:53",
-    "updated_at": "2022-07-13 15:07:53"
-  },
-  {
-    "id": 287,
-    "key": "Sirdarya region",
-    "created_at": "2022-07-13 15:08:22",
-    "updated_at": "2022-07-13 15:08:22"
-  },
-  {
-    "id": 288,
-    "key": "Fergana region",
-    "created_at": "2022-07-13 15:08:53",
-    "updated_at": "2022-07-13 15:08:53"
-  },
-  {
-    "id": 289,
-    "key": "Jizzakh region",
-    "created_at": "2022-07-13 15:09:21",
-    "updated_at": "2022-07-13 15:09:21"
-  },
-  {
-    "id": 290,
-    "key": "Namangan region",
-    "created_at": "2022-07-13 15:09:50",
-    "updated_at": "2022-07-13 15:09:50"
-  },
-  {
-    "id": 291,
-    "key": "Surkhandarya region",
-    "created_at": "2022-07-13 15:10:19",
-    "updated_at": "2022-07-13 15:10:19"
-  },
-  {
-    "id": 292,
-    "key": "Khorezm region",
-    "created_at": "2022-07-13 15:10:52",
-    "updated_at": "2022-07-13 15:10:52"
-  },
-  {
-    "id": 293,
-    "key": "Send to the board of trustees",
-    "created_at": "2022-07-13 15:11:21",
-    "updated_at": "2022-07-13 15:11:21"
-  },
-  {
-    "id": 294,
-    "key": "Transfer to the general application",
-    "created_at": "2022-07-13 15:12:08",
-    "updated_at": "2022-07-13 15:12:08"
-  },
-  {
-    "id": 295,
-    "key": "The uploaded file's size must be no more than 10mb",
-    "created_at": "2022-08-02 14:11:15",
-    "updated_at": "2022-08-02 14:11:15"
-  },
-  {
-    "id": 296,
-    "key": "Donations needed",
-    "created_at": "2022-08-08 09:56:47",
-    "updated_at": "2022-08-08 09:56:47"
-  },
-  {
-    "id": 297,
-    "key": "Charity",
-    "created_at": "2022-08-08 11:00:03",
-    "updated_at": "2022-08-08 11:00:03"
-  },
-  {
-    "id": 298,
-    "key": "Charities",
-    "created_at": "2022-08-08 11:01:05",
-    "updated_at": "2022-08-08 11:01:05"
-  },
-  {
-    "id": 299,
-    "key": "Funds",
-    "created_at": "2022-08-08 11:02:21",
-    "updated_at": "2022-08-08 11:02:21"
-  },
-  {
-    "id": 300,
-    "key": "Statistics",
-    "created_at": "2022-08-08 11:03:13",
-    "updated_at": "2022-08-08 11:03:13"
-  },
-  {
-    "id": 301,
-    "key": "Collected",
-    "created_at": "2022-08-11 10:29:18",
-    "updated_at": "2022-08-11 10:29:18"
-  },
-  {
-    "id": 302,
-    "key": "Required",
-    "created_at": "2022-08-11 10:30:06",
-    "updated_at": "2022-08-11 10:30:06"
-  },
-  {
-    "id": 303,
-    "key": "Diagnosis",
-    "created_at": "2022-08-11 10:30:57",
-    "updated_at": "2022-08-11 10:30:57"
-  },
-  {
-    "id": 304,
-    "key": "Support",
-    "created_at": "2022-08-11 10:32:09",
-    "updated_at": "2022-08-11 10:32:09"
-  },
-  {
-    "id": 305,
-    "key": "years old",
-    "created_at": "2022-08-11 10:33:44",
-    "updated_at": "2022-08-11 10:33:44"
-  },
-  {
-    "id": 306,
-    "key": "Need",
-    "created_at": "2022-08-12 11:25:58",
-    "updated_at": "2022-08-12 11:25:58"
-  },
-  {
-    "id": 307,
-    "key": "Other ways",
-    "created_at": "2022-08-12 11:27:06",
-    "updated_at": "2022-08-12 11:27:06"
-  },
-  {
-    "id": 308,
-    "key": "It remains to collect",
-    "created_at": "2022-08-12 11:28:26",
-    "updated_at": "2022-08-12 11:28:26"
-  },
-  {
-    "id": 309,
-    "key": "Select the currency in which you want to make a donation",
-    "created_at": "2022-08-12 11:30:05",
-    "updated_at": "2022-08-12 11:30:05"
-  },
-  {
-    "id": 310,
-    "key": "Choose a payment method",
-    "created_at": "2022-08-12 11:31:04",
-    "updated_at": "2022-08-12 11:31:04"
-  },
-  {
-    "id": 311,
-    "key": "Donation amount",
-    "created_at": "2022-08-12 11:32:05",
-    "updated_at": "2022-08-12 11:32:05"
-  },
-  {
-    "id": 312,
-    "key": "Donate",
-    "created_at": "2022-08-12 11:32:58",
-    "updated_at": "2022-08-12 11:32:58"
-  },
-  {
-    "id": 313,
-    "key": "Attention!",
-    "created_at": "2022-08-12 11:33:44",
-    "updated_at": "2022-08-12 11:33:44"
-  },
-  {
-    "id": 314,
-    "key": "sum",
-    "created_at": "2022-08-12 11:35:39",
-    "updated_at": "2022-08-12 11:35:39"
-  },
-  {
-    "id": 315,
-    "key": "Attention",
-    "created_at": "2022-08-24 09:06:16",
-    "updated_at": "2022-08-24 09:06:26"
-  },
-  {
-    "id": 316,
-    "key": "Your card details are transmitted only in encrypted form and are not stored on our website",
-    "created_at": "2022-08-24 09:45:48",
-    "updated_at": "2022-08-24 09:45:48"
-  },
-  {
-    "id": 317,
-    "key": "By clicking on the \"Donate\" button, I accept the terms of the public offer",
-    "created_at": "2022-08-24 09:47:34",
-    "updated_at": "2022-08-24 09:47:34"
-  },
-  {
-    "id": 318,
-    "key": "All charities",
-    "created_at": "2022-08-25 09:14:02",
-    "updated_at": "2022-08-25 09:14:02"
-  },
-  {
-    "id": 319,
-    "key": "Street",
-    "created_at": "2022-08-26 15:41:50",
-    "updated_at": "2022-08-26 15:41:50"
-  },
-  {
-    "id": 320,
-    "key": "Public Fund",
-    "created_at": "2022-08-30 09:16:30",
-    "updated_at": "2022-08-30 09:16:52"
-  }
+    {
+        "id": 1,
+        "key": "Dashboard",
+        "created_at": "2022-01-27 07:05:48",
+        "updated_at": "2022-01-27 07:05:48"
+    },
+    {
+        "id": 2,
+        "key": "Menus",
+        "created_at": "2022-01-27 07:09:32",
+        "updated_at": "2022-01-27 07:09:32"
+    },
+    {
+        "id": 3,
+        "key": "Menu Categories",
+        "created_at": "2022-01-27 07:11:07",
+        "updated_at": "2022-01-27 07:11:07"
+    },
+    {
+        "id": 4,
+        "key": "News",
+        "created_at": "2022-01-27 07:15:06",
+        "updated_at": "2022-01-27 07:15:06"
+    },
+    {
+        "id": 5,
+        "key": "News Categories",
+        "created_at": "2022-01-27 07:15:55",
+        "updated_at": "2022-01-27 07:15:55"
+    },
+    {
+        "id": 6,
+        "key": "Posters",
+        "created_at": "2022-01-27 07:18:42",
+        "updated_at": "2022-01-27 07:18:42"
+    },
+    {
+        "id": 7,
+        "key": "Poster Categories",
+        "created_at": "2022-01-27 07:21:13",
+        "updated_at": "2022-01-27 07:21:13"
+    },
+    {
+        "id": 8,
+        "key": "Pages",
+        "created_at": "2022-01-27 07:22:20",
+        "updated_at": "2022-01-27 07:22:20"
+    },
+    {
+        "id": 9,
+        "key": "Page Categories",
+        "created_at": "2022-01-27 07:24:15",
+        "updated_at": "2022-01-27 07:24:15"
+    },
+    {
+        "id": 10,
+        "key": "Useful",
+        "created_at": "2022-01-27 07:25:15",
+        "updated_at": "2022-01-27 07:25:15"
+    },
+    {
+        "id": 11,
+        "key": "Useful Categories",
+        "created_at": "2022-01-27 07:27:13",
+        "updated_at": "2022-01-27 07:27:13"
+    },
+    {
+        "id": 12,
+        "key": "Photos",
+        "created_at": "2022-01-27 07:28:59",
+        "updated_at": "2022-01-27 07:28:59"
+    },
+    {
+        "id": 13,
+        "key": "Photos Categories",
+        "created_at": "2022-01-27 07:31:09",
+        "updated_at": "2022-01-27 07:31:09"
+    },
+    {
+        "id": 14,
+        "key": "Video Gallery",
+        "created_at": "2022-01-27 07:32:49",
+        "updated_at": "2022-01-27 07:32:49"
+    },
+    {
+        "id": 15,
+        "key": "Videos Categories",
+        "created_at": "2022-01-27 07:37:32",
+        "updated_at": "2022-01-27 07:37:32"
+    },
+    {
+        "id": 16,
+        "key": "Managements",
+        "created_at": "2022-01-27 07:38:52",
+        "updated_at": "2022-01-27 07:38:52"
+    },
+    {
+        "id": 17,
+        "key": "Management Categories",
+        "created_at": "2022-01-27 07:42:10",
+        "updated_at": "2022-01-27 07:42:10"
+    },
+    {
+        "id": 18,
+        "key": "Messages",
+        "created_at": "2022-01-27 07:44:05",
+        "updated_at": "2022-01-27 07:44:05"
+    },
+    {
+        "id": 19,
+        "key": "Logs",
+        "created_at": "2022-01-27 07:45:11",
+        "updated_at": "2022-01-27 07:45:11"
+    },
+    {
+        "id": 20,
+        "key": "Appeals",
+        "created_at": "2022-01-27 07:45:55",
+        "updated_at": "2022-01-27 07:45:55"
+    },
+    {
+        "id": 21,
+        "key": "Super Admin",
+        "created_at": "2022-01-27 07:46:43",
+        "updated_at": "2022-01-27 07:46:43"
+    },
+    {
+        "id": 22,
+        "key": "Users",
+        "created_at": "2022-01-27 07:47:54",
+        "updated_at": "2022-01-27 07:47:54"
+    },
+    {
+        "id": 23,
+        "key": "Roles",
+        "created_at": "2022-01-27 07:48:56",
+        "updated_at": "2022-01-27 07:48:56"
+    },
+    {
+        "id": 24,
+        "key": "Permissions",
+        "created_at": "2022-01-27 07:51:06",
+        "updated_at": "2022-01-27 07:51:06"
+    },
+    {
+        "id": 25,
+        "key": "Id",
+        "created_at": "2022-01-27 07:52:30",
+        "updated_at": "2022-01-27 07:52:30"
+    },
+    {
+        "id": 26,
+        "key": "Category",
+        "created_at": "2022-01-27 07:54:08",
+        "updated_at": "2022-01-27 07:54:08"
+    },
+    {
+        "id": 27,
+        "key": "Title",
+        "created_at": "2022-01-27 08:06:55",
+        "updated_at": "2022-01-27 08:06:55"
+    },
+    {
+        "id": 28,
+        "key": "Slug",
+        "created_at": "2022-01-27 08:08:41",
+        "updated_at": "2022-01-27 08:08:41"
+    },
+    {
+        "id": 29,
+        "key": "Description",
+        "created_at": "2022-01-27 08:43:07",
+        "updated_at": "2022-01-27 08:43:07"
+    },
+    {
+        "id": 30,
+        "key": "Count Views",
+        "created_at": "2022-01-27 08:45:04",
+        "updated_at": "2022-01-27 08:45:04"
+    },
+    {
+        "id": 31,
+        "key": "Status",
+        "created_at": "2022-01-27 08:45:51",
+        "updated_at": "2022-01-27 08:45:51"
+    },
+    {
+        "id": 32,
+        "key": "Creator",
+        "created_at": "2022-01-27 08:46:38",
+        "updated_at": "2022-01-27 08:46:38"
+    },
+    {
+        "id": 33,
+        "key": "Modifier",
+        "created_at": "2022-01-27 09:02:28",
+        "updated_at": "2022-01-27 09:02:28"
+    },
+    {
+        "id": 34,
+        "key": "Create Menu Category",
+        "created_at": "2022-01-27 09:06:29",
+        "updated_at": "2022-01-27 09:06:29"
+    },
+    {
+        "id": 35,
+        "key": "Create Menu",
+        "created_at": "2022-01-27 09:07:10",
+        "updated_at": "2022-01-27 09:07:10"
+    },
+    {
+        "id": 36,
+        "key": "Link Type",
+        "created_at": "2022-01-27 09:08:14",
+        "updated_at": "2022-01-27 09:08:14"
+    },
+    {
+        "id": 37,
+        "key": "Link",
+        "created_at": "2022-01-27 09:08:40",
+        "updated_at": "2022-01-27 09:08:40"
+    },
+    {
+        "id": 38,
+        "key": "Main",
+        "created_at": "2022-01-27 09:11:00",
+        "updated_at": "2022-01-27 09:11:00"
+    },
+    {
+        "id": 39,
+        "key": "Create News Category",
+        "created_at": "2022-01-27 09:12:31",
+        "updated_at": "2022-01-27 09:12:31"
+    },
+    {
+        "id": 40,
+        "key": "Create News",
+        "created_at": "2022-01-27 09:14:56",
+        "updated_at": "2022-01-27 09:14:56"
+    },
+    {
+        "id": 41,
+        "key": "Create Page Category",
+        "created_at": "2022-01-27 09:18:15",
+        "updated_at": "2022-01-27 09:18:15"
+    },
+    {
+        "id": 42,
+        "key": "Create Page",
+        "created_at": "2022-01-27 09:21:08",
+        "updated_at": "2022-01-27 09:21:08"
+    },
+    {
+        "id": 43,
+        "key": "Create Useful Category",
+        "created_at": "2022-01-27 09:22:11",
+        "updated_at": "2022-01-27 09:22:11"
+    },
+    {
+        "id": 44,
+        "key": "Create Useful",
+        "created_at": "2022-01-27 09:24:20",
+        "updated_at": "2022-01-27 09:24:20"
+    },
+    {
+        "id": 45,
+        "key": "Create Photo",
+        "created_at": "2022-01-27 09:27:01",
+        "updated_at": "2022-01-27 09:27:01"
+    },
+    {
+        "id": 46,
+        "key": "Content",
+        "created_at": "2022-01-27 09:28:17",
+        "updated_at": "2022-01-27 09:28:17"
+    },
+    {
+        "id": 47,
+        "key": "Pdf title",
+        "created_at": "2022-01-27 09:29:03",
+        "updated_at": "2022-01-27 09:29:03"
+    },
+    {
+        "id": 48,
+        "key": "Anons Image",
+        "created_at": "2022-01-27 09:30:58",
+        "updated_at": "2022-01-27 09:30:58"
+    },
+    {
+        "id": 49,
+        "key": "Add",
+        "created_at": "2022-02-13 16:03:24",
+        "updated_at": "2022-02-13 16:03:24"
+    },
+    {
+        "id": 50,
+        "key": "Update",
+        "created_at": "2022-02-13 16:05:30",
+        "updated_at": "2022-02-13 16:05:30"
+    },
+    {
+        "id": 51,
+        "key": "Successfully saved",
+        "created_at": "2022-02-13 16:06:32",
+        "updated_at": "2022-02-13 16:06:32"
+    },
+    {
+        "id": 52,
+        "key": "Successfully updated",
+        "created_at": "2022-02-13 16:07:49",
+        "updated_at": "2022-02-13 16:07:49"
+    },
+    {
+        "id": 53,
+        "key": "Successfully deleted",
+        "created_at": "2022-02-13 16:08:58",
+        "updated_at": "2022-02-13 16:08:58"
+    },
+    {
+        "id": 54,
+        "key": "Welcome to Dashboard",
+        "created_at": "2022-02-13 16:10:50",
+        "updated_at": "2022-02-13 16:10:50"
+    },
+    {
+        "id": 55,
+        "key": "Image",
+        "created_at": "2022-02-13 16:12:15",
+        "updated_at": "2022-02-13 16:12:15"
+    },
+    {
+        "id": 56,
+        "key": "Order",
+        "created_at": "2022-02-13 16:13:54",
+        "updated_at": "2022-02-13 16:13:54"
+    },
+    {
+        "id": 57,
+        "key": "Choose",
+        "created_at": "2022-02-13 16:14:44",
+        "updated_at": "2022-02-13 16:14:44"
+    },
+    {
+        "id": 58,
+        "key": "Active",
+        "created_at": "2022-02-13 16:17:40",
+        "updated_at": "2022-02-13 16:17:40"
+    },
+    {
+        "id": 59,
+        "key": "Inactive",
+        "created_at": "2022-02-13 16:18:31",
+        "updated_at": "2022-02-13 16:18:31"
+    },
+    {
+        "id": 60,
+        "key": "Create News Category",
+        "created_at": "2022-02-13 16:20:29",
+        "updated_at": "2022-02-13 16:20:29"
+    },
+    {
+        "id": 61,
+        "key": "Pdf Type",
+        "created_at": "2022-02-13 16:23:16",
+        "updated_at": "2022-02-13 16:23:16"
+    },
+    {
+        "id": 62,
+        "key": "Body Image",
+        "created_at": "2022-02-13 16:24:12",
+        "updated_at": "2022-02-13 16:24:12"
+    },
+    {
+        "id": 63,
+        "key": "Show on slider",
+        "created_at": "2022-02-13 16:25:15",
+        "updated_at": "2022-02-13 16:25:15"
+    },
+    {
+        "id": 64,
+        "key": "Right Menu",
+        "created_at": "2022-02-13 16:26:16",
+        "updated_at": "2022-02-13 16:26:16"
+    },
+    {
+        "id": 65,
+        "key": "Date",
+        "created_at": "2022-02-13 16:27:35",
+        "updated_at": "2022-02-13 16:27:35"
+    },
+    {
+        "id": 66,
+        "key": "Local opens in this window",
+        "created_at": "2022-02-13 16:45:26",
+        "updated_at": "2022-02-13 16:45:26"
+    },
+    {
+        "id": 67,
+        "key": "Local opens in a new window",
+        "created_at": "2022-02-13 16:46:56",
+        "updated_at": "2022-02-13 16:46:56"
+    },
+    {
+        "id": 68,
+        "key": "Global opens in this window",
+        "created_at": "2022-02-13 16:48:06",
+        "updated_at": "2022-02-13 16:48:06"
+    },
+    {
+        "id": 69,
+        "key": "Global opens in a new window",
+        "created_at": "2022-02-13 16:49:22",
+        "updated_at": "2022-02-13 16:49:22"
+    },
+    {
+        "id": 70,
+        "key": "Recycle bin",
+        "created_at": "2022-02-22 15:18:41",
+        "updated_at": "2022-02-22 15:18:41"
+    },
+    {
+        "id": 71,
+        "key": "Are you sure",
+        "created_at": "2022-02-22 15:21:04",
+        "updated_at": "2022-02-22 15:21:04"
+    },
+    {
+        "id": 72,
+        "key": "This information will be deleted",
+        "created_at": "2022-02-22 15:21:56",
+        "updated_at": "2022-02-22 15:21:56"
+    },
+    {
+        "id": 73,
+        "key": "Delete",
+        "created_at": "2022-02-22 15:27:35",
+        "updated_at": "2022-02-22 15:27:35"
+    },
+    {
+        "id": 74,
+        "key": "Cancel",
+        "created_at": "2022-02-22 15:28:09",
+        "updated_at": "2022-02-22 15:28:09"
+    },
+    {
+        "id": 75,
+        "key": "Back",
+        "created_at": "2022-02-22 15:29:44",
+        "updated_at": "2022-02-22 15:29:44"
+    },
+    {
+        "id": 76,
+        "key": "Restore",
+        "created_at": "2022-02-22 15:30:36",
+        "updated_at": "2022-02-22 15:30:36"
+    },
+    {
+        "id": 77,
+        "key": "This information will be restored",
+        "created_at": "2022-02-22 15:31:49",
+        "updated_at": "2022-02-22 15:31:49"
+    },
+    {
+        "id": 78,
+        "key": "You can not restore this information",
+        "created_at": "2022-02-22 15:34:53",
+        "updated_at": "2022-02-22 15:34:53"
+    },
+    {
+        "id": 79,
+        "key": "Successfully restored",
+        "created_at": "2022-02-22 15:35:55",
+        "updated_at": "2022-02-22 15:35:55"
+    },
+    {
+        "id": 80,
+        "key": "Children's Public Foundation Platform",
+        "created_at": "2022-03-30 10:46:59",
+        "updated_at": "2022-03-30 10:46:59"
+    },
+    {
+        "id": 81,
+        "key": "Applications",
+        "created_at": "2022-03-30 10:48:29",
+        "updated_at": "2022-03-30 10:48:29"
+    },
+    {
+        "id": 82,
+        "key": "Site Management",
+        "created_at": "2022-03-30 10:51:05",
+        "updated_at": "2022-03-30 10:51:05"
+    },
+    {
+        "id": 83,
+        "key": "Admin Panel",
+        "created_at": "2022-03-30 10:54:39",
+        "updated_at": "2022-03-30 10:54:39"
+    },
+    {
+        "id": 84,
+        "key": "Application",
+        "created_at": "2022-03-30 11:43:28",
+        "updated_at": "2022-03-30 11:43:28"
+    },
+    {
+        "id": 85,
+        "key": "User Information",
+        "created_at": "2022-03-30 11:45:05",
+        "updated_at": "2022-03-30 11:45:05"
+    },
+    {
+        "id": 86,
+        "key": "Timeline of actions",
+        "created_at": "2022-03-30 11:46:49",
+        "updated_at": "2022-03-30 11:46:49"
+    },
+    {
+        "id": 87,
+        "key": "General information",
+        "created_at": "2022-03-30 11:48:11",
+        "updated_at": "2022-03-30 11:48:11"
+    },
+    {
+        "id": 88,
+        "key": "Comment",
+        "created_at": "2022-03-30 11:49:52",
+        "updated_at": "2022-03-30 11:49:52"
+    },
+    {
+        "id": 89,
+        "key": "Deadline",
+        "created_at": "2022-03-30 11:50:54",
+        "updated_at": "2022-03-30 11:50:54"
+    },
+    {
+        "id": 90,
+        "key": "Result given by",
+        "created_at": "2022-03-30 11:51:48",
+        "updated_at": "2022-03-30 11:51:48"
+    },
+    {
+        "id": 91,
+        "key": "Phone",
+        "created_at": "2022-03-30 11:52:16",
+        "updated_at": "2022-03-30 11:52:16"
+    },
+    {
+        "id": 92,
+        "key": "All",
+        "created_at": "2022-03-30 11:54:06",
+        "updated_at": "2022-03-30 11:54:06"
+    },
+    {
+        "id": 93,
+        "key": "New",
+        "created_at": "2022-03-30 11:54:49",
+        "updated_at": "2022-03-30 11:54:49"
+    },
+    {
+        "id": 94,
+        "key": "Process",
+        "created_at": "2022-03-30 11:55:40",
+        "updated_at": "2022-03-30 11:55:40"
+    },
+    {
+        "id": 95,
+        "key": "Accepted",
+        "created_at": "2022-03-30 11:56:44",
+        "updated_at": "2022-03-30 11:56:44"
+    },
+    {
+        "id": 96,
+        "key": "Rejected",
+        "created_at": "2022-03-30 11:57:23",
+        "updated_at": "2022-03-30 11:57:23"
+    },
+    {
+        "id": 97,
+        "key": "Deadline expired",
+        "created_at": "2022-03-30 11:58:04",
+        "updated_at": "2022-03-30 11:58:04"
+    },
+    {
+        "id": 98,
+        "key": "Holidays",
+        "created_at": "2022-04-10 04:40:10",
+        "updated_at": "2022-04-10 04:40:10"
+    },
+    {
+        "id": 99,
+        "key": "Steps",
+        "created_at": "2022-04-10 04:42:51",
+        "updated_at": "2022-04-10 04:42:51"
+    },
+    {
+        "id": 100,
+        "key": "Experts",
+        "created_at": "2022-04-10 04:45:18",
+        "updated_at": "2022-04-10 04:45:18"
+    },
+    {
+        "id": 101,
+        "key": "Authorities",
+        "created_at": "2022-04-10 04:47:47",
+        "updated_at": "2022-04-10 04:47:47"
+    },
+    {
+        "id": 102,
+        "key": "Categories",
+        "created_at": "2022-04-10 04:52:57",
+        "updated_at": "2022-04-10 04:52:57"
+    },
+    {
+        "id": 103,
+        "key": "Overall statistics",
+        "created_at": "2022-04-10 05:11:55",
+        "updated_at": "2022-04-10 05:11:55"
+    },
+    {
+        "id": 104,
+        "key": "Statistics of the children's public fund",
+        "created_at": "2022-04-11 09:26:40",
+        "updated_at": "2022-04-11 09:26:40"
+    },
+    {
+        "id": 105,
+        "key": "total number of satisfied references",
+        "created_at": "2022-04-11 09:52:59",
+        "updated_at": "2022-04-11 09:52:59"
+    },
+    {
+        "id": 106,
+        "key": "number of rejected appeals",
+        "created_at": "2022-04-11 09:59:10",
+        "updated_at": "2022-04-11 09:59:10"
+    },
+    {
+        "id": 107,
+        "key": "total number of requests received",
+        "created_at": "2022-04-11 10:10:47",
+        "updated_at": "2022-04-11 10:10:47"
+    },
+    {
+        "id": 108,
+        "key": "number of appeals under consideration",
+        "created_at": "2022-04-11 10:11:50",
+        "updated_at": "2022-04-11 10:11:50"
+    },
+    {
+        "id": 109,
+        "key": "compared to last year",
+        "created_at": "2022-04-11 11:03:53",
+        "updated_at": "2022-04-11 11:03:53"
+    },
+    {
+        "id": 110,
+        "key": "Closed after deadline expiration",
+        "created_at": "2022-04-13 05:19:45",
+        "updated_at": "2022-04-13 05:19:45"
+    },
+    {
+        "id": 111,
+        "key": "Republic of Uzbekistan",
+        "created_at": "2022-04-20 04:17:50",
+        "updated_at": "2022-04-20 04:17:50"
+    },
+    {
+        "id": 112,
+        "key": "Respublika bo'yicha",
+        "created_at": "2022-04-20 04:19:00",
+        "updated_at": "2022-04-20 04:19:00"
+    },
+    {
+        "id": 113,
+        "key": "Republic",
+        "created_at": "2022-04-20 04:21:12",
+        "updated_at": "2022-04-20 04:21:12"
+    },
+    {
+        "id": 114,
+        "key": "Send application",
+        "created_at": "2022-04-20 04:23:40",
+        "updated_at": "2022-04-20 04:23:40"
+    },
+    {
+        "id": 115,
+        "key": "All news",
+        "created_at": "2022-04-20 04:24:42",
+        "updated_at": "2022-04-20 04:24:42"
+    },
+    {
+        "id": 116,
+        "key": "Profile",
+        "created_at": "2022-04-20 04:25:56",
+        "updated_at": "2022-04-20 04:25:56"
+    },
+    {
+        "id": 117,
+        "key": "My applications",
+        "created_at": "2022-04-20 04:40:56",
+        "updated_at": "2022-04-20 04:40:56"
+    },
+    {
+        "id": 118,
+        "key": "Logout",
+        "created_at": "2022-04-20 04:42:13",
+        "updated_at": "2022-04-20 04:42:13"
+    },
+    {
+        "id": 119,
+        "key": "Profile",
+        "created_at": "2022-04-20 04:43:07",
+        "updated_at": "2022-04-20 04:43:07"
+    },
+    {
+        "id": 120,
+        "key": "Log in to system",
+        "created_at": "2022-04-20 04:44:26",
+        "updated_at": "2022-04-20 04:44:26"
+    },
+    {
+        "id": 121,
+        "key": "FIO",
+        "created_at": "2022-04-20 04:45:15",
+        "updated_at": "2022-04-20 04:45:15"
+    },
+    {
+        "id": 122,
+        "key": "Date of birth",
+        "created_at": "2022-04-20 04:46:08",
+        "updated_at": "2022-04-20 04:46:08"
+    },
+    {
+        "id": 123,
+        "key": "Gender",
+        "created_at": "2022-04-20 04:46:35",
+        "updated_at": "2022-04-20 04:46:35"
+    },
+    {
+        "id": 124,
+        "key": "Male",
+        "created_at": "2022-04-20 04:47:09",
+        "updated_at": "2022-04-20 04:47:09"
+    },
+    {
+        "id": 125,
+        "key": "Passport data",
+        "created_at": "2022-04-20 04:48:11",
+        "updated_at": "2022-04-20 04:48:11"
+    },
+    {
+        "id": 126,
+        "key": "Passport number",
+        "created_at": "2022-04-20 04:49:08",
+        "updated_at": "2022-04-20 04:49:08"
+    },
+    {
+        "id": 127,
+        "key": "Place of birth",
+        "created_at": "2022-04-20 04:54:53",
+        "updated_at": "2022-04-20 04:54:53"
+    },
+    {
+        "id": 128,
+        "key": "Citizen",
+        "created_at": "2022-04-20 04:55:50",
+        "updated_at": "2022-04-20 04:55:50"
+    },
+    {
+        "id": 129,
+        "key": "Pinfl",
+        "created_at": "2022-04-20 04:56:25",
+        "updated_at": "2022-04-20 04:56:25"
+    },
+    {
+        "id": 130,
+        "key": "Passport Issue Place",
+        "created_at": "2022-04-20 04:57:14",
+        "updated_at": "2022-04-20 04:57:14"
+    },
+    {
+        "id": 131,
+        "key": "Passport Issue Date",
+        "created_at": "2022-04-20 04:58:04",
+        "updated_at": "2022-04-20 04:58:04"
+    },
+    {
+        "id": 132,
+        "key": "Passport Expiration Date",
+        "created_at": "2022-04-20 04:59:17",
+        "updated_at": "2022-04-20 04:59:17"
+    },
+    {
+        "id": 133,
+        "key": "Application number",
+        "created_at": "2022-04-20 05:00:35",
+        "updated_at": "2022-04-20 05:00:35"
+    },
+    {
+        "id": 134,
+        "key": "Type of financing",
+        "created_at": "2022-04-20 05:01:22",
+        "updated_at": "2022-04-20 05:01:22"
+    },
+    {
+        "id": 135,
+        "key": "Step",
+        "created_at": "2022-04-20 05:02:13",
+        "updated_at": "2022-04-20 05:02:13"
+    },
+    {
+        "id": 136,
+        "key": "Public Offer",
+        "created_at": "2022-04-20 05:22:42",
+        "updated_at": "2022-04-20 05:22:42"
+    },
+    {
+        "id": 137,
+        "key": "User consent",
+        "created_at": "2022-04-20 05:23:39",
+        "updated_at": "2022-04-20 05:23:39"
+    },
+    {
+        "id": 138,
+        "key": "I got acquainted with the rules",
+        "created_at": "2022-04-20 05:24:54",
+        "updated_at": "2022-04-20 05:24:54"
+    },
+    {
+        "id": 139,
+        "key": "Next",
+        "created_at": "2022-04-20 05:25:27",
+        "updated_at": "2022-04-20 05:25:27"
+    },
+    {
+        "id": 140,
+        "key": "Region",
+        "created_at": "2022-04-20 05:26:38",
+        "updated_at": "2022-04-20 05:26:38"
+    },
+    {
+        "id": 141,
+        "key": "Select Region",
+        "created_at": "2022-04-20 05:27:29",
+        "updated_at": "2022-04-20 05:27:29"
+    },
+    {
+        "id": 142,
+        "key": "District",
+        "created_at": "2022-04-20 05:28:00",
+        "updated_at": "2022-04-20 05:28:00"
+    },
+    {
+        "id": 143,
+        "key": "Select",
+        "created_at": "2022-04-20 05:28:52",
+        "updated_at": "2022-04-20 05:28:52"
+    },
+    {
+        "id": 144,
+        "key": "Emergency statements",
+        "created_at": "2022-04-20 05:31:12",
+        "updated_at": "2022-04-20 05:31:12"
+    },
+    {
+        "id": 145,
+        "key": "Emergency File",
+        "created_at": "2022-04-20 05:33:07",
+        "updated_at": "2022-04-20 05:33:07"
+    },
+    {
+        "id": 146,
+        "key": "Emergency file is required",
+        "created_at": "2022-04-20 05:34:47",
+        "updated_at": "2022-04-20 05:34:47"
+    },
+    {
+        "id": 147,
+        "key": "District field is required",
+        "created_at": "2022-04-20 05:36:03",
+        "updated_at": "2022-04-20 05:36:03"
+    },
+    {
+        "id": 148,
+        "key": "Province field is required",
+        "created_at": "2022-04-20 05:37:30",
+        "updated_at": "2022-04-20 05:37:30"
+    },
+    {
+        "id": 149,
+        "key": "Category field is required",
+        "created_at": "2022-04-20 05:38:37",
+        "updated_at": "2022-04-20 05:38:37"
+    },
+    {
+        "id": 150,
+        "key": "Register Certificate",
+        "created_at": "2022-04-20 05:41:22",
+        "updated_at": "2022-04-20 05:41:22"
+    },
+    {
+        "id": 151,
+        "key": "Passport Copy",
+        "created_at": "2022-04-20 05:42:04",
+        "updated_at": "2022-04-20 05:42:04"
+    },
+    {
+        "id": 152,
+        "key": "Medical Conclusion",
+        "created_at": "2022-04-20 05:43:06",
+        "updated_at": "2022-04-20 05:43:06"
+    },
+    {
+        "id": 153,
+        "key": "Birth Certificate",
+        "created_at": "2022-04-20 05:44:01",
+        "updated_at": "2022-04-20 05:44:01"
+    },
+    {
+        "id": 154,
+        "key": "Register Certificate field is required",
+        "created_at": "2022-04-20 05:45:39",
+        "updated_at": "2022-04-20 05:45:39"
+    },
+    {
+        "id": 155,
+        "key": "Passport Copy field is required",
+        "created_at": "2022-04-20 05:46:46",
+        "updated_at": "2022-04-20 05:46:46"
+    },
+    {
+        "id": 156,
+        "key": "Medical Conclusion field is required",
+        "created_at": "2022-04-20 05:48:00",
+        "updated_at": "2022-04-20 05:48:00"
+    },
+    {
+        "id": 157,
+        "key": "Birth Certificate field is required",
+        "created_at": "2022-04-20 05:49:05",
+        "updated_at": "2022-04-20 05:49:05"
+    },
+    {
+        "id": 158,
+        "key": "Province",
+        "created_at": "2022-04-20 05:50:36",
+        "updated_at": "2022-04-20 05:50:36"
+    },
+    {
+        "id": 159,
+        "key": "Download",
+        "created_at": "2022-04-20 05:51:15",
+        "updated_at": "2022-04-20 05:51:15"
+    },
+    {
+        "id": 160,
+        "key": "Birth Place",
+        "created_at": "2022-04-20 05:52:12",
+        "updated_at": "2022-04-20 05:52:12"
+    },
+    {
+        "id": 161,
+        "key": "Working days",
+        "created_at": "2022-04-20 06:13:13",
+        "updated_at": "2022-04-20 06:33:19"
+    },
+    {
+        "id": 162,
+        "key": "Watch role",
+        "created_at": "2022-04-20 06:36:18",
+        "updated_at": "2022-04-20 06:36:18"
+    },
+    {
+        "id": 163,
+        "key": "Emergency Applications",
+        "created_at": "2022-04-20 06:37:33",
+        "updated_at": "2022-04-20 06:37:33"
+    },
+    {
+        "id": 164,
+        "key": "Change Role",
+        "created_at": "2022-04-20 06:38:52",
+        "updated_at": "2022-04-20 06:38:52"
+    },
+    {
+        "id": 165,
+        "key": "Sign out",
+        "created_at": "2022-04-20 06:39:40",
+        "updated_at": "2022-04-20 06:39:40"
+    },
+    {
+        "id": 166,
+        "key": "New application",
+        "created_at": "2022-04-20 06:41:31",
+        "updated_at": "2022-04-20 06:41:31"
+    },
+    {
+        "id": 167,
+        "key": "See All Notifications",
+        "created_at": "2022-04-20 06:42:40",
+        "updated_at": "2022-04-20 06:42:40"
+    },
+    {
+        "id": 168,
+        "key": "Full Name",
+        "created_at": "2022-04-20 06:43:54",
+        "updated_at": "2022-04-20 06:43:54"
+    },
+    {
+        "id": 169,
+        "key": "Given date",
+        "created_at": "2022-04-20 06:45:05",
+        "updated_at": "2022-04-20 06:45:05"
+    },
+    {
+        "id": 170,
+        "key": "Detailed",
+        "created_at": "2022-04-20 06:45:50",
+        "updated_at": "2022-04-20 06:45:50"
+    },
+    {
+        "id": 171,
+        "key": "Not checked yet!",
+        "created_at": "2022-04-20 06:47:47",
+        "updated_at": "2022-04-20 06:47:47"
+    },
+    {
+        "id": 172,
+        "key": "Fullname",
+        "created_at": "2022-04-20 06:52:31",
+        "updated_at": "2022-04-20 06:52:31"
+    },
+    {
+        "id": 173,
+        "key": "Authority",
+        "created_at": "2022-04-20 06:56:42",
+        "updated_at": "2022-04-20 06:56:42"
+    },
+    {
+        "id": 174,
+        "key": "User",
+        "created_at": "2022-04-20 06:57:51",
+        "updated_at": "2022-04-20 06:57:51"
+    },
+    {
+        "id": 175,
+        "key": "User OneId data",
+        "created_at": "2022-04-20 06:59:19",
+        "updated_at": "2022-04-20 06:59:19"
+    },
+    {
+        "id": 176,
+        "key": "Created At",
+        "created_at": "2022-04-20 07:00:26",
+        "updated_at": "2022-04-20 07:00:26"
+    },
+    {
+        "id": 177,
+        "key": "Not checked yet",
+        "created_at": "2022-04-20 07:10:21",
+        "updated_at": "2022-04-20 07:12:05"
+    },
+    {
+        "id": 178,
+        "key": "Create Message",
+        "created_at": "2022-04-20 07:15:33",
+        "updated_at": "2022-04-20 07:15:33"
+    },
+    {
+        "id": 179,
+        "key": "Links",
+        "created_at": "2022-04-21 08:34:16",
+        "updated_at": "2022-04-21 08:34:16"
+    },
+    {
+        "id": 180,
+        "key": "Link Categories",
+        "created_at": "2022-04-21 08:35:41",
+        "updated_at": "2022-04-21 08:35:41"
+    },
+    {
+        "id": 181,
+        "key": "Create Link Category",
+        "created_at": "2022-04-21 08:48:26",
+        "updated_at": "2022-04-21 08:48:26"
+    },
+    {
+        "id": 182,
+        "key": "educational programs",
+        "created_at": "2022-04-21 10:24:36",
+        "updated_at": "2022-04-21 10:24:36"
+    },
+    {
+        "id": 183,
+        "key": "test",
+        "created_at": "2022-04-21 10:27:26",
+        "updated_at": "2022-04-21 10:27:26"
+    },
+    {
+        "id": 184,
+        "key": "Create Management",
+        "created_at": "2022-04-22 04:47:06",
+        "updated_at": "2022-04-22 04:47:06"
+    },
+    {
+        "id": 185,
+        "key": "Leader",
+        "created_at": "2022-04-22 04:47:54",
+        "updated_at": "2022-04-22 04:47:54"
+    },
+    {
+        "id": 186,
+        "key": "Main Category",
+        "created_at": "2022-04-22 04:49:15",
+        "updated_at": "2022-04-22 04:49:15"
+    },
+    {
+        "id": 187,
+        "key": "Satisfied",
+        "created_at": "2022-04-22 12:38:06",
+        "updated_at": "2022-04-22 12:38:06"
+    },
+    {
+        "id": 188,
+        "key": "Save",
+        "created_at": "2022-04-22 12:43:11",
+        "updated_at": "2022-04-22 12:43:11"
+    },
+    {
+        "id": 189,
+        "key": "Clear All",
+        "created_at": "2022-04-22 12:44:32",
+        "updated_at": "2022-04-22 12:44:32"
+    },
+    {
+        "id": 190,
+        "key": "Purposefully",
+        "created_at": "2022-04-22 12:47:30",
+        "updated_at": "2022-04-22 12:47:30"
+    },
+    {
+        "id": 191,
+        "key": "Not suitable for purpose",
+        "created_at": "2022-04-22 12:48:19",
+        "updated_at": "2022-04-22 12:48:19"
+    },
+    {
+        "id": 192,
+        "key": "Commission summary",
+        "created_at": "2022-04-22 12:51:46",
+        "updated_at": "2022-04-22 12:51:46"
+    },
+    {
+        "id": 193,
+        "key": "Profile",
+        "created_at": "2022-04-25 04:13:12",
+        "updated_at": "2022-04-25 04:13:12"
+    },
+    {
+        "id": 194,
+        "key": "Reception",
+        "created_at": "2022-04-25 04:54:18",
+        "updated_at": "2022-04-25 04:54:18"
+    },
+    {
+        "id": 195,
+        "key": "Contact",
+        "created_at": "2022-04-25 04:56:16",
+        "updated_at": "2022-04-25 04:56:16"
+    },
+    {
+        "id": 196,
+        "key": "medical programs",
+        "created_at": "2022-04-25 04:58:08",
+        "updated_at": "2022-04-25 04:58:08"
+    },
+    {
+        "id": 197,
+        "key": "Summarize the application",
+        "created_at": "2022-04-25 05:08:31",
+        "updated_at": "2022-04-25 05:08:31"
+    },
+    {
+        "id": 198,
+        "key": "Not Emergency application",
+        "created_at": "2022-04-25 05:09:52",
+        "updated_at": "2022-04-25 05:09:52"
+    },
+    {
+        "id": 199,
+        "key": "Select Result",
+        "created_at": "2022-04-25 05:12:27",
+        "updated_at": "2022-04-25 05:12:27"
+    },
+    {
+        "id": 200,
+        "key": "I want to help",
+        "created_at": "2022-04-25 09:26:49",
+        "updated_at": "2022-04-25 09:26:49"
+    },
+    {
+        "id": 201,
+        "key": "Working time",
+        "created_at": "2022-04-25 09:28:14",
+        "updated_at": "2022-04-25 09:28:14"
+    },
+    {
+        "id": 202,
+        "key": "Address",
+        "created_at": "2022-04-25 09:28:40",
+        "updated_at": "2022-04-25 09:28:40"
+    },
+    {
+        "id": 203,
+        "key": "Contacts",
+        "created_at": "2022-04-25 09:30:46",
+        "updated_at": "2022-04-25 09:30:46"
+    },
+    {
+        "id": 204,
+        "key": "Create Contact",
+        "created_at": "2022-04-25 09:31:58",
+        "updated_at": "2022-04-25 09:31:58"
+    },
+    {
+        "id": 205,
+        "key": "When using materials, a link to www.bjf.uz is required",
+        "created_at": "2022-04-25 09:44:19",
+        "updated_at": "2022-04-25 09:44:19"
+    },
+    {
+        "id": 206,
+        "key": "All rights reserved 2022",
+        "created_at": "2022-04-25 09:45:47",
+        "updated_at": "2022-04-25 09:45:47"
+    },
+    {
+        "id": 207,
+        "key": "Attention! If you find an error in the text, select it and press Ctrl + Enter to notify the administration",
+        "created_at": "2022-04-25 09:47:25",
+        "updated_at": "2022-04-25 09:47:25"
+    },
+    {
+        "id": 208,
+        "key": "files",
+        "created_at": "2022-04-26 04:34:53",
+        "updated_at": "2022-04-26 04:34:53"
+    },
+    {
+        "id": 209,
+        "key": "Result",
+        "created_at": "2022-04-26 04:37:49",
+        "updated_at": "2022-04-26 04:37:49"
+    },
+    {
+        "id": 210,
+        "key": "Home",
+        "created_at": "2022-04-26 04:45:08",
+        "updated_at": "2022-04-26 04:45:08"
+    },
+    {
+        "id": 211,
+        "key": "By status",
+        "created_at": "2022-04-26 04:45:30",
+        "updated_at": "2022-04-26 04:45:30"
+    },
+    {
+        "id": 212,
+        "key": "Biography",
+        "created_at": "2022-04-26 04:50:13",
+        "updated_at": "2022-04-26 04:50:13"
+    },
+    {
+        "id": 213,
+        "key": "Functions",
+        "created_at": "2022-04-26 04:50:48",
+        "updated_at": "2022-04-26 04:50:48"
+    },
+    {
+        "id": 214,
+        "key": "Send",
+        "created_at": "2022-04-26 04:58:16",
+        "updated_at": "2022-04-26 04:58:16"
+    },
+    {
+        "id": 215,
+        "key": "Create Authority",
+        "created_at": "2022-04-26 05:02:36",
+        "updated_at": "2022-04-26 05:02:36"
+    },
+    {
+        "id": 216,
+        "key": "Days",
+        "created_at": "2022-04-26 05:03:59",
+        "updated_at": "2022-04-26 05:03:59"
+    },
+    {
+        "id": 217,
+        "key": "More",
+        "created_at": "2022-04-26 05:05:29",
+        "updated_at": "2022-04-26 05:05:29"
+    },
+    {
+        "id": 218,
+        "key": "Create Step",
+        "created_at": "2022-04-26 05:06:09",
+        "updated_at": "2022-04-26 05:06:09"
+    },
+    {
+        "id": 219,
+        "key": "Search",
+        "created_at": "2022-04-26 05:06:56",
+        "updated_at": "2022-04-26 05:06:56"
+    },
+    {
+        "id": 220,
+        "key": "Create Holiday",
+        "created_at": "2022-04-26 05:07:49",
+        "updated_at": "2022-04-26 05:07:49"
+    },
+    {
+        "id": 221,
+        "key": "Search results",
+        "created_at": "2022-04-26 05:08:17",
+        "updated_at": "2022-04-26 05:08:17"
+    },
+    {
+        "id": 222,
+        "key": "Working Type",
+        "created_at": "2022-04-26 05:09:05",
+        "updated_at": "2022-04-26 05:09:05"
+    },
+    {
+        "id": 223,
+        "key": "Create Expert",
+        "created_at": "2022-04-26 05:10:25",
+        "updated_at": "2022-04-26 05:10:25"
+    },
+    {
+        "id": 224,
+        "key": "Create Category",
+        "created_at": "2022-04-26 05:12:36",
+        "updated_at": "2022-04-26 05:12:36"
+    },
+    {
+        "id": 225,
+        "key": "The application was considered",
+        "created_at": "2022-04-26 05:15:34",
+        "updated_at": "2022-04-26 05:15:34"
+    },
+    {
+        "id": 226,
+        "key": "The application was rejected",
+        "created_at": "2022-04-26 05:31:22",
+        "updated_at": "2022-04-26 05:31:22"
+    },
+    {
+        "id": 227,
+        "key": "Select role",
+        "created_at": "2022-04-26 05:32:07",
+        "updated_at": "2022-04-26 05:32:07"
+    },
+    {
+        "id": 228,
+        "key": "File field is required",
+        "created_at": "2022-04-26 05:49:34",
+        "updated_at": "2022-04-26 05:49:34"
+    },
+    {
+        "id": 229,
+        "key": "Signing",
+        "created_at": "2022-04-29 18:24:48",
+        "updated_at": "2022-04-29 18:24:48"
+    },
+    {
+        "id": 230,
+        "key": "Ministries and departments",
+        "created_at": "2022-04-29 18:28:57",
+        "updated_at": "2022-04-29 18:28:57"
+    },
+    {
+        "id": 231,
+        "key": "Group of Experts",
+        "created_at": "2022-04-29 18:29:41",
+        "updated_at": "2022-04-29 18:29:41"
+    },
+    {
+        "id": 232,
+        "key": "Successfully signed",
+        "created_at": "2022-04-29 18:30:48",
+        "updated_at": "2022-04-29 18:30:48"
+    },
+    {
+        "id": 233,
+        "key": "Protocols",
+        "created_at": "2022-05-11 10:37:49",
+        "updated_at": "2022-05-11 10:37:49"
+    },
+    {
+        "id": 234,
+        "key": "Create Protcol",
+        "created_at": "2022-05-11 10:38:59",
+        "updated_at": "2022-05-11 10:38:59"
+    },
+    {
+        "id": 235,
+        "key": "Protocol Number",
+        "created_at": "2022-05-11 10:39:43",
+        "updated_at": "2022-05-11 10:39:43"
+    },
+    {
+        "id": 236,
+        "key": "Create Protocol",
+        "created_at": "2022-05-11 10:40:11",
+        "updated_at": "2022-05-11 10:40:11"
+    },
+    {
+        "id": 237,
+        "key": "About Protocol",
+        "created_at": "2022-05-11 10:43:55",
+        "updated_at": "2022-05-11 10:43:55"
+    },
+    {
+        "id": 238,
+        "key": "Applications included in the protocol",
+        "created_at": "2022-05-11 10:44:37",
+        "updated_at": "2022-05-11 10:44:37"
+    },
+    {
+        "id": 239,
+        "key": "The total value of all applications",
+        "created_at": "2022-05-11 10:46:00",
+        "updated_at": "2022-05-11 10:46:00"
+    },
+    {
+        "id": 240,
+        "key": "Money",
+        "created_at": "2022-05-11 10:46:41",
+        "updated_at": "2022-05-11 10:46:41"
+    },
+    {
+        "id": 241,
+        "key": "Protocol",
+        "created_at": "2022-05-11 10:47:59",
+        "updated_at": "2022-05-11 10:47:59"
+    },
+    {
+        "id": 242,
+        "key": "At least one authority must be selected",
+        "created_at": "2022-05-25 11:27:32",
+        "updated_at": "2022-05-25 11:27:32"
+    },
+    {
+        "id": 243,
+        "key": "Oops Something went wrong",
+        "created_at": "2022-05-25 11:28:51",
+        "updated_at": "2022-05-25 11:28:51"
+    },
+    {
+        "id": 244,
+        "key": "Edc Sign",
+        "created_at": "2022-05-25 11:29:59",
+        "updated_at": "2022-05-25 11:29:59"
+    },
+    {
+        "id": 245,
+        "key": "Your role",
+        "created_at": "2022-05-25 11:32:52",
+        "updated_at": "2022-05-25 11:32:52"
+    },
+    {
+        "id": 246,
+        "key": "Closing the protocol",
+        "created_at": "2022-05-25 11:33:35",
+        "updated_at": "2022-05-25 11:33:35"
+    },
+    {
+        "id": 247,
+        "key": "Returned",
+        "created_at": "2022-05-25 11:36:51",
+        "updated_at": "2022-05-25 11:36:51"
+    },
+    {
+        "id": 248,
+        "key": "Updated At",
+        "created_at": "2022-05-25 15:55:57",
+        "updated_at": "2022-05-25 15:55:57"
+    },
+    {
+        "id": 249,
+        "key": "Organization Image",
+        "created_at": "2022-05-25 15:57:48",
+        "updated_at": "2022-05-25 15:57:48"
+    },
+    {
+        "id": 250,
+        "key": "Leader Image",
+        "created_at": "2022-05-25 15:58:24",
+        "updated_at": "2022-05-25 15:58:24"
+    },
+    {
+        "id": 251,
+        "key": "Authentification Logs",
+        "created_at": "2022-05-25 16:31:24",
+        "updated_at": "2022-05-25 16:31:24"
+    },
+    {
+        "id": 252,
+        "key": "App Config",
+        "created_at": "2022-05-25 16:33:31",
+        "updated_at": "2022-05-25 16:33:31"
+    },
+    {
+        "id": 253,
+        "key": "Configs",
+        "created_at": "2022-05-25 16:34:39",
+        "updated_at": "2022-05-25 16:34:39"
+    },
+    {
+        "id": 254,
+        "key": "Iron notebook",
+        "created_at": "2022-05-25 17:20:25",
+        "updated_at": "2022-05-25 17:20:25"
+    },
+    {
+        "id": 255,
+        "key": "Women's notebook",
+        "created_at": "2022-05-25 17:22:55",
+        "updated_at": "2022-05-25 17:22:55"
+    },
+    {
+        "id": 256,
+        "key": "Single register of social protection",
+        "created_at": "2022-05-25 17:26:23",
+        "updated_at": "2022-05-25 17:26:23"
+    },
+    {
+        "id": 257,
+        "key": "Information on medical and social expertise",
+        "created_at": "2022-05-25 17:30:03",
+        "updated_at": "2022-05-25 17:30:03"
+    },
+    {
+        "id": 258,
+        "key": "Select File",
+        "created_at": "2022-05-25 17:33:17",
+        "updated_at": "2022-05-25 17:33:17"
+    },
+    {
+        "id": 259,
+        "key": "Close",
+        "created_at": "2022-05-25 17:55:49",
+        "updated_at": "2022-05-25 17:55:49"
+    },
+    {
+        "id": 260,
+        "key": "Signed",
+        "created_at": "2022-05-26 11:28:51",
+        "updated_at": "2022-05-26 11:28:51"
+    },
+    {
+        "id": 261,
+        "key": "Disagree Expert List",
+        "created_at": "2022-05-26 11:32:24",
+        "updated_at": "2022-05-26 11:32:24"
+    },
+    {
+        "id": 262,
+        "key": "Name",
+        "created_at": "2022-05-26 11:33:24",
+        "updated_at": "2022-05-26 11:33:24"
+    },
+    {
+        "id": 263,
+        "key": "Position",
+        "created_at": "2022-05-26 11:34:11",
+        "updated_at": "2022-05-26 11:34:11"
+    },
+    {
+        "id": 264,
+        "key": "file",
+        "created_at": "2022-05-26 11:34:36",
+        "updated_at": "2022-05-26 11:34:36"
+    },
+    {
+        "id": 265,
+        "key": "Choose the key",
+        "created_at": "2022-05-26 11:35:57",
+        "updated_at": "2022-05-26 11:35:57"
+    },
+    {
+        "id": 266,
+        "key": "Create Management Category",
+        "created_at": "2022-05-26 14:50:10",
+        "updated_at": "2022-05-26 14:50:10"
+    },
+    {
+        "id": 267,
+        "key": "Site Logs",
+        "created_at": "2022-05-26 14:55:28",
+        "updated_at": "2022-05-26 14:55:28"
+    },
+    {
+        "id": 268,
+        "key": "New Protocols",
+        "created_at": "2022-05-26 14:59:47",
+        "updated_at": "2022-05-26 14:59:47"
+    },
+    {
+        "id": 269,
+        "key": "Disagree count",
+        "created_at": "2022-05-26 18:26:07",
+        "updated_at": "2022-05-26 18:26:07"
+    },
+    {
+        "id": 270,
+        "key": "Andijan region",
+        "created_at": "2022-05-27 10:34:56",
+        "updated_at": "2022-05-27 10:34:56"
+    },
+    {
+        "id": 271,
+        "key": "The Republic of Karakalpakstan",
+        "created_at": "2022-05-27 10:45:34",
+        "updated_at": "2022-05-27 10:45:34"
+    },
+    {
+        "id": 272,
+        "key": "Tashkent",
+        "created_at": "2022-05-27 10:48:03",
+        "updated_at": "2022-05-27 10:48:03"
+    },
+    {
+        "id": 273,
+        "key": "Tashkent Region",
+        "created_at": "2022-05-27 10:49:07",
+        "updated_at": "2022-05-27 10:49:07"
+    },
+    {
+        "id": 274,
+        "key": "Comment field is required",
+        "created_at": "2022-05-30 12:42:49",
+        "updated_at": "2022-05-30 12:42:49"
+    },
+    {
+        "id": 275,
+        "key": "File field is required",
+        "created_at": "2022-05-30 12:45:33",
+        "updated_at": "2022-05-30 12:45:33"
+    },
+    {
+        "id": 276,
+        "key": "Sign field is required",
+        "created_at": "2022-05-30 12:46:44",
+        "updated_at": "2022-05-30 12:46:44"
+    },
+    {
+        "id": 277,
+        "key": "Please fill the protocol number",
+        "created_at": "2022-05-30 12:47:48",
+        "updated_at": "2022-05-30 12:47:48"
+    },
+    {
+        "id": 278,
+        "key": "Result field is required",
+        "created_at": "2022-05-30 12:49:44",
+        "updated_at": "2022-05-30 12:49:44"
+    },
+    {
+        "id": 279,
+        "key": "At least one authority must be selected",
+        "created_at": "2022-05-30 12:51:03",
+        "updated_at": "2022-05-30 12:51:03"
+    },
+    {
+        "id": 280,
+        "key": "Upload at least one of the following files",
+        "created_at": "2022-05-30 12:52:11",
+        "updated_at": "2022-05-30 12:52:11"
+    },
+    {
+        "id": 281,
+        "key": "Actions",
+        "created_at": "2022-06-27 18:21:10",
+        "updated_at": "2022-06-27 18:21:10"
+    },
+    {
+        "id": 282,
+        "key": "Step Action",
+        "created_at": "2022-06-27 18:26:21",
+        "updated_at": "2022-06-27 18:26:21"
+    },
+    {
+        "id": 283,
+        "key": "Bukhara region",
+        "created_at": "2022-07-13 15:05:59",
+        "updated_at": "2022-07-13 15:05:59"
+    },
+    {
+        "id": 284,
+        "key": "Kashkadarya region",
+        "created_at": "2022-07-13 15:06:58",
+        "updated_at": "2022-07-13 15:06:58"
+    },
+    {
+        "id": 285,
+        "key": "Navoi region",
+        "created_at": "2022-07-13 15:07:23",
+        "updated_at": "2022-07-13 15:07:23"
+    },
+    {
+        "id": 286,
+        "key": "Samarkand region",
+        "created_at": "2022-07-13 15:07:53",
+        "updated_at": "2022-07-13 15:07:53"
+    },
+    {
+        "id": 287,
+        "key": "Sirdarya region",
+        "created_at": "2022-07-13 15:08:22",
+        "updated_at": "2022-07-13 15:08:22"
+    },
+    {
+        "id": 288,
+        "key": "Fergana region",
+        "created_at": "2022-07-13 15:08:53",
+        "updated_at": "2022-07-13 15:08:53"
+    },
+    {
+        "id": 289,
+        "key": "Jizzakh region",
+        "created_at": "2022-07-13 15:09:21",
+        "updated_at": "2022-07-13 15:09:21"
+    },
+    {
+        "id": 290,
+        "key": "Namangan region",
+        "created_at": "2022-07-13 15:09:50",
+        "updated_at": "2022-07-13 15:09:50"
+    },
+    {
+        "id": 291,
+        "key": "Surkhandarya region",
+        "created_at": "2022-07-13 15:10:19",
+        "updated_at": "2022-07-13 15:10:19"
+    },
+    {
+        "id": 292,
+        "key": "Khorezm region",
+        "created_at": "2022-07-13 15:10:52",
+        "updated_at": "2022-07-13 15:10:52"
+    },
+    {
+        "id": 293,
+        "key": "Send to the board of trustees",
+        "created_at": "2022-07-13 15:11:21",
+        "updated_at": "2022-07-13 15:11:21"
+    },
+    {
+        "id": 294,
+        "key": "Transfer to the general application",
+        "created_at": "2022-07-13 15:12:08",
+        "updated_at": "2022-07-13 15:12:08"
+    },
+    {
+        "id": 295,
+        "key": "The uploaded file's size must be no more than 10mb",
+        "created_at": "2022-08-02 14:11:15",
+        "updated_at": "2022-08-02 14:11:15"
+    },
+    {
+        "id": 296,
+        "key": "Donations needed",
+        "created_at": "2022-08-08 09:56:47",
+        "updated_at": "2022-08-08 09:56:47"
+    },
+    {
+        "id": 297,
+        "key": "Charity",
+        "created_at": "2022-08-08 11:00:03",
+        "updated_at": "2022-08-08 11:00:03"
+    },
+    {
+        "id": 298,
+        "key": "Charities",
+        "created_at": "2022-08-08 11:01:05",
+        "updated_at": "2022-08-08 11:01:05"
+    },
+    {
+        "id": 299,
+        "key": "Funds",
+        "created_at": "2022-08-08 11:02:21",
+        "updated_at": "2022-08-08 11:02:21"
+    },
+    {
+        "id": 300,
+        "key": "Statistics",
+        "created_at": "2022-08-08 11:03:13",
+        "updated_at": "2022-08-08 11:03:13"
+    },
+    {
+        "id": 301,
+        "key": "Collected",
+        "created_at": "2022-08-11 10:29:18",
+        "updated_at": "2022-08-11 10:29:18"
+    },
+    {
+        "id": 302,
+        "key": "Required",
+        "created_at": "2022-08-11 10:30:06",
+        "updated_at": "2022-08-11 10:30:06"
+    },
+    {
+        "id": 303,
+        "key": "Diagnosis",
+        "created_at": "2022-08-11 10:30:57",
+        "updated_at": "2022-08-11 10:30:57"
+    },
+    {
+        "id": 304,
+        "key": "Support",
+        "created_at": "2022-08-11 10:32:09",
+        "updated_at": "2022-08-11 10:32:09"
+    },
+    {
+        "id": 305,
+        "key": "years old",
+        "created_at": "2022-08-11 10:33:44",
+        "updated_at": "2022-08-11 10:33:44"
+    },
+    {
+        "id": 306,
+        "key": "Need",
+        "created_at": "2022-08-12 11:25:58",
+        "updated_at": "2022-08-12 11:25:58"
+    },
+    {
+        "id": 307,
+        "key": "Other ways",
+        "created_at": "2022-08-12 11:27:06",
+        "updated_at": "2022-08-12 11:27:06"
+    },
+    {
+        "id": 308,
+        "key": "It remains to collect",
+        "created_at": "2022-08-12 11:28:26",
+        "updated_at": "2022-08-12 11:28:26"
+    },
+    {
+        "id": 309,
+        "key": "Select the currency in which you want to make a donation",
+        "created_at": "2022-08-12 11:30:05",
+        "updated_at": "2022-08-12 11:30:05"
+    },
+    {
+        "id": 310,
+        "key": "Choose a payment method",
+        "created_at": "2022-08-12 11:31:04",
+        "updated_at": "2022-08-12 11:31:04"
+    },
+    {
+        "id": 311,
+        "key": "Donation amount",
+        "created_at": "2022-08-12 11:32:05",
+        "updated_at": "2022-08-12 11:32:05"
+    },
+    {
+        "id": 312,
+        "key": "Donate",
+        "created_at": "2022-08-12 11:32:58",
+        "updated_at": "2022-08-12 11:32:58"
+    },
+    {
+        "id": 313,
+        "key": "Attention!",
+        "created_at": "2022-08-12 11:33:44",
+        "updated_at": "2022-08-12 11:33:44"
+    },
+    {
+        "id": 314,
+        "key": "sum",
+        "created_at": "2022-08-12 11:35:39",
+        "updated_at": "2022-08-12 11:35:39"
+    },
+    {
+        "id": 315,
+        "key": "Attention",
+        "created_at": "2022-08-24 09:06:16",
+        "updated_at": "2022-08-24 09:06:26"
+    },
+    {
+        "id": 316,
+        "key": "Your card details are transmitted only in encrypted form and are not stored on our website",
+        "created_at": "2022-08-24 09:45:48",
+        "updated_at": "2022-08-24 09:45:48"
+    },
+    {
+        "id": 317,
+        "key": "By clicking on the \"Donate\" button, I accept the terms of the public offer",
+        "created_at": "2022-08-24 09:47:34",
+        "updated_at": "2022-08-24 09:47:34"
+    },
+    {
+        "id": 318,
+        "key": "All charities",
+        "created_at": "2022-08-25 09:14:02",
+        "updated_at": "2022-08-25 09:14:02"
+    },
+    {
+        "id": 319,
+        "key": "Street",
+        "created_at": "2022-08-26 15:41:50",
+        "updated_at": "2022-08-26 15:41:50"
+    },
+    {
+        "id": 320,
+        "key": "Public Fund",
+        "created_at": "2022-08-30 09:16:30",
+        "updated_at": "2022-08-30 09:16:52"
+    },
+    {
+        "id": 321,
+        "key": "At least one language should be filled",
+        "created_at": "2022-09-20 10:11:22",
+        "updated_at": "2022-09-20 10:11:22"
+    },
+    {
+        "id": 322,
+        "key": "Round-the-clock phone",
+        "created_at": "2022-09-20 10:15:54",
+        "updated_at": "2022-09-20 10:16:22"
+    },
+    {
+        "id": 323,
+        "key": "Virtual reception",
+        "created_at": "2022-09-20 10:18:41",
+        "updated_at": "2022-09-20 10:18:41"
+    },
+    {
+        "id": 324,
+        "key": "Republican ambulance center",
+        "created_at": "2022-09-20 10:20:24",
+        "updated_at": "2022-09-20 10:20:24"
+    },
+    {
+        "id": 325,
+        "key": "Welcome to the website of the Republican Ambulance Center",
+        "created_at": "2022-09-20 10:23:41",
+        "updated_at": "2022-09-20 10:23:41"
+    },
+    {
+        "id": 326,
+        "key": "Learn more",
+        "created_at": "2022-09-20 10:26:37",
+        "updated_at": "2022-09-20 10:26:37"
+    },
+    {
+        "id": 327,
+        "key": "Our services",
+        "created_at": "2022-09-20 10:29:21",
+        "updated_at": "2022-09-20 10:29:21"
+    },
+    {
+        "id": 328,
+        "key": "Regional divisions",
+        "created_at": "2022-09-20 10:30:43",
+        "updated_at": "2022-09-20 10:30:43"
+    },
+    {
+        "id": 329,
+        "key": "Our doctors are guided by the main principle of their work: \"The interests of patients are above all!\"",
+        "created_at": "2022-09-20 10:36:31",
+        "updated_at": "2022-09-20 10:36:31"
+    },
+    {
+        "id": 330,
+        "key": "Published",
+        "created_at": "2022-09-20 10:37:49",
+        "updated_at": "2022-09-20 10:37:49"
+    },
+    {
+        "id": 331,
+        "key": "News of the center",
+        "created_at": "2022-09-20 10:39:06",
+        "updated_at": "2022-09-20 10:39:06"
+    },
+    {
+        "id": 332,
+        "key": "Photo and video gallery",
+        "created_at": "2022-09-20 10:50:01",
+        "updated_at": "2022-09-20 10:50:01"
+    },
+    {
+        "id": 333,
+        "key": "Our international partners",
+        "created_at": "2022-09-20 10:51:33",
+        "updated_at": "2022-09-20 10:51:33"
+    },
+    {
+        "id": 334,
+        "key": "All PhotoGallery",
+        "created_at": "2022-09-20 10:52:52",
+        "updated_at": "2022-09-20 10:52:52"
+    },
+    {
+        "id": 335,
+        "key": "All VideoGallery",
+        "created_at": "2022-09-20 10:53:29",
+        "updated_at": "2022-09-20 10:53:29"
+    },
+    {
+        "id": 336,
+        "key": "Useful links",
+        "created_at": "2022-09-20 10:54:28",
+        "updated_at": "2022-09-20 10:54:28"
+    },
+    {
+        "id": 337,
+        "key": "Share",
+        "created_at": "2022-09-20 10:55:36",
+        "updated_at": "2022-09-20 10:55:36"
+    },
+    {
+        "id": 338,
+        "key": "All rights reserved",
+        "created_at": "2022-09-20 10:56:49",
+        "updated_at": "2022-09-20 10:57:06"
+    },
+    {
+        "id": 339,
+        "key": "Attention! If you find an error in the text, highlight it and press Ctrl+Enter to notify the administration",
+        "created_at": "2022-09-20 10:58:55",
+        "updated_at": "2022-09-20 10:58:55"
+    },
+    {
+        "id": 340,
+        "key": "Lunch",
+        "created_at": "2022-09-20 10:59:35",
+        "updated_at": "2022-09-20 10:59:35"
+    }
 ]

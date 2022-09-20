@@ -29,7 +29,7 @@ class UsefulCategory extends Component
 
         $query = ListCategory::query()->where('list_type_id', 6);
 
-        $usefulParent = ListCategory::where('list_type_id', 6)->where('parent_id', 0)->get();
+        $usefulParent = ListCategory::where('list_type_id', 6)->get();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);

@@ -8,7 +8,7 @@
                 <span>{{ tr('Photo and video gallery') }}</span>
             </div>
             <div class="main-deacription">
-                <span>{{ tr('Our doctors are guided by the main principle of their work: "The interests of patients are above all!"') }}</span>
+                <span>{{ tr('An immersion into our sphere through the prism of our photos and videos') }}</span>
             </div>
             <div class="main-hr"></div>
         </div>

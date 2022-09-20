@@ -29,7 +29,7 @@ class PagesCategory extends Component
 
         $query = ListCategory::query()->where('list_type_id', 5);
 
-        $pagesParent = ListCategory::where('list_type_id', 5)->where('parent_id', 0)->get();
+        $pagesParent = ListCategory::where('list_type_id', 5)->get();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);

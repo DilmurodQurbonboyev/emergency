@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-xl-4 col-md-6">
                 <div class="f-logo">
-                    <a href="#">
+                    <a href="/">
                         <div class="f-logo-in">
                             <img src="{{ asset('img/f-logo.svg') }}" alt="logo">
-                            <span>{{ tr('Republican ambulance center') }}</span>
+                            <span>{!! tr('Republican ambulance center') !!}</span>
                         </div>
                     </a>
                 </div>
@@ -137,7 +137,7 @@
             </div>
             <div class="col-xxl-3 col-xl-12">
                 <div class="uzinfocom">
-                    <a href="#">
+                    <a href="https://uzinfocom.uz">
                         <img src="{{ asset('img/uzinfocom.png') }}" alt="uzinfocom">
                     </a>
                 </div>

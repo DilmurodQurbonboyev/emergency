@@ -29,7 +29,7 @@ class LinkCategory extends Component
 
         $query = ListCategory::query()->where('list_type_id', ListType::LINKS);
 
-        $linkParent = ListCategory::query()->where('list_type_id', ListType::LINKS)->where('parent_id', 0)->get();
+        $linkParent = ListCategory::query()->where('list_type_id', ListType::LINKS)->get();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);

@@ -30,7 +30,7 @@ class VideosCategory extends Component
 
         $query = ListCategory::query()->where('list_type_id', 8);
 
-        $videosParent = ListCategory::where('list_type_id', 8)->where('parent_id', 0)->get();
+        $videosParent = ListCategory::where('list_type_id', 8)->get();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);

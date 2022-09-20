@@ -8,7 +8,7 @@
                 <span>{{ tr('Useful links') }}</span>
             </div>
             <div class="main-deacription">
-                <span>{{ tr('Our doctors are guided by the main principle of their work') }}</span>
+                <span>{{ tr('This is an opportunity to get acquainted and go to other useful resources and to the websites of state bodies.') }}</span>
             </div>
             <div class="main-hr"></div>
         </div>

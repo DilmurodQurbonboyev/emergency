@@ -15,7 +15,7 @@
                                     <div class="post-right">
                                         <div class="post-date">
                                             <img src="{{ asset('img/post.png') }}">
-                                            <span>{{ tr('Published') }}: {{ displayDateOnly($block->created_at) }}</span>
+                                            <span>{{ tr('Published') }}: {{ displayDateOnly($block->date) }}</span>
                                         </div>
                                         <div class="post-title">
                                             <span>{{ $block->title ?? '' }}</span>

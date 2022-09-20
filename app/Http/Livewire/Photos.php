@@ -30,7 +30,7 @@ class Photos extends Component
     public function render()
     {
         $users = User::all();
-        $photosCategories = ListCategory::where('list_type_id', 7)->where('parent_id', 0)->get();
+        $photosCategories = ListCategory::where('list_type_id', 7)->get();
         $query = Lists::query()->where('list_type_id', 7);
 
         $query->when($this->filter_id != "", function ($q) {

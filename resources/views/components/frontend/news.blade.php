@@ -9,7 +9,7 @@
                 <span>{{ tr('News of the center') }}</span>
             </div>
             <div class="main-deacription">
-                <span>{{ tr('Our doctors are guided by the main principle of their work: "The interests of patients are above all!"') }}</span>
+                <span>{{ tr('We always inform you about our achievements and publish the latest news') }}</span>
             </div>
             <div class="main-hr"></div>
         </div>
