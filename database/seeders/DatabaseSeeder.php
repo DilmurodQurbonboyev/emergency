@@ -53,9 +53,9 @@ class DatabaseSeeder extends Seeder
         $this->call(MCategoryTranslationSeeder::class);
         $this->call(MenuSeeder::class);
         $this->call(MenuTranslationSeeder::class);
-        $this->call(ListSeeder::class);
-        $this->call(ListsTranslationSeeder::class);
-        $this->call(ManagementSeeder::class);
-        $this->call(ManagementTranslationSeeder::class);
+//        $this->call(ListSeeder::class);
+//        $this->call(ListsTranslationSeeder::class);
+//        $this->call(ManagementSeeder::class);
+//        $this->call(ManagementTranslationSeeder::class);
     }
 }
