@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\SiteController;
@@ -24,15 +25,25 @@ Route::prefix(LaravelLocalization::setLocale())
             ->group(function () {
                 Route::get('/', 'index');
                 Route::get('/search', 'search')->name('search');
-
                 Route::get('/category/{slug}', 'category')->name('category');
-
+                Route::get('/leader/{slug}', 'leader')->name('leader');
+                Route::get('/region/{slug}', 'region')->name('region');
+                Route::get('/about/{slug}', 'about')->name('about');
                 Route::get('/news/{slug}', 'news')->name('news');
-
+                Route::get('/pages/{slug}', 'pages')->name('pages');
+                Route::get('/documents/{slug}', 'documents')->name('documents');
+                Route::get('/contact', 'contact')->name('contact');
                 Route::get('rss', 'rss');
             });
+
+        Route::fallback(function () {
+            return view('frontend.errors.404');
+        });
+
+        Route::get('clear', function () {
+            Artisan::call('optimize:clear');
+            return redirect('/');
+        });
     });
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

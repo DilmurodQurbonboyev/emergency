@@ -62,7 +62,7 @@
                                 <a data-fancybox="video-gallery"
                                    href="https://www.youtube.com/watch?v={{ $media->video_code }}">
                                     <div class="media-out play">
-                                        <img src="https://xabar.uz/static/crop/3/5/736_736_95_3501462813.jpg">
+                                        <img src="{{ $media->image ?? '' }}">
                                     </div>
                                 </a>
                             </div>
@@ -74,8 +74,8 @@
     </div>
     <div class="container">
         <div class="news-all">
-            <a href="#">{{ tr('All PhotoGallery') }}</a>
-            <a href="#">{{ tr('All VideoGallery') }}</a>
+            <a href="{{ route('category', 'fotogalereya') }}">{{ tr('All PhotoGallery') }}</a>
+            <a href="{{ route('category', 'videogalereya') }}">{{ tr('All VideoGallery') }}</a>
         </div>
     </div>
 </section>

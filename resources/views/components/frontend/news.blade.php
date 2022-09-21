@@ -8,7 +8,7 @@
     <div class="container">
         <div class="main-title">
             <div class="main-icon">
-                <img src="{{ asset('img/main.png')}}">
+                <img src="{{ asset('img/main.png')}}" alt="main">
             </div>
             <div class="main-title-in">
                 <span>{{ tr('News of the center') }}</span>
@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="news-all">
-            <a href="#">{{ tr('All news') }}</a>
+            <a href="{{ route('category', 'yangiliklar') }}">{{ tr('All news') }}</a>
         </div>
     </div>
 </section>

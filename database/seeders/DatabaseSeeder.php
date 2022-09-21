@@ -59,7 +59,7 @@ class DatabaseSeeder extends Seeder
         $this->call(MessageTranslationSeeder::class);
         $this->call(ListSeeder::class);
         $this->call(ListsTranslationSeeder::class);
-//        $this->call(ManagementSeeder::class);
-//        $this->call(ManagementTranslationSeeder::class);
+        $this->call(ManagementSeeder::class);
+        $this->call(ManagementTranslationSeeder::class);
     }
 }

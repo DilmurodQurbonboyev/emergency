@@ -14,7 +14,7 @@
                                 <div class="col-xl-6 g-0">
                                     <div class="post-right">
                                         <div class="post-date">
-                                            <img src="{{ asset('img/post.png') }}">
+                                            <img src="{{ asset('img/post.png') }}" alt="post">
                                             <span>{{ tr('Published') }}: {{ displayDateOnly($block->date) }}</span>
                                         </div>
                                         <div class="post-title">

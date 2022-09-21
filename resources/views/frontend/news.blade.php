@@ -19,13 +19,13 @@
         <div class="container">
             <div class="main-title">
                 <div class="main-icon">
-                    <img src="{{ asset('img/main.png') }}">
+                    <img src="{{ asset('img/main.png') }}" alt="main">
                 </div>
-                <div class="main-title-in">
+                <div class="main-title-in d-none">
                     <span>{{ $category->title }}</span>
                 </div>
-                <div class="main-deacription">
-                    <span>Наши врачи руководствуются главным принципом своей работы: «Интересы пациентов — превыше всего!»</span>
+                <div class="main-deacription p-2">
+                    <span>{{ tr('We always inform you about our achievements and publish the latest news') }}</span>
                 </div>
                 <div class="main-hr"></div>
             </div>
@@ -35,7 +35,7 @@
                         <div class="col-xl-4 col-md-6">
                             <div class="news-page">
                                 <div class="news-image">
-                                    <a href="#">
+                                    <a href="{{ route('news', $list->slug) }}">
                                         <img
                                             src="{{ $list->anons_image ?? ''}}" alt="{{ $list->title ?? '' }}">
                                     </a>
@@ -43,16 +43,16 @@
                                 <div class="date-category">
                                     <span>{{ displayDateOnly($list->date) }}</span>
                                     <span> | </span>
-                                    <a href="#">{{ $list->category_title ?? '' }}</a>
+                                    <a href="{{ route('news', $list->slug) }}">{{ $list->category_title ?? '' }}</a>
                                 </div>
                                 <div class="news-title">
-                                    <a href="#">Истеъмолчиларга сифатли нефть маҳсулотлари етказилиши…</a>
+                                    <a href="{{ route('news', $list->slug) }}">{{ $list->title ?? '' }}</a>
                                 </div>
                                 <div class="news-description">
-                                    <span>Нефть, газ ҳамда газ конденсати қазиб чиқариш, қайта ишлаш ва сотиш, фаолиятига лицензия олиш учун… “Ўзнефтгазинспекция” ҳудудий бўлимлари томонидан . . . ўрнатилган технологик жараёнлар ва асбоб-ускуналарнинг</span>
+                                    <span>{!! $list->description ?? '' !!}</span>
                                 </div>
                                 <div class="news-link">
-                                    <a href="#">Батафсил</a>
+                                    <a href="{{ route('news', $list->slug) }}">{{ tr('More') }}</a>
                                 </div>
                             </div>
                         </div>

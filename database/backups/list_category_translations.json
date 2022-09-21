@@ -190,5 +190,29 @@
         "list_category_id": 8,
         "title": "Documents",
         "locale": "en"
+    },
+    {
+        "id": 33,
+        "list_category_id": 9,
+        "title": "Markaz haqida",
+        "locale": "oz"
+    },
+    {
+        "id": 34,
+        "list_category_id": 9,
+        "title": "Марказ ҳақида",
+        "locale": "uz"
+    },
+    {
+        "id": 35,
+        "list_category_id": 9,
+        "title": "О центре",
+        "locale": "ru"
+    },
+    {
+        "id": 36,
+        "list_category_id": 9,
+        "title": "About centre",
+        "locale": "en"
     }
 ]

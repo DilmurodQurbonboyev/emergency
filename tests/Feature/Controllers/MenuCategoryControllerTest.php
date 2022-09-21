@@ -8,20 +8,9 @@ use Tests\TestCase;
 
 class MenuCategoryControllerTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
-    public function test_example()
-    {
-        $response = $this->get('/');
-
-        $response->assertStatus(200);
-    }
-
     public function testIndex()
     {
-
+        $response = $this->get('/admin/menus-category');
+        $response->assertStatus(200);
     }
 }

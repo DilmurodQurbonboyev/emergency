@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-xl-9 gx-0">
                         <div class="banner-right">
-                            <img src="{{ asset('img/banner.png') }}">
+                            <img src="{{ asset('img/banner.png') }}" alt="banner">
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                                 </span>
                         </div>
                         <div class="banner-link">
-                            <a class="banner-link-left" href="#">{{ tr('Learn more') }}</a>
+                            <a class="banner-link-left" href="{{ route('about', 'markaz-haqida') }}">{{ tr('Learn more') }}</a>
                             <a class="banner-link-right" href="#">{{ tr('Our services') }}</a>
                         </div>
                     </div>

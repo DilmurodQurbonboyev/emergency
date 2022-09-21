@@ -82,7 +82,108 @@ button:focus {
 }
 /*===rgba(28, 61, 129, 1.0)=====*/
 /*-------------all--------------*/
-/*=============news list========*/
+/*=============about============*/
+.about-img {}
+.about-img img {
+    width: 100%;
+}
+.about-text {
+    margin-top: 15px;
+    text-align: justify;
+}
+.about-title {
+    margin-top: 30px;
+}
+/*-------------about------------*/
+/*=============pdf==============*/
+.pdf-out {
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #cfe2ff;
+    border: 1px solid #b6d4fe;
+    margin-top: 15px;
+}
+.pdf-left {
+    margin-right: 15px;
+}
+.pdf-left a {}
+.pdf-left a img {}
+.pdf-right {}
+.pdf-name {}
+.pdf-name span {
+    font-family: "Roboto-500";
+}
+.pdf-download {}
+.pdf-download a {
+    color: #084298;
+}
+.pdf-in {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #cfe2ff;
+    border: 1px solid #b6d4fe;
+    margin-top: 15px;
+}
+/*-------------pdf--------------*/
+/*=============office===========*/
+.office {}
+.office .region-right-in {
+    padding-bottom: 15px;
+}
+.office .no-border {
+    border-bottom-color: transparent;
+}
+@media (min-width: 576px) {
+    .office .region-right-in {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 575px) {
+    .office .region-right-in {
+        margin-top: 15px;
+    }
+}
+
+/*-------------office-----------*/
+/*=============news-detail======*/
+.news-content {
+    margin-top: 15px;
+}
+.owl-news {
+    margin-right: 25px;
+    padding-bottom: 5px;
+}
+.owl-news .owl-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+.owl-news .owl-nav button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.owl-news .owl-nav {}
+.news-content-in {
+    text-align: justify;
+}
+.pages-date {
+    font-family: "Roboto-500";
+    color: rgba(28, 61, 129, 1);
+    margin-right: 15px;
+}
+@media (min-width: 1200px) {
+    .owl-news {
+        width: 500px;
+        float: left;
+    }
+}
+@media (min-width: 1400px) {
+    .owl-news {
+        width: 600px;
+    }
+}
+/*-------------news-detail------*/
+/*=============news-list========*/
 .news-page {
     padding: 15px;
     box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.12);
@@ -153,7 +254,7 @@ button:focus {
         margin-top: 30px;
     }
 }
-/*-------------news list--------*/
+/*-------------news-list--------*/
 /*=============pagination=======*/
 .page-pagination {
     margin-top: 30px;
@@ -164,6 +265,10 @@ button:focus {
 }
 .page-pagination nav ul li a {
     color: rgba(13, 64, 119, 1);
+}
+.page-pagination nav .pagination .page-item.active a {
+    background-color: rgba(13, 64, 119, 1);
+    border-color: rgba(13, 64, 119, 1);
 }
 /*-------------pagination-------*/
 /*=============page=============*/
@@ -1155,6 +1260,30 @@ footer {
     max-width: 500px;
 }
 .main-hr {
+    border-top: 2px solid rgba(207, 44, 48, 1);
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.pages-title {
+    text-align: center;
+}
+.pages-icon {}
+.pages-icon img {}
+.pages-title-in {}
+.pages-title-in span {
+    font-family: "Roboto-500";
+    font-size: 30px;
+    color: rgba(28, 28, 28, 1);
+}
+.pages-deacription {}
+.pages-deacription span {
+    color: rgba(92, 92, 92, 1);
+    display: inline-block;
+    font-size: 18px;
+}
+.pages-hr {
     border-top: 2px solid rgba(207, 44, 48, 1);
     width: 60px;
     margin-left: auto;

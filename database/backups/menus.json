@@ -106,7 +106,7 @@
     },
     {
         "id": 8,
-        "link": "#",
+        "link": "/pages/markaz-haqida",
         "link_type": 1,
         "image": null,
         "parent_id": 2,
@@ -114,10 +114,10 @@
         "status": 2,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 11:55:10",
-        "updated_at": "2022-09-20 11:55:10"
+        "updated_at": "2022-09-21 16:41:56"
     },
     {
         "id": 9,
@@ -216,13 +216,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:23:49",
-        "updated_at": "2022-09-20 12:23:49"
+        "updated_at": "2022-09-21 16:32:22"
     },
     {
         "id": 16,
@@ -231,13 +231,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:25:04",
-        "updated_at": "2022-09-20 12:25:04"
+        "updated_at": "2022-09-21 16:32:39"
     },
     {
         "id": 17,
@@ -246,13 +246,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:26:22",
-        "updated_at": "2022-09-20 12:26:22"
+        "updated_at": "2022-09-21 16:32:51"
     },
     {
         "id": 18,
@@ -261,13 +261,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:28:14",
-        "updated_at": "2022-09-20 12:28:14"
+        "updated_at": "2022-09-21 16:33:02"
     },
     {
         "id": 19,
@@ -276,13 +276,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:29:46",
-        "updated_at": "2022-09-20 12:29:46"
+        "updated_at": "2022-09-21 16:33:16"
     },
     {
         "id": 20,
@@ -291,13 +291,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:30:33",
-        "updated_at": "2022-09-20 12:30:33"
+        "updated_at": "2022-09-21 16:33:28"
     },
     {
         "id": 21,
@@ -306,13 +306,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:31:33",
-        "updated_at": "2022-09-20 12:31:33"
+        "updated_at": "2022-09-21 16:33:40"
     },
     {
         "id": 22,
@@ -321,13 +321,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:36:14",
-        "updated_at": "2022-09-20 12:36:14"
+        "updated_at": "2022-09-21 16:33:51"
     },
     {
         "id": 23,
@@ -336,13 +336,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:38:14",
-        "updated_at": "2022-09-20 12:38:14"
+        "updated_at": "2022-09-21 16:34:06"
     },
     {
         "id": 24,
@@ -351,13 +351,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:39:28",
-        "updated_at": "2022-09-20 12:39:28"
+        "updated_at": "2022-09-21 16:34:21"
     },
     {
         "id": 25,
@@ -366,13 +366,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:40:20",
-        "updated_at": "2022-09-20 12:40:20"
+        "updated_at": "2022-09-21 16:34:38"
     },
     {
         "id": 26,
@@ -381,13 +381,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:41:45",
-        "updated_at": "2022-09-20 12:41:45"
+        "updated_at": "2022-09-21 16:34:52"
     },
     {
         "id": 27,
@@ -396,13 +396,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:43:06",
-        "updated_at": "2022-09-20 12:43:06"
+        "updated_at": "2022-09-21 16:35:07"
     },
     {
         "id": 28,
@@ -411,13 +411,13 @@
         "image": null,
         "parent_id": 4,
         "menus_category_id": 1,
-        "status": 2,
+        "status": 1,
         "order": 50,
         "creator_id": 2,
         "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 12:44:43",
-        "updated_at": "2022-09-20 12:45:39"
+        "updated_at": "2022-09-21 16:35:22"
     },
     {
         "id": 29,

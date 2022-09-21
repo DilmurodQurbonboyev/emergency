@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Models\Lists;
 use App\Helpers\ListType;
+use App\Models\Management;
+use App\Models\MCategory;
 use Illuminate\Http\Request;
 use App\Models\ListCategory;
 use Illuminate\Http\Response;
@@ -15,6 +17,35 @@ class SiteController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function leader($slug)
+    {
+        $category = MCategory::query()
+            ->where('slug', $slug)
+            ->where('status', 2)
+            ->with(
+                [
+                    'translations' => function ($query) {
+                        $query->where('locale', app()->getLocale());
+                    },
+                ]
+            )
+            ->first();
+
+        if ($category->id == 1) {
+            $view = 'frontend.regional';
+        }else {
+            $view = 'frontend.management';
+        }
+
+        $leaders = Management::query()
+            ->where('m_category_id', $category->id)
+            ->orderBy('order')
+            ->where('status', 2)
+            ->paginate(12);
+        return view($view, compact('leaders', 'category'));
+    }
+
 
     public function category($slug)
     {
@@ -91,6 +122,85 @@ class SiteController extends Controller
 
         return view ($view, compact('lists', 'category'));
     }
+
+    public function news($slug)
+    {
+        $list = Lists::query()
+            ->where('slug', $slug)
+            ->with(
+                [
+                    'translations' => function ($query) {
+                        $query->where('locale', app()->getLocale());
+                    }
+                ]
+            )
+            ->first();
+
+        if (is_null($list)) {
+            return view('frontend.errors.404');
+        }
+
+        $listKey = 'news_' . $list->id;
+        if (!session()->has($listKey)) {
+            $list->increment('count_view');
+            session()->put($listKey, 1);
+        }
+
+        return view("frontend.detail", compact('list'));
+    }
+
+    public function pages($slug)
+    {
+        $list = Lists::query()
+            ->where('slug', $slug)
+            ->with(
+                [
+                    'translations' => function ($query) {
+                        $query->where('locale', app()->getLocale());
+                    }
+                ]
+            )
+            ->first();
+
+        if (is_null($list)) {
+            return view('frontend.errors.404');
+        }
+
+        $listKey = 'pages_' . $list->id;
+        if (!session()->has($listKey)) {
+            $list->increment('count_view');
+            session()->put($listKey, 1);
+        }
+
+        return view("frontend.detail", compact('list'));
+    }
+
+    public function about($slug)
+    {
+        $list = Lists::query()
+            ->where('slug', $slug)
+            ->with(
+                [
+                    'translations' => function ($query) {
+                        $query->where('locale', app()->getLocale());
+                    }
+                ]
+            )
+            ->first();
+
+        if (is_null($list)) {
+            return view('frontend.errors.404');
+        }
+
+        $listKey = 'about_' . $list->id;
+        if (!session()->has($listKey)) {
+            $list->increment('count_view');
+            session()->put($listKey, 1);
+        }
+
+        return view("frontend.about", compact('list'));
+    }
+
 
     public function search(Request $request)
     {

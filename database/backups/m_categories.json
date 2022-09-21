@@ -1,15 +1,28 @@
 [
-  {
-    "id": 1,
-    "list_type_id": 10,
-    "parent_id": null,
-    "image": null,
-    "slug": "boshqaruv",
-    "status": 2,
-    "creator_id": 1,
-    "modifier_id": null,
-    "deleted_at": null,
-    "created_at": "2022-09-19 18:35:13",
-    "updated_at": "2022-09-19 18:35:13"
-  }
+    {
+        "id": 1,
+        "list_type_id": 10,
+        "parent_id": null,
+        "image": null,
+        "slug": "hududiy-bolinmalar",
+        "status": 2,
+        "creator_id": 1,
+        "modifier_id": 2,
+        "deleted_at": null,
+        "created_at": "2022-09-19 18:35:13",
+        "updated_at": "2022-09-21 16:20:37"
+    },
+    {
+        "id": 2,
+        "list_type_id": 10,
+        "parent_id": null,
+        "image": null,
+        "slug": "rahbariyat",
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-21 16:21:22",
+        "updated_at": "2022-09-21 16:21:22"
+    }
 ]
