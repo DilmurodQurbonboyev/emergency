@@ -96,6 +96,7 @@ class SiteController extends Controller
                 'lists_translations.pdf_title',
                 'lists_translations.pdf',
                 'lists.anons_image',
+                'lists.image',
                 'lists.body_image',
                 'lists.date',
                 'lists.slug',
