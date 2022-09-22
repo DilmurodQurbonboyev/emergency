@@ -18,6 +18,17 @@ class News extends Component
     public function __construct()
     {
         $this->news = Lists::query()
+            ->select([
+                'lists_translations.title as list_title',
+                'lists.anons_image',
+                'lists.slug',
+                'lists_translations.description as list_description',
+                'lists.date',
+                'lists.image',
+                'lists.link',
+                'list_categories.id',
+                'list_category_translations.title as category_title'
+            ])
             ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
             ->join('list_categories', 'lists.lists_category_id', '=', 'list_categories.id')
             ->join('list_category_translations', 'list_categories.id', '=', 'list_category_translations.list_category_id')
@@ -32,6 +43,7 @@ class News extends Component
             ->orderBy('lists.order')
             ->take(5)
             ->get();
+//        dd($this->news[0]);
     }
 
     /**

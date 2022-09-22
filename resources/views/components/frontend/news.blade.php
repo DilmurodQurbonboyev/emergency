@@ -29,17 +29,17 @@
                             <div class="news-left-in">
                                 <div class="news-left-img">
                                     <img src="{{ $item->anons_image ?? '' }}"
-                                         alt="{{ $item->title ?? '' }}">
+                                         alt="{{ $item->list_title ?? '' }}">
                                 </div>
                                 <div class="news-before">
                                     <div class="news-left-date">
                                         <span>{{ tr('Published') }}: {{ displayDateOnly($item->date ?? '') }}</span>
                                     </div>
                                     <div class="news-left-title">
-                                        <span>{{ $item->title ?? '' }}</span>
+                                        <span>{{ $item->list_title ?? '' }}</span>
                                     </div>
                                     <div class="news-left-description">
-                                        <span>{!! Str::words($item->description, 5) !!}</span>
+                                        <span>{!! Str::words($item->list_description, 5) !!}</span>
                                     </div>
                                 </div>
                             </div>
@@ -65,15 +65,15 @@
                                         </div>
                                         <div class="col-md-8">
                                             <div class="news-right-date">
-                                                <a href="{{ route('news', $item->slug) }}">{{ $item->category->title ?? '' }}</a>
+                                                <a href="{{ route('news', $item->slug) }}">{{ $item->category_title ?? '' }}</a>
                                                 <span>{{ tr('Published') }}: {{ displayDateOnly($item->date) }}</span>
                                             </div>
                                             <div class="news-right-title">
-                                                <a href="{{ route('news', $item->slug) }}">{{ $item->title ?? '' }}</a>
+                                                <a href="{{ route('news', $item->slug) }}">{{ $item->list_title ?? '' }}</a>
                                             </div>
                                             <div class="news-right-description">
                                                 <a href="{{ route('news', $item->slug) }}">
-                                                    {!! strip_tags(Str::words($item->description, 5)) !!}
+                                                    {!! strip_tags(Str::words($item->list_description, 5)) !!}
                                                 </a>
                                             </div>
                                         </div>
