@@ -28,7 +28,7 @@ return [
         ],
     ],
     'useAcceptLanguageHeader' => false,
-    'hideDefaultLocaleInURL' => true,
+    'hideDefaultLocaleInURL' => false,
     'localesOrder' => [],
     'localesMapping' => [],
     'utf8suffix' => env('LARAVELLOCALIZATION_UTF8SUFFIX', '.UTF-8'),
