@@ -118,7 +118,9 @@
 @endsection
 @push('front-js')
     <script type="text/javascript">
-        var map = L.map('map', {center: [41.322793, 69.252550], zoom: 13});
+        var latitude = <?= $contact->latitude ?>;
+        var longitude = <?= $contact->longitude ?>;
+        var map = L.map('map', {center: [latitude, longitude], zoom: 13});
         let open_street = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");
         let google_street = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {subdomains: ['mt0', 'mt1', 'mt2', 'mt3']});
         let google_satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {subdomains: ['mt0', 'mt1', 'mt2', 'mt3']});

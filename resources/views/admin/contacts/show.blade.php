@@ -10,21 +10,21 @@
         <button onclick="print()" class="cards btn btn-secondary">
             <i class="fas fa-print"></i>
         </button>
-        <a class="btn btn-success cards" href="{{ route('contacts.create') }}">
-            <i class="fa fa-plus"></i>
-        </a>
+{{--        <a class="btn btn-success cards" href="{{ route('contacts.create') }}">--}}
+{{--            <i class="fa fa-plus"></i>--}}
+{{--        </a>--}}
         <a class="btn btn-info text-white cards" href="{{ route('contacts.index') }}">
             <i class="fa fa-list"></i>
         </a>
         <a class="btn btn-primary cards" href="{{ route('contacts.edit', $contacts->id) }}">
             <i class="fa fa-edit"></i>
         </a>
-        <form method="POST" action="{{ route('contacts.destroy', $contacts->id) }}">
-            @csrf
-            <input name="_method" type="hidden" value="DELETE">
-            <button type="submit" class="cards btn btn-danger deleteBtn">
-                <span class="fas fa-eraser"></span></button>
-        </form>
+{{--        <form method="POST" action="{{ route('contacts.destroy', $contacts->id) }}">--}}
+{{--            @csrf--}}
+{{--            <input name="_method" type="hidden" value="DELETE">--}}
+{{--            <button type="submit" class="cards btn btn-danger deleteBtn">--}}
+{{--                <span class="fas fa-eraser"></span></button>--}}
+{{--        </form>--}}
     </div>
     <div class="card card-primary card-outline card-tabs">
         <div class="card-header p-0 pt-1 border-bottom-0">
@@ -60,6 +60,14 @@
                                 <tr>
                                     <td>{{ tr('Email') }}</td>
                                     <th scope="row">{{ $contacts->email ?? '' }}</th>
+                                </tr>
+                                <tr>
+                                    <td>{{ tr('Latitude') }}</td>
+                                    <th scope="row">{{ $contacts->latitude ?? '' }}</th>
+                                </tr>
+                                <tr>
+                                    <td>{{ tr('Longitude') }}</td>
+                                    <th scope="row">{{ $contacts->longitude ?? '' }}</th>
                                 </tr>
                                 <tr>
                                     <td>{{ tr('Working Time') }}</td>

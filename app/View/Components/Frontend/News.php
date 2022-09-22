@@ -18,18 +18,13 @@ class News extends Component
     public function __construct()
     {
         $this->news = Lists::query()
-            ->select([
-                'lists_translations.title',
-                'lists.anons_image',
-                'lists.slug',
-                'lists_translations.description',
-                'lists.date',
-                'lists.image',
-                'lists.link'
-            ])
             ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->join('list_categories', 'lists.lists_category_id', '=', 'list_categories.id')
+            ->join('list_category_translations', 'list_categories.id', '=', 'list_category_translations.list_category_id')
             ->where('lists_translations.title', '!=', null)
             ->where('lists_translations.locale', '=', app()->getLocale())
+            ->where('list_category_translations.title', '!=', null)
+            ->where('list_category_translations.locale', '=', app()->getLocale())
             ->where('lists.list_type_id', 1)
             ->where('lists.lists_category_id', 1)
             ->where('lists.status', 2)

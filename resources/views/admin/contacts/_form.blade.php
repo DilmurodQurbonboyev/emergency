@@ -45,6 +45,14 @@
     <textarea id="phone" name="phone" class="form-control">{{ old('phone', $contacts->phone ?? '') }}</textarea>
 </div>
 <div class="form-group">
+    <label for="latitude">{{ tr('Latitude') }}</label>
+    <input id="latitude" name="latitude" class="form-control" value="{{ old('latitude', $contacts->latitude ?? '') }}" />
+</div>
+<div class="form-group">
+    <label for="longitude">{{ tr('Longitude') }}</label>
+    <input id="longitude" name="longitude" class="form-control" value="{{old('longitude', $contacts->longitude ?? '')}}" />
+</div>
+<div class="form-group">
     <label for="email">{{ tr('Email') }}</label>
-    <textarea name="email" id="" class="form-control">{{ old('phone', $contacts->email ?? '') }}</textarea>
+    <textarea name="email" id="email" class="form-control">{{ old('phone', $contacts->email ?? '') }}</textarea>
 </div>

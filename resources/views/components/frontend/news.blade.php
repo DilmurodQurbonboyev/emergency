@@ -25,23 +25,25 @@
                     <?php $item = $news[0]; ?>
                 <div class="col-xl-6">
                     <div class="news-left">
-                        <div class="news-left-in">
-                            <div class="news-left-img">
-                                <img src="{{ $item->anons_image ?? '' }}"
-                                     alt="{{ $item->title ?? '' }}">
+                        <a href="{{ route('news', $item->slug) }}">
+                            <div class="news-left-in">
+                                <div class="news-left-img">
+                                    <img src="{{ $item->anons_image ?? '' }}"
+                                         alt="{{ $item->title ?? '' }}">
+                                </div>
+                                <div class="news-before">
+                                    <div class="news-left-date">
+                                        <span>{{ tr('Published') }}: {{ displayDateOnly($item->date ?? '') }}</span>
+                                    </div>
+                                    <div class="news-left-title">
+                                        <span>{{ $item->title ?? '' }}</span>
+                                    </div>
+                                    <div class="news-left-description">
+                                        <span>{!! Str::words($item->description, 5) !!}</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="news-before">
-                                <div class="news-left-date">
-                                    <span>{{ tr('Published') }}: {{ displayDateOnly($item->date ?? '') }}</span>
-                                </div>
-                                <div class="news-left-title">
-                                    <span>{{ $item->title ?? '' }}</span>
-                                </div>
-                                <div class="news-left-description">
-                                    <span>{!! Str::words($item->description, 5) !!}</span>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <?php endif; ?>
