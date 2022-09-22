@@ -790,5 +790,53 @@
         "menu_id": 33,
         "title": "Regulatory documents of the center",
         "locale": "en"
+    },
+    {
+        "id": 133,
+        "menu_id": 34,
+        "title": "Fotogalereya",
+        "locale": "oz"
+    },
+    {
+        "id": 134,
+        "menu_id": 34,
+        "title": "Фотогалерея",
+        "locale": "uz"
+    },
+    {
+        "id": 135,
+        "menu_id": 34,
+        "title": "Фотогалерея",
+        "locale": "ru"
+    },
+    {
+        "id": 136,
+        "menu_id": 34,
+        "title": "Photogallery",
+        "locale": "en"
+    },
+    {
+        "id": 137,
+        "menu_id": 35,
+        "title": "Videogalereya",
+        "locale": "oz"
+    },
+    {
+        "id": 138,
+        "menu_id": 35,
+        "title": "Видеогалерея",
+        "locale": "uz"
+    },
+    {
+        "id": 139,
+        "menu_id": 35,
+        "title": "Видеогалерея",
+        "locale": "ru"
+    },
+    {
+        "id": 140,
+        "menu_id": 35,
+        "title": "Videogallery",
+        "locale": "en"
     }
 ]

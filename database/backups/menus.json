@@ -91,7 +91,7 @@
     },
     {
         "id": 7,
-        "link": "#",
+        "link": "/contact",
         "link_type": 2,
         "image": null,
         "parent_id": null,
@@ -99,10 +99,10 @@
         "status": 2,
         "order": 50,
         "creator_id": 1,
-        "modifier_id": 2,
+        "modifier_id": 1,
         "deleted_at": null,
         "created_at": "2022-09-19 19:40:33",
-        "updated_at": "2022-09-20 11:51:49"
+        "updated_at": "2022-09-22 15:55:58"
     },
     {
         "id": 8,
@@ -136,18 +136,18 @@
     },
     {
         "id": 10,
-        "link": "#",
-        "link_type": 1,
+        "link": "/leader/markaziy-apparat",
+        "link_type": 2,
         "image": null,
         "parent_id": 2,
         "menus_category_id": 1,
         "status": 2,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 11:57:19",
-        "updated_at": "2022-09-20 11:57:19"
+        "updated_at": "2022-09-22 15:27:04"
     },
     {
         "id": 11,
@@ -493,5 +493,35 @@
         "deleted_at": null,
         "created_at": "2022-09-22 14:20:11",
         "updated_at": "2022-09-22 14:20:11"
+    },
+    {
+        "id": 34,
+        "link": "/category/fotogalereya",
+        "link_type": 2,
+        "image": null,
+        "parent_id": 5,
+        "menus_category_id": 1,
+        "status": 2,
+        "order": 50,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-22 15:30:24",
+        "updated_at": "2022-09-22 15:30:24"
+    },
+    {
+        "id": 35,
+        "link": "/category/videogalereya",
+        "link_type": 2,
+        "image": null,
+        "parent_id": 5,
+        "menus_category_id": 1,
+        "status": 2,
+        "order": 50,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-22 15:31:54",
+        "updated_at": "2022-09-22 15:31:54"
     }
 ]

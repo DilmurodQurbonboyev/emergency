@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Models\Contact;
 use App\Models\Lists;
 use App\Helpers\ListType;
 use App\Models\MCategory;
@@ -214,6 +215,12 @@ class SiteController extends Controller
             ->orWhereTranslationLike('content', '%' . $search . '%')
             ->paginate(20);
         return view("frontend.search", compact('lists'));
+    }
+
+    public function contact()
+    {
+        $contact = Contact::query()->first();
+        return view('frontend.contact', compact('contact'));
     }
 
     public function rss(): Response

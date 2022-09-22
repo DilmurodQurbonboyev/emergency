@@ -50,7 +50,7 @@
                                    data-type="iframe">
                                     <div class="media-out play">
                                         <img
-                                            src="https://samcancer.uz/media/k2/items/cache/00d9b1e39f02d57be65ad2a9a6eaa3b8_XL.jpg">
+                                            src="{{ $media->image ?? '' }}">
                                     </div>
                                 </a>
                             </div>

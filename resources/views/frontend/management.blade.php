@@ -16,16 +16,16 @@
     <section class="page">
         <div class="container">
             <div class="main-title">
-                <div class="main-icon">
-                    <img src="{{ asset('img/main.png') }}">
-                </div>
+{{--                <div class="main-icon">--}}
+{{--                    <img src="{{ asset('img/main.png') }}">--}}
+{{--                </div>--}}
                 <div class="main-title-in">
 {{--                    <span>{{ $category->title ?? '' }}</span>--}}
                 </div>
                 <div class="main-deacription">
 {{--                    <span>Наши врачи руководствуются главным принципом своей работы: «Интересы пациентов — превыше всего!»</span>--}}
                 </div>
-                <div class="main-hr"></div>
+{{--                <div class="main-hr"></div>--}}
             </div>
             <div class="page-in">
                 <div class="row">

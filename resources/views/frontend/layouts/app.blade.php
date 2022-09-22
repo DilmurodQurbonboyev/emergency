@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fancybox.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/leaflet.css') }}">
     <title>@yield('title')</title>
     @stack('front-css')
 </head>
@@ -23,6 +24,7 @@
 <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/fancybox.umd.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/leaflet.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 @stack('front-js')
 </body>
