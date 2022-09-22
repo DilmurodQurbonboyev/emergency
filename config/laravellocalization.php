@@ -27,7 +27,7 @@ return [
             'regional' => 'en_GB',
         ],
     ],
-    'useAcceptLanguageHeader' => true,
+    'useAcceptLanguageHeader' => false,
     'hideDefaultLocaleInURL' => false,
     'localesOrder' => [],
     'localesMapping' => [],

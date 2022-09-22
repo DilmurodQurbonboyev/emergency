@@ -59,6 +59,7 @@ class ManagementController extends Controller
             return redirect()
                 ->route('managements.index')->with('success_save', tr('Successfully saved'));
         } catch (Exception $error) {
+            dd($error);
             return redirect()
                 ->back()
                 ->with('error', tr('Something went wrong'));

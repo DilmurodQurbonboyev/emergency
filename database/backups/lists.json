@@ -19,12 +19,12 @@
         "right_menu": 2,
         "date": "2022-09-19",
         "order": 50,
-        "count_view": 0,
+        "count_view": 2,
         "status": 2,
         "creator_id": 2,
         "modifier_id": 1,
         "created_at": "2022-09-20 09:18:32",
-        "updated_at": "2022-09-20 11:18:54"
+        "updated_at": "2022-09-22 09:50:10"
     },
     {
         "id": 2,
@@ -46,12 +46,12 @@
         "right_menu": 2,
         "date": "2022-09-18",
         "order": 50,
-        "count_view": 0,
+        "count_view": 1,
         "status": 2,
         "creator_id": 2,
         "modifier_id": 1,
         "created_at": "2022-09-20 09:22:18",
-        "updated_at": "2022-09-20 11:17:49"
+        "updated_at": "2022-09-22 09:41:45"
     },
     {
         "id": 3,
@@ -73,12 +73,12 @@
         "right_menu": 2,
         "date": "2022-09-13",
         "order": 50,
-        "count_view": 0,
+        "count_view": 2,
         "status": 2,
         "creator_id": 2,
         "modifier_id": 1,
         "created_at": "2022-09-20 09:26:07",
-        "updated_at": "2022-09-20 11:16:10"
+        "updated_at": "2022-09-22 09:50:10"
     },
     {
         "id": 4,
@@ -397,12 +397,12 @@
         "right_menu": 2,
         "date": "2022-09-20",
         "order": 50,
-        "count_view": 0,
+        "count_view": 2,
         "status": 2,
         "creator_id": 2,
         "modifier_id": 2,
         "created_at": "2022-09-20 14:35:05",
-        "updated_at": "2022-09-20 14:38:59"
+        "updated_at": "2022-09-22 09:46:06"
     },
     {
         "id": 16,
@@ -424,12 +424,12 @@
         "right_menu": 2,
         "date": "2022-09-13",
         "order": 50,
-        "count_view": 0,
+        "count_view": 2,
         "status": 2,
         "creator_id": 2,
         "modifier_id": null,
         "created_at": "2022-09-20 15:40:10",
-        "updated_at": "2022-09-20 15:40:10"
+        "updated_at": "2022-09-22 09:50:38"
     },
     {
         "id": 17,
@@ -451,12 +451,12 @@
         "right_menu": 2,
         "date": "2022-09-12",
         "order": 50,
-        "count_view": 0,
+        "count_view": 2,
         "status": 2,
         "creator_id": 2,
         "modifier_id": null,
         "created_at": "2022-09-20 15:43:10",
-        "updated_at": "2022-09-20 15:43:10"
+        "updated_at": "2022-09-22 09:50:39"
     },
     {
         "id": 18,
@@ -532,12 +532,12 @@
         "right_menu": 2,
         "date": "2022-09-21",
         "order": 50,
-        "count_view": 0,
+        "count_view": 2,
         "status": 2,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 2,
         "created_at": "2022-09-21 15:46:51",
-        "updated_at": "2022-09-21 15:46:51"
+        "updated_at": "2022-09-22 09:51:04"
     },
     {
         "id": 21,
@@ -559,11 +559,38 @@
         "right_menu": 2,
         "date": "2022-09-21",
         "order": 50,
-        "count_view": 0,
+        "count_view": 4,
         "status": 2,
         "creator_id": 2,
         "modifier_id": 2,
         "created_at": "2022-09-21 16:41:21",
-        "updated_at": "2022-09-21 16:44:43"
+        "updated_at": "2022-09-22 11:00:49"
+    },
+    {
+        "id": 22,
+        "list_type_id": 1,
+        "lists_category_id": 1,
+        "slug": "toshkentda-tez-erdam-ga-ar-kuni-bir-necha-bor-murozhaat-ilaetgan-140-nafarga-ya-in-bemor-borligi-malum-b-ldi",
+        "image": null,
+        "anons_image": "/storage/photos/shares/22e92bb23e0e40da0fff3a57a2f49480.jpg",
+        "body_image": "/storage/photos/shares/22e92bb23e0e40da0fff3a57a2f49480.jpg",
+        "show_on_slider": null,
+        "pdf_type": 2,
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "date_register": null,
+        "link_type": null,
+        "parent_id": 2,
+        "right_menu": 2,
+        "date": "2022-09-22",
+        "order": 50,
+        "count_view": 1,
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "created_at": "2022-09-22 11:23:59",
+        "updated_at": "2022-09-22 11:33:00"
     }
 ]

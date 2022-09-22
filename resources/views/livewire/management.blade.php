@@ -80,7 +80,7 @@ $name = 'name_' . app()->getLocale();
                             @endif
                         </td>
                         <td>{{ Illuminate\Support\Str::of($management->title)->words(8) ?? '' }}</td>
-                        <td>{{ $management->regions->$name }}</td>
+                        <td>{{ $management->regions->$name ?? '' }}</td>
                         <td>{{ $management->leader ?? '' }}</td>
                         <td>
                             @if ($management->status == 2)

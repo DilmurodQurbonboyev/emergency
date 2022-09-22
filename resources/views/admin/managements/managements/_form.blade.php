@@ -23,7 +23,7 @@ $name = 'name_' . app()->getLocale();
 <div class="form-group">
     <label for="region_id" class="@error('region_id') text-danger @enderror">{{ tr('Regions') }}</label>
     <select name="region_id" id="region_id" class="form-control select2 @error('region_id') is-invalid @enderror">
-        <option>{{ tr('Select') }}</option>
+        <option value>{{ tr('Select') }}</option>
         @foreach($regions as $region)
             <option value="{{ $region->id }}"  {{ old('region_id', $management->region_id) == $region->id ? 'selected' : '' }}>{{ $region->$name }}</option>
         @endforeach

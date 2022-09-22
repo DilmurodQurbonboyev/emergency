@@ -2,4 +2,6 @@
 @section('title')
 @endsection
 @section('content')
+    @foreach($leaders as $leader)
+    @endforeach
 @endsection

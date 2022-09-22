@@ -73,7 +73,7 @@
                                             </div>
                                             <div class="news-right-description">
                                                 <a href="{{ route('news', $item->slug) }}">
-                                                    {!! Str::words($item->description, 5) !!}
+                                                    {!! strip_tags(Str::words($item->description, 5)) !!}
                                                 </a>
                                             </div>
                                         </div>
