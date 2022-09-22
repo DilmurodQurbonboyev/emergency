@@ -80,7 +80,7 @@ class SiteController extends Controller
                 $view = 'frontend.videoGallery';
                 break;
             case ListType::USEFUL:
-                $view = 'frontend.link';
+                $view = 'frontend.pages';
                 break;
             default:
                 break;

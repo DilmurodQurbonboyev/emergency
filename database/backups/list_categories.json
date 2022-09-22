@@ -115,5 +115,57 @@
         "deleted_at": null,
         "created_at": "2022-09-21 16:36:36",
         "updated_at": "2022-09-21 16:36:36"
+    },
+    {
+        "id": 10,
+        "list_type_id": 6,
+        "parent_id": null,
+        "slug": "qonunlar",
+        "image": null,
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-22 13:59:35",
+        "updated_at": "2022-09-22 13:59:35"
+    },
+    {
+        "id": 11,
+        "list_type_id": 6,
+        "parent_id": null,
+        "slug": "prezident-farmon-qaror-va-farmoyishlari",
+        "image": null,
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-22 14:01:55",
+        "updated_at": "2022-09-22 14:01:55"
+    },
+    {
+        "id": 12,
+        "list_type_id": 6,
+        "parent_id": null,
+        "slug": "hukumat-qarori-va-farmoyishlari",
+        "image": null,
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-22 14:08:30",
+        "updated_at": "2022-09-22 14:08:30"
+    },
+    {
+        "id": 13,
+        "list_type_id": 6,
+        "parent_id": null,
+        "slug": "markaz-normativ-hujjatlari",
+        "image": null,
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-09-22 14:11:10",
+        "updated_at": "2022-09-22 14:11:10"
     }
 ]

@@ -4,6 +4,7 @@
 * @var $news
 */
 @endphp
+
 <section class="news">
     <div class="container">
         <div class="main-title">
@@ -20,36 +21,33 @@
         </div>
         <div class="news-row">
             <div class="row">
-                <?php
-                if (count($news) > 1){
-                    $item = $news[0];
-                    ?>
+                <?php if (count($news) > 1): ?>
+                    <?php $item = $news[0]; ?>
                 <div class="col-xl-6">
                     <div class="news-left">
-                        <a href="{{ route('news', $item->slug ?? '') }}">
-                            <div class="news-left-in">
-                                <div class="news-left-img">
-                                    <img src="{{ $item->anons_image ?? '' }}"
-                                         alt="{{ $item->title ?? '' }}">
+                        <div class="news-left-in">
+                            <div class="news-left-img">
+                                <img src="{{ $item->anons_image ?? '' }}"
+                                     alt="{{ $item->title ?? '' }}">
+                            </div>
+                            <div class="news-before">
+                                <div class="news-left-date">
+                                    <span>{{ tr('Published') }}: {{ displayDateOnly($item->date ?? '') }}</span>
                                 </div>
-                                <div class="news-before">
-                                    <div class="news-left-date">
-                                        <span>{{ tr('Published') }}: {{ displayDateOnly($item->date ?? '') }}</span>
-                                    </div>
-                                    <div class="news-left-title">
-                                        <span>{{ $item->title ?? '' }}</span>
-                                    </div>
-                                    <div class="news-left-description">
-                                        <span>{!! Str::words($item->description, 5) !!}</span>
-                                    </div>
+                                <div class="news-left-title">
+                                    <span>{{ $item->title ?? '' }}</span>
+                                </div>
+                                <div class="news-left-description">
+                                    <span>{!! Str::words($item->description, 5) !!}</span>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
+                <?php endif; ?>
                 <div class="col-xl-6">
                     <div class="news-right">
-                            <?php $i = 0; ?>
+                        <?php $i = 0; ?>
                         @foreach ($news as $item)
                             @if($i != 0 && $i < 5)
                                 <div class="news-right-item">
@@ -84,7 +82,6 @@
                         @endforeach
                     </div>
                 </div>
-                <?php } ?>
             </div>
         </div>
         <div class="news-all">

@@ -694,5 +694,101 @@
         "menu_id": 29,
         "title": "Regulations",
         "locale": "en"
+    },
+    {
+        "id": 117,
+        "menu_id": 30,
+        "title": "Qonunlar",
+        "locale": "oz"
+    },
+    {
+        "id": 118,
+        "menu_id": 30,
+        "title": "Қонунлар",
+        "locale": "uz"
+    },
+    {
+        "id": 119,
+        "menu_id": 30,
+        "title": "Законы",
+        "locale": "ru"
+    },
+    {
+        "id": 120,
+        "menu_id": 30,
+        "title": "Laws",
+        "locale": "en"
+    },
+    {
+        "id": 121,
+        "menu_id": 31,
+        "title": "Prezident farmon, qaror va farmoyishlari",
+        "locale": "oz"
+    },
+    {
+        "id": 122,
+        "menu_id": 31,
+        "title": "Президент фармон, қарор ва фармойишлари",
+        "locale": "uz"
+    },
+    {
+        "id": 123,
+        "menu_id": 31,
+        "title": "Указы, постановления и распоряжения Президента",
+        "locale": "ru"
+    },
+    {
+        "id": 124,
+        "menu_id": 31,
+        "title": "Decrees and orders of the President",
+        "locale": "en"
+    },
+    {
+        "id": 125,
+        "menu_id": 32,
+        "title": "Hukumat qarori va farmoyishlari",
+        "locale": "oz"
+    },
+    {
+        "id": 126,
+        "menu_id": 32,
+        "title": "Ҳукумат қарори ва фармойишлари",
+        "locale": "uz"
+    },
+    {
+        "id": 127,
+        "menu_id": 32,
+        "title": "Постановления и распоряжения правительства",
+        "locale": "ru"
+    },
+    {
+        "id": 128,
+        "menu_id": 32,
+        "title": "Decisions and orders of the Government",
+        "locale": "en"
+    },
+    {
+        "id": 129,
+        "menu_id": 33,
+        "title": "Markaz normativ hujjatlari",
+        "locale": "oz"
+    },
+    {
+        "id": 130,
+        "menu_id": 33,
+        "title": "Марказ норматив ҳужжатлари",
+        "locale": "uz"
+    },
+    {
+        "id": 131,
+        "menu_id": 33,
+        "title": "Нормативные акты центра",
+        "locale": "ru"
+    },
+    {
+        "id": 132,
+        "menu_id": 33,
+        "title": "Regulatory documents of the center",
+        "locale": "en"
     }
 ]
