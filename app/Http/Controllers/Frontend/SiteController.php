@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Models\Lists;
 use App\Helpers\ListType;
-use App\Models\Management;
 use App\Models\MCategory;
+use App\Models\Management;
 use Illuminate\Http\Request;
 use App\Models\ListCategory;
 use Illuminate\Http\Response;
@@ -142,7 +142,10 @@ class SiteController extends Controller
 
         $listKey = 'news_' . $list->id;
         if (!session()->has($listKey)) {
-            $list->increment('count_view');
+//            $list->increment('count_view');
+            $list->count_view++;
+            $list->saveQuietly();
+
             session()->put($listKey, 1);
         }
 
@@ -168,7 +171,8 @@ class SiteController extends Controller
 
         $listKey = 'pages_' . $list->id;
         if (!session()->has($listKey)) {
-            $list->increment('count_view');
+            $list->count_view++;
+            $list->saveQuietly();
             session()->put($listKey, 1);
         }
 
@@ -194,7 +198,8 @@ class SiteController extends Controller
 
         $listKey = 'about_' . $list->id;
         if (!session()->has($listKey)) {
-            $list->increment('count_view');
+            $list->count_view++;
+            $list->saveQuietly();
             session()->put($listKey, 1);
         }
 

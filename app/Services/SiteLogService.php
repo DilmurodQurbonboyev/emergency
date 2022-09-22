@@ -14,7 +14,7 @@ class SiteLogService
         $siteLog->type = $model->list_type_id;
         $siteLog->row_id = $model->id;
         $siteLog->user_id = $model->creator_id;
-        $siteLog->authority_id = session()->get('current_authority')->id;
+        $siteLog->authority_id = session()->has('current_authority') ? session()->get('current_authority')->id : null;
         $siteLog->user_ip = Request::ip();
         $siteLog->url = Request::fullUrl();
         $siteLog->action = $logType;

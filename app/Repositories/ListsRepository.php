@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class ListsRepository extends Model implements ListsRepositoryInterface
 {
+
+
     public function getById($id)
     {
         return Lists::findOrFail($id);
@@ -93,7 +95,7 @@ class ListsRepository extends Model implements ListsRepositoryInterface
 
     public function updateList($request, $id)
     {
-        Lists::findOrFail($id)->update(
+        $lists = Lists::query()->findOrFail($id)->update(
             [
                 'oz' => [
                     'title' => $request->title_oz,

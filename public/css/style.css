@@ -815,6 +815,12 @@ header {}
     margin-top: 15px;
     text-align: center;
 }
+.region-img img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: inline-block;
+}
 .region-right .owl-carousel .region-img img {
     width: 72px;
     height: 72px;
