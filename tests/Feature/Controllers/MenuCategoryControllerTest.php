@@ -2,8 +2,6 @@
 
 namespace Tests\Feature\Controllers;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class MenuCategoryControllerTest extends TestCase
@@ -11,6 +9,12 @@ class MenuCategoryControllerTest extends TestCase
     public function testIndex()
     {
         $response = $this->get('/admin/menus-category');
-        $response->assertStatus(200);
+        $response->assertStatus(302);
+    }
+
+    public function testCreate()
+    {
+        $response = $this->get('/admin/menus-category/create');
+        $response->assertStatus(302);
     }
 }

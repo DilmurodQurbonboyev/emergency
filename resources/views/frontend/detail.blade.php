@@ -61,7 +61,7 @@
                     <div class="news-content-in">
                         {!! $list->content ?? '' !!}
                     </div>
-                    @if($list->pdf_type && $list->pdf_type == 2)
+                    @if($list->pdf && $list->pdf_type == 2)
                     <div class="pdf-out">
                         <div class="pdf-left">
                             <a href="{{ $list->pdf ?? '' }}" download>
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     @endif
-                    @if($list->pdf_type && $list->pdf_type == 1)
+                    @if($list->pdf && $list->pdf_type == 1)
                         <div class="pdf-in">
                             <div class="row justify-content-center">
                                 <div class="col-xxl-8">
