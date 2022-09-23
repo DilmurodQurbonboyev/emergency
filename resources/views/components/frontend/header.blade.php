@@ -44,7 +44,7 @@
                                         transform="translate(-2.35 -8)" fill="#5c5c5c"/>
                                 </svg>
                             </button>
-                            <div class="dropdown-menu specialViewArea no-propagation"
+                            <div class="dropdown-menu dropdown-menu-end specialViewArea no-propagation"
                                  aria-labelledby="dropdownMenuButton1">
                                 <div class="triangle2"></div>
                                 <div class="appearance">

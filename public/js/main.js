@@ -71,7 +71,8 @@ $(document).ready(function (argument) {
         }
     })
     // ===========================================
-    $('.region-right .owl-carousel').owlCarousel({
+    var owl = $('.region-right .owl-carousel');
+    owl.owlCarousel({
         loop:true,
         margin:10,
         nav:true,
@@ -92,6 +93,13 @@ $(document).ready(function (argument) {
             }
         }
     })
+    owl.on('changed.owl.carousel', function (property) {
+        var current = property.item.index;
+        var id = $(property.target).find(".owl-item").eq(current).find(".item").data('id');
+        $('.region-in svg path').removeClass('active');
+        $('#' + id).addClass('active');
+    })
+
     // ===========================================
     $('.owl-media .owl-carousel').owlCarousel({
         loop:true,
