@@ -34,7 +34,7 @@
                     @foreach($lists as $list)
                         <div class="col-xl-4 col-md-6">
                             <div class="foto-in">
-                                <a data-fancybox="gallery-1" data-src="{{$list->anons_image ?? ''}}">
+                                <a data-fancybox="gallery-{{ $list->id }}" data-src="{{$list->anons_image ?? ''}}">
                                     <div class="foto-out">
                                         <img src="{{$list->anons_image ?? ''}}">
                                     </div>
@@ -55,7 +55,7 @@
                                     ?>
                                 @foreach ($bodyImages as $i)
                                     @if ($i)
-                                        <a class="d-none" data-fancybox="gallery-1" data-src="{{ $i }}">
+                                        <a class="d-none" data-fancybox="gallery-{{ $list->id }}" data-src="{{ $i }}">
                                             <img src="{{ $i }}" alt="{{ $list->title ?? '' }}">
                                         </a>
                                     @endif
