@@ -34,12 +34,63 @@
                         </div>
                     </form>
                     <div class="eye">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25.771" height="17.855"
-                             viewBox="0 0 25.771 17.855">
-                            <path
-                                d="M15.235,21.986a5.03,5.03,0,0,0,5.059-5.059,5.03,5.03,0,0,0-5.059-5.059,5.03,5.03,0,0,0-5.059,5.059,5.03,5.03,0,0,0,5.059,5.059Zm0-1.726A3.3,3.3,0,0,1,11.9,16.927a3.3,3.3,0,0,1,3.333-3.333,3.3,3.3,0,0,1,3.333,3.333,3.3,3.3,0,0,1-3.333,3.333Zm0,5.595a13.287,13.287,0,0,1-7.484-2.232,15.062,15.062,0,0,1-5.223-5.892,1.165,1.165,0,0,1-.134-.357,2.254,2.254,0,0,1,0-.893,1.165,1.165,0,0,1,.134-.357,15.062,15.062,0,0,1,5.223-5.892A13.287,13.287,0,0,1,15.235,8a13.287,13.287,0,0,1,7.484,2.232,15.062,15.062,0,0,1,5.223,5.892,1.165,1.165,0,0,1,.134.357,2.254,2.254,0,0,1,0,.893,1.165,1.165,0,0,1-.134.357,15.062,15.062,0,0,1-5.223,5.892A13.287,13.287,0,0,1,15.235,25.855ZM15.235,16.927Zm0,7.142a11.967,11.967,0,0,0,6.621-1.949,12.648,12.648,0,0,0,4.6-5.193,12.649,12.649,0,0,0-4.6-5.193,12.221,12.221,0,0,0-13.242,0,12.861,12.861,0,0,0-4.627,5.193A12.861,12.861,0,0,0,8.614,22.12,11.967,11.967,0,0,0,15.235,24.069Z"
-                                transform="translate(-2.35 -8)" fill="#5c5c5c"/>
-                        </svg>
+                        <div class="special_box dropdown">
+                            <button class="eye-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25.771" height="17.855"
+                                     viewBox="0 0 25.771 17.855">
+                                    <path
+                                        d="M15.235,21.986a5.03,5.03,0,0,0,5.059-5.059,5.03,5.03,0,0,0-5.059-5.059,5.03,5.03,0,0,0-5.059,5.059,5.03,5.03,0,0,0,5.059,5.059Zm0-1.726A3.3,3.3,0,0,1,11.9,16.927a3.3,3.3,0,0,1,3.333-3.333,3.3,3.3,0,0,1,3.333,3.333,3.3,3.3,0,0,1-3.333,3.333Zm0,5.595a13.287,13.287,0,0,1-7.484-2.232,15.062,15.062,0,0,1-5.223-5.892,1.165,1.165,0,0,1-.134-.357,2.254,2.254,0,0,1,0-.893,1.165,1.165,0,0,1,.134-.357,15.062,15.062,0,0,1,5.223-5.892A13.287,13.287,0,0,1,15.235,8a13.287,13.287,0,0,1,7.484,2.232,15.062,15.062,0,0,1,5.223,5.892,1.165,1.165,0,0,1,.134.357,2.254,2.254,0,0,1,0,.893,1.165,1.165,0,0,1-.134.357,15.062,15.062,0,0,1-5.223,5.892A13.287,13.287,0,0,1,15.235,25.855ZM15.235,16.927Zm0,7.142a11.967,11.967,0,0,0,6.621-1.949,12.648,12.648,0,0,0,4.6-5.193,12.649,12.649,0,0,0-4.6-5.193,12.221,12.221,0,0,0-13.242,0,12.861,12.861,0,0,0-4.627,5.193A12.861,12.861,0,0,0,8.614,22.12,11.967,11.967,0,0,0,15.235,24.069Z"
+                                        transform="translate(-2.35 -8)" fill="#5c5c5c"/>
+                                </svg>
+                            </button>
+                            <div class="dropdown-menu specialViewArea no-propagation"
+                                 aria-labelledby="dropdownMenuButton1">
+                                <div class="triangle2"></div>
+                                <div class="appearance">
+                                    <p class="specialTitle">Кўриниш</p>
+                                    <div class="squareAppearances">
+                                        <div class="squareBox spcNormal" data-toggle="tooltip" data-placement="bottom"
+                                             title="" data-original-title="Оддий кўриниш">A
+                                        </div>
+                                    </div>
+                                    <div class="squareAppearances">
+                                        <div class="squareBox spcWhiteAndBlack" data-toggle="tooltip"
+                                             data-placement="bottom" title="" data-original-title="Оқ-қора кўриниш">A
+                                        </div>
+                                    </div>
+                                    <div class="squareAppearances">
+                                        <div class="squareBox spcDark" data-toggle="tooltip" data-placement="bottom"
+                                             title="" data-original-title="Қоронғилашган кўриниш">A
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appearance">
+                                    <p class="specialTitle">Шрифт ўлчами</p>
+                                    <div class="block blocked">
+                                        <div class="sliderText"><span class="range">0</span>% га катталаштириш</div>
+                                        <div id="fontSizer"
+                                             class="defaultSlider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                                            <div
+                                                class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min"
+                                                style="width: 0%;"></div>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"
+                                                  style="left: 0%;"></span></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="sliderZoom"><span class="range">0</span> % баробарга катталаштириш
+                                        </div>
+                                        <div id="zoomSizer"
+                                             class="defaultSlider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                                            <div
+                                                class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min"
+                                                style="width: 0%;"></div>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"
+                                                  style="left: 0%;"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="lang">
                         <div class="dropdown">
