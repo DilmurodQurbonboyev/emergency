@@ -40,19 +40,19 @@ $name = 'name_' . app()->getLocale();
                                     <div class="region-img">
                                         <img src="{{ $leader->anons_image ?? '' }}" alt="region">
                                     </div>
-                                    <div class="region-leader">
+                                    <div class="region-leader in-region-leader">
                                         <span>{{ $leader->leader ?? '' }}</span>
                                     </div>
-                                    <div class="region-position">
+                                    <div class="region-position in-region-position">
                                         <span>{{ $leader->title ?? '' }}</span>
                                     </div>
-                                    <div class="region-date">
+                                    <div class="region-date in-region-date">
                                         <img src="{{ asset('img/r-loc.png') }}">
                                         <span>{{ $leader->address ?? '' }}</span>
                                     </div>
                                     <div class="region-date">
                                         <img src="{{ asset('img/r-call.png') }}">
-                                        <a href="#">{{ $leader->phone ?? '' }}</a>
+                                        <a href="tel:{{ $leader->phone ?? '' }}">{{ $leader->phone ?? '' }}</a>
                                     </div>
                                     <div class="region-date no-border">
                                         <img src="{{ asset('img/r-email.png') }}">

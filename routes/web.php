@@ -37,7 +37,7 @@ Route::prefix(LaravelLocalization::setLocale())
             });
 
         Route::fallback(function () {
-            return view('frontend.errors.404');
+            return view('frontend.404');
         });
 
         Route::get('clear', function () {

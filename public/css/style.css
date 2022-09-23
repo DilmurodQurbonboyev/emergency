@@ -162,8 +162,7 @@ button:focus {
 .leader-right a {
     color: rgba(54, 54, 54, 1);
 }
-.leader-right span {
-}
+.leader-right span {}
 @media (min-width: 768px) {
     .leader-img img {
         height: 240px;
@@ -625,7 +624,9 @@ button:focus {
 /*-------------inner------------*/
 /*=============menu=============*/
 .menu {}
-.menu .navbar-nav {}
+.menu .navbar-nav {
+
+}
 .menu .navbar-nav .nav-item {
     margin-right: 30px;
 }
@@ -671,7 +672,7 @@ button:focus {
     width: 36px;
     height: 100%;
     background-color: rgba(196, 59, 48, 1);
-    left: -36px;
+    left: -35px;
     top: 0;
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
@@ -1115,6 +1116,29 @@ header {}
 @media (min-width: 576px) {
     .region {
         margin-top: 100px;
+    }
+    .in-region-position span {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        height: 43px;
+    }
+    .in-region-date {
+        height: 64px;
+    }
+    .in-region-date span {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .in-region-leader span {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        height: 54px;
     }
 }
 @media (max-width: 575px) {
