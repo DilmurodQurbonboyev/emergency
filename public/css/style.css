@@ -867,7 +867,10 @@ header {}
 .owl-post .post-img {}
 .post-right {
     background-color: rgba(28, 61, 129, 1);
-    padding: 30px 50px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 .owl-post .owl-nav button {
     display: inline-block;
@@ -944,6 +947,9 @@ header {}
 .owl-post .owl-dots button.active {
     border-color: rgba(207, 44, 48, 1);
 }
+.owl-post .owl-stage-outer {
+    padding-bottom: 50px;
+}
 @media (min-width: 576px) {
     .post {
         margin-top: 100px;
@@ -956,19 +962,21 @@ header {}
     }
     .post-right {
         height: 100%;
+        margin-left: -70px;
+        margin-top: 50px;
     }
     .owl-post .owl-dots {
         position: absolute;
         left: 25%;
         transform: translateX(-50%);
-        bottom: 10px;
+        bottom: 60px;
         display: inline-block;
     }
     .owl-post .owl-nav {
         position: absolute;
-        bottom: 10px;
-        left: 75%;
-        transform: translateX(-50%);
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-70%);
     }
 }
 @media (max-width: 1199px) {
@@ -1132,13 +1140,6 @@ header {}
         overflow: hidden;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
-    }
-    .in-region-leader span {
-        display: -webkit-box;
-        overflow: hidden;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        height: 54px;
     }
 }
 @media (max-width: 575px) {
@@ -1575,7 +1576,9 @@ footer {
 }
 .main-icon {}
 .main-icon img {}
-.main-title-in {}
+.main-title-in {
+    margin-top: 10px;
+}
 .main-title-in span {
     font-family: "Roboto-500";
     font-size: 40px;
@@ -1626,6 +1629,17 @@ footer {
 .service-in {
     background-color: rgba(242, 244, 248, 1);
     padding: 30px;
+    position: relative;
+}
+.service-in:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1);
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 .service-icon {
     height: 80px;
@@ -1663,6 +1677,13 @@ footer {
     }
     .service-in {
         margin-top: 30px;
+    }
+}
+@media (min-width: 576px) {
+    .service {
+        margin-top: -64px;
+        position: relative;
+        z-index: 20;
     }
 }
 @media (max-width: 575px) {
