@@ -53,6 +53,27 @@
                                 </div>
                             </div>
                         @endif
+                            @if($list->media_type == 3)
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="video-in">
+                                        <a data-fancybox="video-gallery"
+                                           href="{{ $list->video ?? '' }}">
+                                            <div class="video-out play">
+                                                <img src="{{ $list->image ?? '' }}" alt="{{ $list->title ?? '' }}">
+                                            </div>
+                                        </a>
+                                        <div class="video-title">
+                                            <span>{{ $list->title ?? '' }}</span>
+                                        </div>
+                                        <div class="video-description">
+                                            <span>{!! $list->description ?? '' !!}</span>
+                                        </div>
+                                        <div class="video-date">
+                                            <span>{{ displayDateOnly($list->date) }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
                         @if($list->media_type == 4)
                             <div class="col-xl-4 col-md-6">
                                 <div class="video-in">

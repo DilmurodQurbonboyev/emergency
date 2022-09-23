@@ -46,7 +46,7 @@
                     @if($media->media_type == 4)
                         <div class="item">
                             <div class="media-in">
-                                <a href="https://utube.uz/embed/{{ $media->video_code }}" data-fancybox
+                                <a href="https://utube.uz/embed/{{ $media->video_code ?? '' }}" data-fancybox
                                    data-type="iframe">
                                     <div class="media-out play">
                                         <img
@@ -60,7 +60,7 @@
                         <div class="item">
                             <div class="media-in">
                                 <a data-fancybox="video-gallery"
-                                   href="https://www.youtube.com/watch?v={{ $media->video_code }}">
+                                   href="https://www.youtube.com/watch?v={{ $media->video_code ?? '' }}">
                                     <div class="media-out play">
                                         <img src="{{ $media->image ?? '' }}">
                                     </div>
@@ -68,6 +68,18 @@
                             </div>
                         </div>
                     @endif
+                        @if($media->media_type == 3)
+                            <div class="item">
+                                <div class="media-in">
+                                    <a data-fancybox="video-gallery"
+                                       href="{{ $media->video ?? '' }}">
+                                        <div class="media-out play">
+                                            <img src="{{ $media->image ?? '' }}">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        @endif
                 @endif
             @endforeach
         </div>

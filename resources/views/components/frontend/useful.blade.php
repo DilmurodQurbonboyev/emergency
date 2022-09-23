@@ -19,16 +19,16 @@
                     <div class="item">
                         <div class="sites-in">
                             <div class="sites-icon">
-                                <a href="{{ hrefType($useful->link_type, $useful->link) }}"
+                                <a href="{{ hrefType($useful->link_type, ('http://'.$useful->link)) }}"
                                    target="{{ targetType($useful->link_type) }}">
                                     <img src="{{ $useful->image ?? '' }}" alt="{{ $useful->title ?? '' }}">
                                 </a></div>
                             <div class="sites-right">
                                 <a class="sites-title" target="{{ targetType($useful->link_type) }}"
-                                   href="{{ hrefType($useful->link_type, $useful->link) }}">
+                                   href="{{ hrefType($useful->link_type, ('http://'.$useful->link)) }}">
                                     {{ $useful->title ?? '' }}
                                 </a>
-                                <a class="sites-link" href="{{ hrefType($useful->link_type, $useful->link) }}"
+                                <a class="sites-link" href="{{ hrefType($useful->link_type, ('http://'.$useful->link)) }}"
                                    target="{{ targetType($useful->link_type) }}">
                                     {{ $useful->link ?? '' }}
                                 </a>

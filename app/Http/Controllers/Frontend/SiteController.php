@@ -101,6 +101,7 @@ class SiteController extends Controller
                 'lists.date',
                 'lists.slug',
                 'lists.count_view',
+                'lists.video',
                 'lists.media_type',
                 'lists.link_type',
                 'lists.link',
