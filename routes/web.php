@@ -18,7 +18,12 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 */
 
 Route::prefix(LaravelLocalization::setLocale())
-    ->middleware(['localeSessionRedirect', 'localizationRedirect', 'localeViewPath'])
+    ->middleware([
+        'localeSessionRedirect',
+        'localizationRedirect',
+        'localeViewPath',
+        'frameGuard'
+    ])
     ->group(function () {
 
         Route::controller(SiteController::class)

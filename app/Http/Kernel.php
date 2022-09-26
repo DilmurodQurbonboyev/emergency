@@ -68,6 +68,7 @@ class Kernel extends HttpKernel
         'localeCookieRedirect' => \Mcamara\LaravelLocalization\Middleware\LocaleCookieRedirect::class,
         'localeViewPath' => \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationViewPath::class,
         'authoritySessionCheck' => \App\Http\Middleware\AuthoritySessionCheck::class,
-        'cors' => \App\Http\Middleware\Cors::class
+        'cors' => \App\Http\Middleware\Cors::class,
+        'frameGuard' => \App\Http\Middleware\FrameGuard::class
     ];
 }
