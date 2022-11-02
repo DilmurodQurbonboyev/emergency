@@ -25,7 +25,7 @@
                         </div>
                         <div class="banner-link">
                             <a class="banner-link-left" href="{{ route('about', 'markaz-haqida') }}">{{ tr('Learn more') }}</a>
-                            <a class="banner-link-right" href="{{ route('pages', 'bizning-xizmatlar') }}">{{ tr('Our services') }}</a>
+                            <a class="banner-link-right" href="{{ route('category', 'bizning-xizmatlar') }}">{{ tr('Our services') }}</a>
                         </div>
                     </div>
                 </div>
