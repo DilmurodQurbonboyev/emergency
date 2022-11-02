@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary">
     <a class="brand-link">
-        <img src="{{ asset('img/f-logo.svg') }}" alt="uz">
+        <img src="{{ asset('img/new_logo.png') }}" style="border-radius: 50%" alt="uz">
         <span class="brand-text">
             {{ MessageService::tr("Emergency") }}
         </span>
@@ -13,6 +13,13 @@
                        class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-home"></i>
                         <p>{{ MessageService::tr('Dashboard') }}</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('stats.index') }}"
+                       class="nav-link {{ request()->routeIs('stats.*') ? 'active' : '' }}">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>{{ MessageService::tr('Statistics') }}</p>
                     </a>
                 </li>
                 <li
@@ -274,6 +281,13 @@
                             </a>
                         </li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('applications.index') }}"
+                       class="nav-link {{ request()->routeIs('applications.*') ? 'active' : '' }}">
+                        <i class="nav-icon fas fa-folder"></i>
+                        <p>{{ MessageService::tr('Applications') }}</p>
+                    </a>
                 </li>
             </ul>
         </nav>

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Admin\ApplicationController;
+use App\Http\Controllers\Admin\StatController;
 use Illuminate\Support\Facades\Auth;
 use UniSharp\LaravelFilemanager\Lfm;
 use Illuminate\Support\Facades\Route;
@@ -193,6 +195,21 @@ Route::prefix(LaravelLocalization::setLocale())
                                     Route::delete('{pages}', 'destroy')->name('destroy');
                                 });
 
+                            Route::controller(ApplicationController::class)
+                                ->prefix('applications')
+                                ->as('applications.')
+                                ->group(function () {
+                                    Route::get('', 'index')->name('index');
+                                    Route::get('create', 'create')->name('create');
+                                    Route::post('', 'store')->name('store');
+                                    Route::get('{applications}', 'show')->name('show');
+                                    Route::get('{applications}/edit', 'edit')->name('edit');
+                                    Route::patch('{applications}', 'update')->name('update');
+                                    Route::get('{applications}/display', 'display')->name('display');
+                                    Route::patch('{applications}/display', 'displayPost')->name('displayPost');
+                                    Route::delete('{applications}', 'destroy')->name('destroy');
+                                });
+
                             Route::controller(UsefulCategoryController::class)
                                 ->prefix('useful-category')
                                 ->as('useful-category.')
@@ -348,6 +365,19 @@ Route::prefix(LaravelLocalization::setLocale())
                                     Route::get('', 'index')->name('index');
                                     Route::get('{authentication_logs}', 'show')->name('show');
                                     Route::delete('{authentication_logs}', 'destroy')->name('destroy');
+                                });
+
+                            Route::controller(StatController::class)
+                                ->prefix('stats')
+                                ->as('stats.')
+                                ->group(function () {
+                                    Route::get('', 'index')->name('index');
+                                    Route::get('create', 'create')->name('create');
+                                    Route::post('', 'store')->name('store');
+                                    Route::get('{stats}', 'show')->name('show');
+                                    Route::get('{stats}/edit', 'edit')->name('edit');
+                                    Route::patch('{stats}', 'update')->name('update');
+                                    Route::delete('{stats}', 'destroy')->name('destroy');
                                 });
                         });
                 });

@@ -76,7 +76,7 @@
     },
     {
         "id": 6,
-        "link": "#",
+        "link": "/category/ob",
         "link_type": 2,
         "image": null,
         "parent_id": null,
@@ -84,10 +84,10 @@
         "status": 2,
         "order": 50,
         "creator_id": 1,
-        "modifier_id": null,
+        "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2022-09-19 19:40:18",
-        "updated_at": "2022-09-20 11:44:43"
+        "updated_at": "2022-11-02 11:19:31"
     },
     {
         "id": 7,
@@ -432,7 +432,7 @@
         "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-09-20 17:22:44",
-        "updated_at": "2022-09-22 14:15:09"
+        "updated_at": "2022-09-22 17:25:30"
     },
     {
         "id": 30,
@@ -459,10 +459,10 @@
         "status": 2,
         "order": 50,
         "creator_id": 2,
-        "modifier_id": null,
+        "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2022-09-22 14:18:10",
-        "updated_at": "2022-09-22 14:18:10"
+        "updated_at": "2022-11-02 11:06:38"
     },
     {
         "id": 32,
@@ -523,5 +523,65 @@
         "deleted_at": null,
         "created_at": "2022-09-22 15:31:54",
         "updated_at": "2022-09-22 15:31:54"
+    },
+    {
+        "id": 36,
+        "link": "/pages/test4444",
+        "link_type": 2,
+        "image": null,
+        "parent_id": 2,
+        "menus_category_id": 1,
+        "status": 2,
+        "order": 50,
+        "creator_id": 3,
+        "modifier_id": 3,
+        "deleted_at": "2022-11-02 12:07:22",
+        "created_at": "2022-11-02 10:32:55",
+        "updated_at": "2022-11-02 12:07:22"
+    },
+    {
+        "id": 37,
+        "link": "#",
+        "link_type": 1,
+        "image": null,
+        "parent_id": 3,
+        "menus_category_id": 1,
+        "status": 2,
+        "order": 50,
+        "creator_id": 3,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-11-02 10:54:47",
+        "updated_at": "2022-11-02 10:54:47"
+    },
+    {
+        "id": 38,
+        "link": "/category/yangiliklar",
+        "link_type": 2,
+        "image": null,
+        "parent_id": 5,
+        "menus_category_id": 1,
+        "status": 2,
+        "order": 10,
+        "creator_id": 3,
+        "modifier_id": 3,
+        "deleted_at": null,
+        "created_at": "2022-11-02 11:09:53",
+        "updated_at": "2022-11-02 11:13:40"
+    },
+    {
+        "id": 39,
+        "link": "#",
+        "link_type": 1,
+        "image": null,
+        "parent_id": null,
+        "menus_category_id": 1,
+        "status": 2,
+        "order": 50,
+        "creator_id": 3,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-11-02 11:21:26",
+        "updated_at": "2022-11-02 11:21:26"
     }
 ]

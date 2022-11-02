@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Http\Requests\AppealRequest;
+use App\Models\Appeal;
 use App\Models\Contact;
 use App\Models\Lists;
 use App\Helpers\ListType;
 use App\Models\MCategory;
 use App\Models\Management;
+use App\Services\TaskService;
+use Exception;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use App\Models\ListCategory;
 use Illuminate\Http\Response;
@@ -35,7 +40,7 @@ class SiteController extends Controller
 
         if ($category->id == 1) {
             $view = 'frontend.regional';
-        }else {
+        } else {
             $view = 'frontend.management';
         }
 
@@ -123,7 +128,7 @@ class SiteController extends Controller
             ->orderBy('lists.order')
             ->paginate(12);
 
-        return view ($view, compact('lists', 'category'));
+        return view($view, compact('lists', 'category'));
     }
 
     public function news($slug)
@@ -223,6 +228,68 @@ class SiteController extends Controller
     {
         $contact = Contact::query()->first();
         return view('frontend.contact', compact('contact'));
+    }
+
+    public function appeal()
+    {
+        $appeal = new Appeal();
+        return view('frontend.appeal', compact('appeal'));
+    }
+
+    public function appealPost(AppealRequest $request): RedirectResponse
+    {
+        $generate = implode("-", str_split(strtoupper(substr(sha1(microtime()), rand(0, 5), 10)), 5));
+        try {
+            $appeal = new Appeal();
+            $appeal->fullname = $request->fullname;
+            $appeal->organization = $request->organization;
+            $appeal->phone = $request->phone;
+            $appeal->email = $request->email;
+            $appeal->appeal_type = $request->appeal_type;
+            $appeal->address = $request->address;
+            $appeal->region_id = $request->region_id;
+            $appeal->code = $generate;
+            $appeal->status = 0;
+            $appeal->file = TaskService::fileUpload($request, 'file', $generate, 'file') ?? '';
+            $appeal->message = $request->message;
+            $appeal->answer = $request->answer;
+            $appeal->user_ip = $request->ip();
+            $appeal->browser_agent = $request->header('User-Agent');
+            $appeal->save();
+
+            $message = "Your application has been accepted, you can check the status of your application using the following code: {code}";
+            return redirect()
+                ->back()
+                ->with('success_save', tr($message, ['code' => $appeal->code]));
+        } catch (Exception $error) {
+            dd($error->getMessage());
+            return redirect()
+                ->back()
+                ->with('error', tr('Something went wrong'));
+        }
+    }
+
+    public function status()
+    {
+        return view('frontend.appeal-status');
+    }
+
+    public function statusPost(Request $request)
+    {
+        $result = Appeal::query()
+            ->where('code', $request->code)
+            ->first();
+        if ($result) {
+            if ($result->status == 0) {
+                return redirect()->back()->with('not_checked_status', tr('Your application has not yet been processed'));
+            } elseif ($result->status == 1) {
+                return redirect()->back()->with('success_status', tr('Your application has been successfully processed'));
+            } elseif ($result->status == -1) {
+                return redirect()->back()->with('reject_status', tr('Your application has been rejected'));
+            }
+        } else {
+            return redirect()->back()->with('not_found_status', tr('There is no such application'));
+        }
     }
 
     public function rss(): Response

@@ -310,5 +310,53 @@
         "list_category_id": 13,
         "title": "Regulatory documents of the center",
         "locale": "en"
+    },
+    {
+        "id": 53,
+        "list_category_id": 14,
+        "title": "Об",
+        "locale": "oz"
+    },
+    {
+        "id": 54,
+        "list_category_id": 14,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 55,
+        "list_category_id": 14,
+        "title": "Образование",
+        "locale": "ru"
+    },
+    {
+        "id": 56,
+        "list_category_id": 14,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 57,
+        "list_category_id": 15,
+        "title": "Bizning xizmatlar",
+        "locale": "oz"
+    },
+    {
+        "id": 58,
+        "list_category_id": 15,
+        "title": "Бизнинг хизматлар",
+        "locale": "uz"
+    },
+    {
+        "id": 59,
+        "list_category_id": 15,
+        "title": "Наши услуги",
+        "locale": "ru"
+    },
+    {
+        "id": 60,
+        "list_category_id": 15,
+        "title": "Our services",
+        "locale": "en"
     }
 ]

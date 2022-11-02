@@ -19,13 +19,13 @@
                 <div class="banner-text-in">
                     <div class="banner-text-out">
                         <div class="banner-text-span">
-                                <span>
-                                    {!! tr('Welcome to the website of the Republican Ambulance Center') !!}
-                                </span>
+                            <span>
+                                {!! tr('Welcome to the website of the Republican Ambulance Center') !!}
+                            </span>
                         </div>
                         <div class="banner-link">
                             <a class="banner-link-left" href="{{ route('about', 'markaz-haqida') }}">{{ tr('Learn more') }}</a>
-                            <a class="banner-link-right" href="#">{{ tr('Our services') }}</a>
+                            <a class="banner-link-right" href="{{ route('pages', 'bizning-xizmatlar') }}">{{ tr('Our services') }}</a>
                         </div>
                     </div>
                 </div>

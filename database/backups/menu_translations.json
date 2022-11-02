@@ -122,13 +122,13 @@
     {
         "id": 21,
         "menu_id": 6,
-        "title": null,
+        "title": "Ta'lim",
         "locale": "oz"
     },
     {
         "id": 22,
         "menu_id": 6,
-        "title": null,
+        "title": "Таълим",
         "locale": "uz"
     },
     {
@@ -140,7 +140,7 @@
     {
         "id": 24,
         "menu_id": 6,
-        "title": null,
+        "title": "Education",
         "locale": "en"
     },
     {
@@ -734,7 +734,7 @@
     {
         "id": 123,
         "menu_id": 31,
-        "title": "Указы, постановления и распоряжения Президента",
+        "title": "Акты",
         "locale": "ru"
     },
     {
@@ -837,6 +837,102 @@
         "id": 140,
         "menu_id": 35,
         "title": "Videogallery",
+        "locale": "en"
+    },
+    {
+        "id": 141,
+        "menu_id": 36,
+        "title": "test",
+        "locale": "oz"
+    },
+    {
+        "id": 142,
+        "menu_id": 36,
+        "title": "test",
+        "locale": "uz"
+    },
+    {
+        "id": 143,
+        "menu_id": 36,
+        "title": "test",
+        "locale": "ru"
+    },
+    {
+        "id": 144,
+        "menu_id": 36,
+        "title": "test",
+        "locale": "en"
+    },
+    {
+        "id": 145,
+        "menu_id": 37,
+        "title": "О центре",
+        "locale": "oz"
+    },
+    {
+        "id": 146,
+        "menu_id": 37,
+        "title": "О центре",
+        "locale": "uz"
+    },
+    {
+        "id": 147,
+        "menu_id": 37,
+        "title": "О центре",
+        "locale": "ru"
+    },
+    {
+        "id": 148,
+        "menu_id": 37,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 149,
+        "menu_id": 38,
+        "title": "Новости",
+        "locale": "oz"
+    },
+    {
+        "id": 150,
+        "menu_id": 38,
+        "title": "Новости",
+        "locale": "uz"
+    },
+    {
+        "id": 151,
+        "menu_id": 38,
+        "title": "Новости",
+        "locale": "ru"
+    },
+    {
+        "id": 152,
+        "menu_id": 38,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 153,
+        "menu_id": 39,
+        "title": null,
+        "locale": "oz"
+    },
+    {
+        "id": 154,
+        "menu_id": 39,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 155,
+        "menu_id": 39,
+        "title": "Международные отношения",
+        "locale": "ru"
+    },
+    {
+        "id": 156,
+        "menu_id": 39,
+        "title": null,
         "locale": "en"
     }
 ]

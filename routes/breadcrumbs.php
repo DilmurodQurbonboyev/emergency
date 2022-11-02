@@ -24,6 +24,42 @@ Breadcrumbs::for('menus-category/show', function ($trail, $id) {
     $trail->push(MessageService::tr('About Menu Category'), route('menus-category.show', $id));
 });
 
+Breadcrumbs::for('applications', function ($trail) {
+    $trail->parent('admin');
+    $trail->push(tr('Appeals'), route('applications.index'));
+});
+Breadcrumbs::for('applications/create', function ($trail) {
+    $trail->parent('applications');
+    $trail->push(tr('Create Appeal'), route('applications.create'));
+});
+Breadcrumbs::for('applications/edit', function ($trail, $id) {
+    $trail->parent('applications');
+    $trail->push(tr('Update Appeal'), route('applications.edit', $id));
+});
+Breadcrumbs::for('applications/show', function ($trail, $id) {
+    $trail->parent('applications');
+    $trail->push(tr('About Appeal'), route('applications.show', $id));
+});
+
+
+Breadcrumbs::for('stats', function ($trail) {
+    $trail->parent('admin');
+    $trail->push(MessageService::tr('Statistics'), route('stats.index'));
+});
+Breadcrumbs::for('stats/create', function ($trail) {
+    $trail->parent('stats');
+    $trail->push(MessageService::tr('Create Statistic'), route('stats.create'));
+});
+Breadcrumbs::for('stats/edit', function ($trail, $id) {
+    $trail->parent('stats');
+    $trail->push(MessageService::tr('Update Statistic'), route('stats.edit', $id));
+});
+Breadcrumbs::for('stats/show', function ($trail, $id) {
+    $trail->parent('stats');
+    $trail->push(MessageService::tr('About Statistic'), route('stats.show', $id));
+});
+
+
 Breadcrumbs::for('menus', function ($trail) {
     $trail->parent('admin');
     $trail->push(MessageService::tr('Menus'), route('menus.index'));

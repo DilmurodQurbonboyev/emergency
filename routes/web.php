@@ -39,6 +39,10 @@ Route::prefix(LaravelLocalization::setLocale())
                 Route::get('/documents/{slug}', 'documents')->name('documents');
                 Route::get('/contact', 'contact')->name('contact');
                 Route::get('rss', 'rss');
+                Route::get('appeal', 'appeal')->name('appeal');
+                Route::post('appealPost', 'appealPost')->name('appealPost');
+                Route::get('/appeal-status', 'status')->name('status');
+                Route::post('/appeal-status', 'statusPost')->name('statusPost');
             });
 
         Route::fallback(function () {

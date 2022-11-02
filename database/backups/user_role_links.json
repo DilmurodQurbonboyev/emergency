@@ -1,26 +1,30 @@
 [
     {
-        "authority_id": "1",
-        "user_id": "1"
+        "authority_id": 1,
+        "user_id": 1
     },
     {
-        "authority_id": "2",
-        "user_id": "1"
+        "authority_id": 2,
+        "user_id": 1
     },
     {
-        "authority_id": "3",
-        "user_id": "1"
+        "authority_id": 3,
+        "user_id": 1
     },
     {
-        "authority_id": "1",
-        "user_id": "2"
+        "authority_id": 1,
+        "user_id": 2
     },
     {
-        "authority_id": "2",
-        "user_id": "2"
+        "authority_id": 2,
+        "user_id": 2
     },
     {
-        "authority_id": "3",
-        "user_id": "2"
+        "authority_id": 3,
+        "user_id": 2
+    },
+    {
+        "authority_id": 1,
+        "user_id": 3
     }
 ]

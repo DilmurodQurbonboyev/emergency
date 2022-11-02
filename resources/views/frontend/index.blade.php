@@ -3,7 +3,9 @@
 @endsection
 @section('content')
     <x-frontend.banner />
-    <x-frontend.service/>
+    <section class="service">
+        <x-frontend.service/>
+    </section>
     <x-frontend.region/>
     <x-frontend.block/>
     <x-frontend.news/>

@@ -2,25 +2,24 @@
 
 use App\Models\Message;
 
-function tr($message)
+function tr($message, $params = [])
 {
     $exist = Message::query()
         ->where('key', $message)
-        ->with(['translations' => function ($query) {
-            $query->where('locale', app()->getLocale());
-        }])
-        ->first();
+        ->first(['id', 'key']);
+
 
     if ($exist) {
         $translation = $exist->translate()->title;
-
         if ($translation) {
-            return $translation;
+            $message = $translation;
         }
-
-        return $message;
+    }
+    $array = [];
+    foreach ($params as $key => $value) {
+        $array["{{$key}}"] = $value;
     }
 
-    return $message;
+    return count($array) > 0 ? strtr($message, $array) : $message;
 }
 

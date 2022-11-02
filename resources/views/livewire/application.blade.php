@@ -3,89 +3,107 @@
         <h3 class="card-title">{{ tr('Applications') }}</h3>
     </div>
     <div class="card-body">
-        <div class="row">
-            <div class="col-md-12 d-flex p-2">
-                <a class="btn btn-outline-primary m-2 active" href="#">
-                    {{ tr('All') }}
-                </a>
-                <a class="btn btn-outline-primary m-2" href="#">
-                    {{ tr('New') }}
-                </a>
-                <a class="btn btn-outline-primary m-2" href="#">
-                    {{ tr('Process') }}
-                </a>
-                <a class="btn btn-outline-primary m-2" href="#">
-                    {{ tr('Accepted') }}
-                </a>
-                <a class="btn btn-outline-primary m-2" href="#">
-                    {{ tr('Rejected') }}
-                </a>
-                <a class="btn btn-outline-primary m-2" href="#">
-                    {{ tr('Deadline expired') }}
-                </a>
-            </div>
-        </div>
         <div class="table-responsive">
             <table class="table table-hover table-wrap">
                 <thead>
                 <tr class="text-primary">
-                    <th></th>
                     <th>{{ tr('Id') }}</th>
-                    <th>{{ tr('Category') }}</th>
-                    <th>{{ tr('Given date') }}</th>
-                    <th>{{ tr('Deadline') }}</th>
-                    <th style="width: 100px"></th>
+                    <th>{{ tr('Image') }}</th>
+                    <th>{{ tr('FullName') }}</th>
+                    <th>{{tr('The content of the appeal')}}</th>
+                    <th>{{ tr('Email') }}</th>
+                    <th>{{ tr('Status') }}</th>
+                    <th></th>
                 </tr>
                 <tr>
                     <th>
-                        <input type="checkbox" name="" id="checkAll">
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_id">
                     </th>
                     <th>
-                        <input type="text" class="form-control" wire:model.debounce.300ms="searchId"/>
+                        <input class="form-control" type="text">
                     </th>
                     <th>
-                        <input type="text" class="form-control" wire:model.debounce.300ms="searchTitle"/>
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_fullname">
                     </th>
                     <th>
-                        <select wire:model="searchStatus" class="form-control">
+                        <select class="custom-select rounded-0" wire:model.debounce.300ms="filter_appeal_type">
                             <option value=""></option>
-                            <option value="2">{{tr('Active')}}</option>
-                            <option value="1">{{tr('Inactive')}}</option>
+                            <option value="1">{{ tr('Complaint') }}</option>
+                            <option value="2">{{ tr('Gratitude') }}</option>
+                            <option value="3">{{ tr('Appeal') }}</option>
                         </select>
                     </th>
                     <th>
-                        <select class="form-control" wire:model="searchUser">
-                            <option></option>
-                            @foreach ($users as $user)
-                                <option value="{{ $user->id }}">{{ Str::ucfirst($user->name) }}</option>
-                            @endforeach
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_email">
+                    </th>
+                    <th>
+                        <select class="custom-select rounded-0" wire:model.debounce.300ms="filter_status">
+                            <option value=""></option>
+                            <option value="1">{{ tr('Active') }}</option>
+                            <option value="-1">{{ tr('Rejected') }}</option>
+                            <option value="0">{{ tr('Inactive') }}</option>
                         </select>
                     </th>
+                    <th></th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($applications as $application)
+                @foreach ($applications as $application)
                     <tr>
-                        <td>
-                            <input type="checkbox" class="checkItem">
-                        </td>
                         <td>{{ $application->id }}</td>
-                        <td>{{ $application->category->title ?? '' }}</td>
-                        <td>{{ $application->created_at->format('d.m.Y') }}
-                            {{ $application->created_at->format('H:i') }}
-                        </td>
                         <td>
-                            {{ $application->created_at->addDays($application->steps->days)->format('d.m.Y') }}
+                            @if(!empty($application->photo))
+                                <img width="80px"
+                                     src="{{ Storage::disk('public')->url($application->photo) }}" alt="">
+                            @else
+                                <img width="80px" src="{{ asset('img/noImage.jpg') }}"
+                                     alt="">
+                            @endif
                         </td>
-                        <td style="width:70px;">
-                            <a class="btn btn-primary" href="{{ route('applications.show', $application->id) }}">
-                                {{ tr('Details') }}
+                        <td>{{ $application->fullname ?? '' }}</td>
+                        <td>
+                            @if($application->appeal_type == 1)
+                                <span class="badge bg-danger">{{ tr('Complaint') }}</span>
+                            @elseif($application->appeal_type == 2)
+                                <span class="badge bg-success">{{ tr('Gratitude') }}</span>
+                            @else
+                                <span class="badge bg-warning">{{tr('Appeal')}}</span>
+                            @endif
+                        </td>
+                        <td>{{ $application->email ?? '' }}</td>
+                        <td>
+                            @if ($application->status == 1)
+                                <span class="badge bg-success">{{ tr('Active') }}</span>
+                            @elseif($application->status == -1)
+                                <span class="badge bg-danger">{{ tr('Rejected') }}</span>
+                            @elseif($application->status == 0)
+                                <span class="badge bg-secondary">{{ tr('Inactive') }}</span>
+                            @endif
+                        </td>
+                        <td class="d-flex">
+                            <a class="btn btn-primary m-1" href="{{ route('applications.show', $application->id) }}"
+                               title="View" aria-label="View"><span class="fas fa-eye"></span>
                             </a>
+                            <a class="btn btn-primary m-1" href="{{ route('applications.edit', $application->id) }}"
+                               title="Янгилаш" aria-label="Янгилаш">
+                                <i class="fas fa-paper-plane"></i>
+                            </a>
+                            <a class="btn btn-primary m-1"
+                               href="{{ route('applications.display', $application->id) }}" title="Янгилаш"
+                               aria-label="Янгилаш"><span class="fas fa-pencil-alt"></span>
+                            </a>
+                            <form method="POST" action="{{ route('applications.destroy', $application->id) }}">
+                                @csrf
+                                <input name="_method" type="hidden" value="DELETE">
+                                <button type="submit" class="btn btn-primary deleteBtn m-1">
+                                    <span class="fas fa-eraser"></span></button>
+                            </form>
                         </td>
                     </tr>
                 @endforeach
                 </tbody>
             </table>
+            <span class="d-flex pt-2 justify-content-end"> {{ $applications->links() }}</span>
         </div>
     </div>
 </div>
