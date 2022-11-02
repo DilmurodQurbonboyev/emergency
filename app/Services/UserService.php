@@ -19,8 +19,7 @@ class UserService
         $user = User::create(
             $request['user_id'],
             $request['email'],
-            bcrypt($request['pin']
-            ),
+            $request['pin'],
         );
         $this->userRepository->save($user);
         return $user;

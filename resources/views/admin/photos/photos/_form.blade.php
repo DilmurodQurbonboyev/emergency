@@ -52,7 +52,7 @@
     <label for="body_image" class="mb-2">{{ tr('Body Image') }}</label>
     <div class="input-group">
         <input id="thumbnail3" class="form-control" type="text" name="body_image"
-               value="{{ old('anons_image', $photos->body_image) }}">
+               value="{{ old('body_image', $photos->body_image) }}">
         <span class="input-group-btn">
             <a id="lfm3" data-input="thumbnail3" data-preview="holder" class="btn btn-primary">
                 <i class="fas fa-images"></i>
@@ -67,12 +67,13 @@
             $bodyImages = explode(',', $photos->body_image);
         }
         ?>
-
-    @foreach ($bodyImages as $i)
-        @if ($i)
-            <img src="{{ $i }}" alt="{{ $media->title ?? '' }}" width="30%">
-        @endif
-    @endforeach
+    @isset($bodyImages)
+        @foreach ($bodyImages as $i)
+            @if ($i)
+                <img src="{{ $i }}" alt="{{ $media->title ?? '' }}" width="30%">
+            @endif
+        @endforeach
+    @endif
 
 </div>
 <div class="form-group">
