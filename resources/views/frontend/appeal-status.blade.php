@@ -45,7 +45,7 @@
                                                            placeholder="{{ tr('Write application number') }}">
                                                 </div>
                                                 <div class="ms-2 mt-2">
-                                                    <button class="btn btn-primary" type="submit">{{ tr('Send') }}</button>
+                                                    <button class="btn btn-primary" type="submit">{{ tr('Check') }}</button>
                                                 </div>
 
                                             </div>
