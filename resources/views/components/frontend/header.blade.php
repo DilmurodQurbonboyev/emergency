@@ -6,7 +6,7 @@
                     <a href="/">
                         <div class="logo-in">
                             <div class="logo-left">
-                                <img src="{{ asset('img/new_logo.png') }}" alt="logo">
+                                <img src="{{ asset('img/new-logo-2.jpg') }}" alt="logo">
                             </div>
                             <div class="logo-right">
                                 <span>{!! tr('Republican ambulance center') !!}</span>

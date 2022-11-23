@@ -5,7 +5,7 @@
                 <div class="f-logo">
                     <a href="/">
                         <div class="f-logo-in">
-                            <img src="{{ asset('img/f-logo.svg') }}" alt="logo">
+                            <img src="{{ asset('img/footer-logo.png') }}" alt="logo">
                             <span>{!! tr('Republican ambulance center') !!}</span>
                         </div>
                     </a>
