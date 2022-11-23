@@ -29,10 +29,10 @@
                                 <img src="{{ asset('img/main.png') }}">
                             </div>
                             <div class="main-title-in">
-                                <span>О центре</span>
+                                <span>{{ $list->category->title ?? '' }}</span>
                             </div>
                             <div class="main-deacription">
-                                <span>Наши врачи руководствуются главным принципом своей работы: «Интересы пациентов — превыше всего!»</span>
+                                <span>{{ tr('Our doctors are guided by the main principle of their work: "The interests of patients are above all!"') }}</span>
                             </div>
                             <div class="main-hr"></div>
                         </div>
