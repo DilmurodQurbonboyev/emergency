@@ -1052,12 +1052,16 @@ header {}
     height: 72px;
     border-radius: 50%;
     display: inline-block;
+    object-fit: cover;
+    object-position: top;
 }
 .region-right .owl-carousel .region-img img {
     width: 72px;
     height: 72px;
     border-radius: 50%;
     display: inline-block;
+    object-fit: cover;
+    object-position: top;
 }
 .region-leader {
     text-align: center;
