@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-xl-9 gx-0">
                         <div class="banner-right">
-                            <img src="{{ asset('img/banner.png') }}" alt="banner">
+                            <img src="{{ asset('img/banner.jpg') }}" alt="banner">
                         </div>
                     </div>
                 </div>
