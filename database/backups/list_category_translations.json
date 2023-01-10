@@ -312,30 +312,6 @@
         "locale": "en"
     },
     {
-        "id": 53,
-        "list_category_id": 14,
-        "title": "Об",
-        "locale": "oz"
-    },
-    {
-        "id": 54,
-        "list_category_id": 14,
-        "title": null,
-        "locale": "uz"
-    },
-    {
-        "id": 55,
-        "list_category_id": 14,
-        "title": "Образование",
-        "locale": "ru"
-    },
-    {
-        "id": 56,
-        "list_category_id": 14,
-        "title": null,
-        "locale": "en"
-    },
-    {
         "id": 57,
         "list_category_id": 15,
         "title": "Bizning xizmatlar",

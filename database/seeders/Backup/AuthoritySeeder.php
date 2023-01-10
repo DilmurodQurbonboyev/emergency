@@ -2,7 +2,7 @@
 
 namespace Database\Seeders\Backup;
 
-use File;
+use Illuminate\Support\Facades\File;
 use App\Models\Authority;
 use Illuminate\Database\Seeder;
 

@@ -2,7 +2,7 @@
 
 namespace Database\Seeders\Backup;
 
-use File;
+use Illuminate\Support\Facades\File;
 use App\Models\ListCategory;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -28,6 +28,7 @@ class ListCategorySeeder extends Seeder
                 "image" => $listCategory->image,
                 "status" => $listCategory->status,
                 "creator_id" => $listCategory->creator_id,
+                "deleted_at" => $listCategory->deleted_at,
                 "created_at" => $listCategory->created_at,
                 "updated_at" => $listCategory->updated_at
             ]);

@@ -218,19 +218,19 @@
     {
         "id": 37,
         "menu_id": 10,
-        "title": "Markaziy apparat",
+        "title": "Respublika tez tibbiy yordam markazi",
         "locale": "oz"
     },
     {
         "id": 38,
         "menu_id": 10,
-        "title": "Марказий аппарат",
+        "title": "Республика тез тиббий ёрдам маркази",
         "locale": "uz"
     },
     {
         "id": 39,
         "menu_id": 10,
-        "title": "Центральный аппарат",
+        "title": "Республиканский центр скорой медицинской помощи",
         "locale": "ru"
     },
     {
@@ -840,30 +840,6 @@
         "locale": "en"
     },
     {
-        "id": 141,
-        "menu_id": 36,
-        "title": "test",
-        "locale": "oz"
-    },
-    {
-        "id": 142,
-        "menu_id": 36,
-        "title": "test",
-        "locale": "uz"
-    },
-    {
-        "id": 143,
-        "menu_id": 36,
-        "title": "test",
-        "locale": "ru"
-    },
-    {
-        "id": 144,
-        "menu_id": 36,
-        "title": "test",
-        "locale": "en"
-    },
-    {
         "id": 145,
         "menu_id": 37,
         "title": "О центре",
@@ -896,7 +872,7 @@
     {
         "id": 150,
         "menu_id": 38,
-        "title": "Новости",
+        "title": "Янгиликлар",
         "locale": "uz"
     },
     {
@@ -914,13 +890,13 @@
     {
         "id": 153,
         "menu_id": 39,
-        "title": null,
+        "title": "Xalqaro aloqalar",
         "locale": "oz"
     },
     {
         "id": 154,
         "menu_id": 39,
-        "title": null,
+        "title": "Халқаро алоқалар",
         "locale": "uz"
     },
     {
@@ -932,6 +908,54 @@
     {
         "id": 156,
         "menu_id": 39,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 161,
+        "menu_id": 41,
+        "title": "Vakansiyalar",
+        "locale": "oz"
+    },
+    {
+        "id": 162,
+        "menu_id": 41,
+        "title": "Вакансиялар",
+        "locale": "uz"
+    },
+    {
+        "id": 163,
+        "menu_id": 41,
+        "title": "Вакансии",
+        "locale": "ru"
+    },
+    {
+        "id": 164,
+        "menu_id": 41,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 165,
+        "menu_id": 42,
+        "title": "ff",
+        "locale": "oz"
+    },
+    {
+        "id": 166,
+        "menu_id": 42,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 167,
+        "menu_id": 42,
+        "title": null,
+        "locale": "ru"
+    },
+    {
+        "id": 168,
+        "menu_id": 42,
         "title": null,
         "locale": "en"
     }

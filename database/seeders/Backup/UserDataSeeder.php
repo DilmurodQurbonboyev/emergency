@@ -2,7 +2,8 @@
 
 namespace Database\Seeders\Backup;
 
-use File;
+use Illuminate\Support\Facades\File;
+
 use App\Models\UserData;
 use Illuminate\Database\Seeder;
 

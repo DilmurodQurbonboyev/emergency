@@ -2,7 +2,8 @@
 
 namespace Database\Seeders\Backup;
 
-use File;
+use Illuminate\Support\Facades\File;
+
 use Illuminate\Database\Seeder;
 use App\Models\MenuTranslation;
 

@@ -2,7 +2,8 @@
 
 namespace Database\Seeders\Backup;
 
-use File;
+use Illuminate\Support\Facades\File;
+
 use App\Models\UserRoleLink;
 use Illuminate\Database\Seeder;
 

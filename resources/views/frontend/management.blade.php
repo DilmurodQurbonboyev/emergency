@@ -16,16 +16,16 @@
     <section class="page">
         <div class="container">
             <div class="main-title">
-{{--                <div class="main-icon">--}}
-{{--                    <img src="{{ asset('img/main.png') }}">--}}
-{{--                </div>--}}
+                {{--                <div class="main-icon">--}}
+                {{--                    <img src="{{ asset('img/main.png') }}">--}}
+                {{--                </div>--}}
                 <div class="main-title-in">
-{{--                    <span>{{ $category->title ?? '' }}</span>--}}
+                    {{--                    <span>{{ $category->title ?? '' }}</span>--}}
                 </div>
                 <div class="main-deacription">
-{{--                    <span>Наши врачи руководствуются главным принципом своей работы: «Интересы пациентов — превыше всего!»</span>--}}
+                    {{--                    <span>Наши врачи руководствуются главным принципом своей работы: «Интересы пациентов — превыше всего!»</span>--}}
                 </div>
-{{--                <div class="main-hr"></div>--}}
+                {{--                <div class="main-hr"></div>--}}
             </div>
             <div class="page-in">
                 <div class="row">
@@ -35,7 +35,12 @@
                                 <div class="row">
                                     <div class="col-xxl-2 col-lg-3 col-md-4">
                                         <div class="leader-img">
-                                            <img src="{{ $leader->anons_image ?? '' }}" alt="{{ $leader->title ?? '' }}">
+                                            @if($leader->anons_image)
+                                                <img src="{{ $leader->anons_image ?? '' }}"
+                                                     alt="{{ $leader->title ?? '' }}">
+                                            @else
+                                                <img src="{{ asset('img/empty.jpg') }}" alt="{{ $leader->title ?? '' }}">
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="col-xxl-10 col-lg-9 col-md-8">

@@ -1922,19 +1922,19 @@
     {
         "id": 321,
         "message_id": 81,
-        "title": "Arizalar",
+        "title": "Murojaatlar",
         "locale": "oz"
     },
     {
         "id": 322,
         "message_id": 81,
-        "title": "Аризалар",
+        "title": "Мурожаатлар",
         "locale": "uz"
     },
     {
         "id": 323,
         "message_id": 81,
-        "title": "Заявления",
+        "title": "Обращения",
         "locale": "ru"
     },
     {
@@ -7850,49 +7850,49 @@
     {
         "id": 1309,
         "message_id": 328,
-        "title": "Hududiy bo'linmalar",
+        "title": "Respublika tez tibbiy yordam markazi fifillari",
         "locale": "oz"
     },
     {
         "id": 1310,
         "message_id": 328,
-        "title": "Худудий бўлинмалар",
+        "title": "Республика тез тиббий ёрдам маркази филиаллари",
         "locale": "uz"
     },
     {
         "id": 1311,
         "message_id": 328,
-        "title": "Региональные подразделения",
+        "title": "Филиалы Республиканского центра скорой медицинской помощи",
         "locale": "ru"
     },
     {
         "id": 1312,
         "message_id": 328,
-        "title": "Regional divisions",
+        "title": "Respublika tez tibbiy yordam markazi fifillari",
         "locale": "en"
     },
     {
         "id": 1313,
         "message_id": 329,
-        "title": "Biz Respublika bo‘ylab sifatli tez tibbiy yordam ko‘rsatamiz",
+        "title": "Shifokorlarimiz o‘z ishining asosiy tamoyiliga amal qiladi: “Bemorlar manfaati hamma narsadan ustun!”.",
         "locale": "oz"
     },
     {
         "id": 1314,
         "message_id": 329,
-        "title": "Биз Республика бўйлаб сифатли тез тиббий ёрдам кўрсатамиз",
+        "title": "Шифокорларимиз ўз ишининг асосий тамойилига амал қилади: «Беморлар манфаати ҳамма нарсадан устун!».",
         "locale": "uz"
     },
     {
         "id": 1315,
         "message_id": 329,
-        "title": "Оказываем качественную экстренную медицинскую помощь по всей Республике",
+        "title": "Наши врачи руководствуются главным принципом своей работы: «Интересы пациентов — превыше всего!»",
         "locale": "ru"
     },
     {
         "id": 1316,
         "message_id": 329,
-        "title": "We provide quality emergency medical care throughout the Republic",
+        "title": "Our doctors are guided by the main principle of their work: \"The interests of patients are above all!\"",
         "locale": "en"
     },
     {
@@ -8253,6 +8253,222 @@
         "id": 1376,
         "message_id": 344,
         "title": "This is an opportunity to go to other useful resources and websites of government agencies",
+        "locale": "en"
+    },
+    {
+        "id": 1377,
+        "message_id": 345,
+        "title": "Shikoyat",
+        "locale": "oz"
+    },
+    {
+        "id": 1378,
+        "message_id": 345,
+        "title": "Шикоят",
+        "locale": "uz"
+    },
+    {
+        "id": 1379,
+        "message_id": 345,
+        "title": "Жалоба",
+        "locale": "ru"
+    },
+    {
+        "id": 1380,
+        "message_id": 345,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1381,
+        "message_id": 346,
+        "title": "Minnatdorchilik",
+        "locale": "oz"
+    },
+    {
+        "id": 1382,
+        "message_id": 346,
+        "title": "Миннатдорчилик",
+        "locale": "uz"
+    },
+    {
+        "id": 1383,
+        "message_id": 346,
+        "title": "Благодарность",
+        "locale": "ru"
+    },
+    {
+        "id": 1384,
+        "message_id": 346,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1385,
+        "message_id": 347,
+        "title": "Murojaat",
+        "locale": "oz"
+    },
+    {
+        "id": 1386,
+        "message_id": 347,
+        "title": "Мурожаат",
+        "locale": "uz"
+    },
+    {
+        "id": 1387,
+        "message_id": 347,
+        "title": "Обращение",
+        "locale": "ru"
+    },
+    {
+        "id": 1388,
+        "message_id": 347,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1389,
+        "message_id": 348,
+        "title": "Murojaat turi",
+        "locale": "oz"
+    },
+    {
+        "id": 1390,
+        "message_id": 348,
+        "title": "Мурожаат тури",
+        "locale": "uz"
+    },
+    {
+        "id": 1391,
+        "message_id": 348,
+        "title": "Тип обращения",
+        "locale": "ru"
+    },
+    {
+        "id": 1392,
+        "message_id": 348,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1393,
+        "message_id": 349,
+        "title": "Tashkilot",
+        "locale": "oz"
+    },
+    {
+        "id": 1394,
+        "message_id": 349,
+        "title": "Ташкилот",
+        "locale": "uz"
+    },
+    {
+        "id": 1395,
+        "message_id": 349,
+        "title": "Организация",
+        "locale": "ru"
+    },
+    {
+        "id": 1396,
+        "message_id": 349,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1397,
+        "message_id": 350,
+        "title": "Murojaat holatini tekshirish",
+        "locale": "oz"
+    },
+    {
+        "id": 1398,
+        "message_id": 350,
+        "title": "Мурожаат ҳолатини текшириш",
+        "locale": "uz"
+    },
+    {
+        "id": 1399,
+        "message_id": 350,
+        "title": "Проверить статус заявки",
+        "locale": "ru"
+    },
+    {
+        "id": 1400,
+        "message_id": 350,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1401,
+        "message_id": 351,
+        "title": "Agar arizangiz bo'lsa, quyidagi maydonchaga raqamni kiriting va arizangiz holatini bilish uchun \"Tekshirish\" tugmasini bosing.",
+        "locale": "oz"
+    },
+    {
+        "id": 1402,
+        "message_id": 351,
+        "title": "Агар аризангиз бўлса, қуйидаги майдончага рақамни киритинг ва аризангиз ҳолатини билиш учун «Текшириш» тугмасини босинг.",
+        "locale": "uz"
+    },
+    {
+        "id": 1403,
+        "message_id": 351,
+        "title": "Если у вас есть заявка, введите номер в поле ниже и нажмите кнопку «Проверить», чтобы узнать статус вашей заявки.",
+        "locale": "ru"
+    },
+    {
+        "id": 1404,
+        "message_id": 351,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1405,
+        "message_id": 352,
+        "title": "Ariza raqamini yozing",
+        "locale": "oz"
+    },
+    {
+        "id": 1406,
+        "message_id": 352,
+        "title": "Ариза рақамини ёзинг",
+        "locale": "uz"
+    },
+    {
+        "id": 1407,
+        "message_id": 352,
+        "title": "Напишите номер заявки",
+        "locale": "ru"
+    },
+    {
+        "id": 1408,
+        "message_id": 352,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 1409,
+        "message_id": 353,
+        "title": "Tekshirish",
+        "locale": "oz"
+    },
+    {
+        "id": 1410,
+        "message_id": 353,
+        "title": "Текшириш",
+        "locale": "uz"
+    },
+    {
+        "id": 1411,
+        "message_id": 353,
+        "title": "Проверить",
+        "locale": "ru"
+    },
+    {
+        "id": 1412,
+        "message_id": 353,
+        "title": null,
         "locale": "en"
     }
 ]

@@ -2,7 +2,8 @@
 
 namespace Database\Seeders\Backup;
 
-use File;
+use Illuminate\Support\Facades\File;
+
 use App\Models\MCategory;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -28,6 +29,7 @@ class MCategorySeeder extends Seeder
                 "image" => $management->image,
                 "status" => $management->status,
                 "creator_id" => $management->creator_id,
+                "deleted_at" => $management->deleted_at,
                 "created_at" => $management->created_at,
                 "updated_at" => $management->updated_at
             ]);

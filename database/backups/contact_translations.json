@@ -1,31 +1,31 @@
 [
     {
-        "id": "1",
-        "contact_id": "1",
-        "address": "100015, O'zbekiston Respublikasi, Toshkent shahri, Mirobod tumani, Nukus ko'chasi, 22-uy",
+        "id": 1,
+        "contact_id": 1,
+        "address": "100015, O'zbekiston Respublikasi, Toshkent shahri, Yunusobod tumani markaz C4, 17a",
         "working_time": "Shanba-yakshanba chiqish",
-        "reception": "Dushanba-juma 09:00 - 18:00",
+        "reception": "Dushanba-juma 09:00 - 17:00",
         "locale": "oz"
     },
     {
-        "id": "2",
-        "contact_id": "1",
-        "address": "100015, Ўзбекистон Республикаси, Тошкент шаҳри, Миробод тумани, Нукус кўчаси, 22-уй",
+        "id": 2,
+        "contact_id": 1,
+        "address": "100015, Ўзбекистон Республикаси, Тошкент шаҳри, Юнусобод тумани марказ Ц4,17А",
         "working_time": "Шанба-якшанба чиқиш",
-        "reception": "Душанба-жума 09:00 - 18:00",
+        "reception": "Душанба-жума 09:00 - 17:00",
         "locale": "uz"
     },
     {
-        "id": "3",
-        "contact_id": "1",
-        "address": "100015, Республика Узбекистан, г. Ташкент, Мирабадский район, ул. Нукусская, д. 22",
+        "id": 3,
+        "contact_id": 1,
+        "address": "100015, Республика Узбекистан, г. Ташкент, Юнусабадский район, массив Ц4, 17а",
         "working_time": "Суббота-воскресенье выходной",
-        "reception": "Понедельник-пятница 09:00 - 18:00",
+        "reception": "Понедельник-пятница 09:00 - 17:00",
         "locale": "ru"
     },
     {
-        "id": "4",
-        "contact_id": "1",
+        "id": 4,
+        "contact_id": 1,
         "address": "22, Nukusskaya str., Mirabad district, Tashkent, 100015, Republic of Uzbekistan",
         "working_time": "Saturday-Sunday weekend",
         "reception": "Monday-Friday 09:00 - 18:00",
