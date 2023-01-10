@@ -69,7 +69,7 @@ class SiteController extends Controller
             ->first();
 
         if (is_null($category)) {
-            return view('frontend.errors.404');
+            return view('frontend.404');
         }
 
         switch ($category->list_type_id) {
