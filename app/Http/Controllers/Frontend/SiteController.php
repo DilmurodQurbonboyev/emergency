@@ -187,6 +187,33 @@ class SiteController extends Controller
         return view("frontend.detail", compact('list'));
     }
 
+    public function documents($slug)
+    {
+        $list = Lists::query()
+            ->where('slug', $slug)
+            ->with(
+                [
+                    'translations' => function ($query) {
+                        $query->where('locale', app()->getLocale());
+                    }
+                ]
+            )
+            ->first();
+
+        if (is_null($list)) {
+            return view('frontend.errors.404');
+        }
+
+        $listKey = 'pages_' . $list->id;
+        if (!session()->has($listKey)) {
+            $list->count_view++;
+            $list->saveQuietly();
+            session()->put($listKey, 1);
+        }
+
+        return view("frontend.detail", compact('list'));
+    }
+
     public function about($slug)
     {
         $list = Lists::query()
