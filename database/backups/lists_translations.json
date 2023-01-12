@@ -2782,5 +2782,53 @@
         "pdf_title_2": null,
         "pdf_2": null,
         "locale": "en"
+    },
+    {
+        "id": 269,
+        "lists_id": 68,
+        "title": "тест",
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "pdf_title_2": null,
+        "pdf_2": null,
+        "locale": "oz"
+    },
+    {
+        "id": 270,
+        "lists_id": 68,
+        "title": "тест",
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "pdf_title_2": null,
+        "pdf_2": null,
+        "locale": "uz"
+    },
+    {
+        "id": 271,
+        "lists_id": 68,
+        "title": "тест",
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "pdf_title_2": null,
+        "pdf_2": null,
+        "locale": "ru"
+    },
+    {
+        "id": 272,
+        "lists_id": 68,
+        "title": "тест",
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "pdf_title_2": null,
+        "pdf_2": null,
+        "locale": "en"
     }
 ]

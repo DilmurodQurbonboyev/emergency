@@ -14,7 +14,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 2,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": "2022-11-22 23:31:21",
         "created_at": "2022-09-20 14:47:27",
         "updated_at": "2022-11-22 23:31:21"
@@ -74,10 +74,10 @@
         "order": 50,
         "status": 2,
         "creator_id": 2,
-        "modifier_id": 3,
-        "deleted_at": null,
+        "modifier_id": null,
+        "deleted_at": "2023-01-10 15:47:18",
         "created_at": "2022-09-22 15:25:48",
-        "updated_at": "2023-01-10 00:51:53"
+        "updated_at": "2023-01-10 15:47:18"
     },
     {
         "id": 5,
@@ -87,17 +87,17 @@
         "image": null,
         "region_id": 1726,
         "anons_image": "/storage/photos/shares/photo_2022-12-28_12-40-36_2.jpg",
-        "phone": null,
+        "phone": "(+99871) 231-79-09",
         "email": "103@svv.uz",
         "main": null,
         "fax": null,
         "order": 10,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": 2,
         "deleted_at": null,
         "created_at": "2022-11-08 20:00:35",
-        "updated_at": "2023-01-09 13:04:10"
+        "updated_at": "2023-01-12 11:41:22"
     },
     {
         "id": 6,
@@ -114,7 +114,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 16:16:51",
         "updated_at": "2022-11-23 16:57:02"
@@ -134,7 +134,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 16:34:19",
         "updated_at": "2022-11-20 18:56:22"
@@ -154,7 +154,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 17:27:14",
         "updated_at": "2022-11-23 16:59:24"
@@ -194,7 +194,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 17:38:59",
         "updated_at": "2022-11-23 17:15:07"
@@ -214,7 +214,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 17:43:27",
         "updated_at": "2022-11-23 17:03:43"
@@ -234,7 +234,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 17:48:58",
         "updated_at": "2022-11-23 17:02:53"
@@ -254,7 +254,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 18:11:05",
         "updated_at": "2022-11-23 17:07:39"
@@ -274,7 +274,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 18:16:18",
         "updated_at": "2022-11-23 17:08:04"
@@ -294,7 +294,7 @@
         "order": 10,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": "2022-11-22 23:37:55",
         "created_at": "2022-11-20 18:27:29",
         "updated_at": "2022-11-22 23:37:55"
@@ -314,7 +314,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 18:31:24",
         "updated_at": "2022-11-23 17:08:30"
@@ -334,7 +334,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 18:47:01",
         "updated_at": "2022-11-23 17:16:01"
@@ -354,7 +354,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-20 18:51:38",
         "updated_at": "2022-11-23 17:16:33"
@@ -374,7 +374,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-23 00:02:26",
         "updated_at": "2022-11-23 16:58:19"
@@ -394,10 +394,10 @@
         "order": 11,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
-        "deleted_at": null,
+        "modifier_id": null,
+        "deleted_at": "2023-01-10 15:53:25",
         "created_at": "2022-11-23 00:09:15",
-        "updated_at": "2022-11-23 17:51:58"
+        "updated_at": "2023-01-10 15:53:25"
     },
     {
         "id": 21,
@@ -414,7 +414,7 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-11-23 00:19:08",
         "updated_at": "2022-11-23 17:05:28"
@@ -434,10 +434,10 @@
         "order": 50,
         "status": 2,
         "creator_id": 3,
-        "modifier_id": 3,
-        "deleted_at": null,
+        "modifier_id": null,
+        "deleted_at": "2023-01-10 15:46:51",
         "created_at": "2022-11-23 00:45:01",
-        "updated_at": "2022-12-28 13:41:19"
+        "updated_at": "2023-01-10 15:46:51"
     },
     {
         "id": 23,
@@ -446,7 +446,7 @@
         "slug": null,
         "image": null,
         "region_id": 1726,
-        "anons_image": "/storage/photos/shares/photo_2023-01-10_00-41-22к ц.jpg",
+        "anons_image": "/storage/photos/shares/photo_2023-01-10_16-12-44.jpg",
         "phone": "+998996030033",
         "email": "tma-glaz@mail.ru",
         "main": null,
@@ -457,7 +457,7 @@
         "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2023-01-10 00:47:01",
-        "updated_at": "2023-01-10 00:48:12"
+        "updated_at": "2023-01-10 16:14:14"
     },
     {
         "id": 24,
@@ -466,7 +466,7 @@
         "slug": null,
         "image": null,
         "region_id": 1726,
-        "anons_image": null,
+        "anons_image": "/storage/photos/shares/ф.jpg",
         "phone": "+998946857811",
         "email": "103@svv.uz",
         "main": null,
@@ -477,7 +477,7 @@
         "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2023-01-10 01:11:44",
-        "updated_at": "2023-01-10 01:12:21"
+        "updated_at": "2023-01-10 15:18:35"
     },
     {
         "id": 25,
@@ -486,18 +486,18 @@
         "slug": null,
         "image": null,
         "region_id": 1726,
-        "anons_image": null,
+        "anons_image": "/storage/photos/shares/жт.jpg",
         "phone": "+998933856803",
         "email": "103@svv.uz",
         "main": null,
         "fax": null,
-        "order": 50,
+        "order": 30,
         "status": 2,
         "creator_id": 3,
         "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2023-01-10 01:18:52",
-        "updated_at": "2023-01-10 01:40:35"
+        "updated_at": "2023-01-10 15:54:16"
     },
     {
         "id": 26,
@@ -511,13 +511,13 @@
         "email": "103@svv.uz",
         "main": null,
         "fax": null,
-        "order": 50,
+        "order": 20,
         "status": 2,
         "creator_id": 3,
         "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2023-01-10 01:34:37",
-        "updated_at": "2023-01-10 01:38:02"
+        "updated_at": "2023-01-10 15:53:52"
     },
     {
         "id": 27,
@@ -531,12 +531,92 @@
         "email": null,
         "main": null,
         "fax": null,
-        "order": 50,
+        "order": 30,
         "status": 2,
         "creator_id": 3,
         "modifier_id": 3,
         "deleted_at": null,
         "created_at": "2023-01-10 01:47:50",
-        "updated_at": "2023-01-10 01:50:08"
+        "updated_at": "2023-01-10 15:52:55"
+    },
+    {
+        "id": 28,
+        "list_type_id": 10,
+        "m_category_id": 3,
+        "slug": null,
+        "image": null,
+        "region_id": 1726,
+        "anons_image": "/storage/photos/shares/photo_2022-12-28_12-40-36_2.jpg",
+        "phone": "+998901762666",
+        "email": "103@svv.uz",
+        "main": null,
+        "fax": null,
+        "order": 10,
+        "status": 2,
+        "creator_id": 3,
+        "modifier_id": 3,
+        "deleted_at": null,
+        "created_at": "2023-01-10 15:26:19",
+        "updated_at": "2023-01-10 15:54:48"
+    },
+    {
+        "id": 29,
+        "list_type_id": 10,
+        "m_category_id": 3,
+        "slug": null,
+        "image": null,
+        "region_id": 1726,
+        "anons_image": "/storage/photos/shares/photo_2022-10-19_10-58-39.jpg",
+        "phone": "+998974459090",
+        "email": "103@svv.uz",
+        "main": null,
+        "fax": null,
+        "order": 50,
+        "status": 2,
+        "creator_id": 3,
+        "modifier_id": 3,
+        "deleted_at": null,
+        "created_at": "2023-01-10 15:37:41",
+        "updated_at": "2023-01-10 15:43:56"
+    },
+    {
+        "id": 30,
+        "list_type_id": 10,
+        "m_category_id": 3,
+        "slug": null,
+        "image": null,
+        "region_id": 1726,
+        "anons_image": "/storage/photos/shares/photo_2023-01-10_16-01-37.jpg",
+        "phone": "+998998577715",
+        "email": "103@svv.uz",
+        "main": null,
+        "fax": null,
+        "order": 64,
+        "status": 2,
+        "creator_id": 3,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2023-01-10 16:03:25",
+        "updated_at": "2023-01-10 16:03:25"
+    },
+    {
+        "id": 31,
+        "list_type_id": 10,
+        "m_category_id": 3,
+        "slug": null,
+        "image": null,
+        "region_id": 1726,
+        "anons_image": null,
+        "phone": "+998900148455",
+        "email": "103@svv.uz",
+        "main": null,
+        "fax": null,
+        "order": 70,
+        "status": 2,
+        "creator_id": 3,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2023-01-10 16:11:43",
+        "updated_at": "2023-01-10 16:11:43"
     }
 ]

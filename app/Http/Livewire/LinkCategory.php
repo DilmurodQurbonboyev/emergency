@@ -11,25 +11,25 @@ use Livewire\WithPagination;
 
 class LinkCategory extends Component
 {
+    public $filter_id,
+        $filter_title,
+        $filter_parent_id,
+        $filter_slug,
+        $filter_status,
+        $filter_user;
+
     use WithPagination;
 
     public $perPage = 20;
     protected $paginationTheme = "bootstrap";
 
-    public $filter_id,
-    $filter_title,
-    $filter_parent_id,
-    $filter_slug,
-    $filter_status,
-    $filter_user;
-
     public function render()
     {
         $users = User::all();
 
-        $query = ListCategory::query()->where('list_type_id', ListType::LINKS);
+        $query = ListCategory::query()->where('list_type_id', 4);
 
-        $linkParent = ListCategory::query()->where('list_type_id', ListType::LINKS)->get();
+        $linkParent = ListCategory::where('list_type_id', 4)->get();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);
@@ -40,7 +40,7 @@ class LinkCategory extends Component
         });
 
         $query->when($this->filter_title != "", function ($q) {
-            return $q->whereHas('lists_category_translation', function (Builder $query) {
+            return $q->whereHas('translations', function (Builder $query) {
                 $query->where('title', 'like', '%' . $this->filter_title . '%');
             });
         });
@@ -59,6 +59,6 @@ class LinkCategory extends Component
 
         $links = $query->paginate($this->perPage);
 
-        return view('livewire.link-category', compact('links', 'linkParent', 'users'));
+        return view('livewire.link-category', compact('users', 'linkParent', 'links'));
     }
 }

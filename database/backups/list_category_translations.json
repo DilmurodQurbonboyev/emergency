@@ -334,5 +334,29 @@
         "list_category_id": 15,
         "title": "Our services",
         "locale": "en"
+    },
+    {
+        "id": 61,
+        "list_category_id": 16,
+        "title": "Ta'lim",
+        "locale": "oz"
+    },
+    {
+        "id": 62,
+        "list_category_id": 16,
+        "title": "Таълим",
+        "locale": "uz"
+    },
+    {
+        "id": 63,
+        "list_category_id": 16,
+        "title": "Образование",
+        "locale": "ru"
+    },
+    {
+        "id": 64,
+        "list_category_id": 16,
+        "title": "Education",
+        "locale": "en"
     }
 ]

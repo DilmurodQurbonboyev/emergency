@@ -24,7 +24,7 @@ class ListsRequest extends FormRequest
             'pdf_title_ru' => 'max:255|nullable',
             'pdf_title_en' => 'max:255|nullable',
             'lists_category_id' => 'required',
-            'link' => request()['list_type_id'] == 6 ? 'required' : ''
+            'link' => (request()['list_type_id'] == 6) || request()['list_type_id'] == 4 ? 'required' : ''
         ];
     }
 

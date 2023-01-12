@@ -162,6 +162,32 @@
                                 </li>
                             </ul>
                         </li>
+                        <li
+                            class="nav-item {{ request()->routeIs('links.*', 'links-category.*') ? 'menu-open' : '' }}">
+                            <a class="nav-link {{ request()->routeIs('links.*', 'links-category.*') ? 'active' : '' }}"
+                               href="javascript:void(0);">
+                                <i class="nav-icon fas fa-link"></i>
+                                <p>{{ MessageService::tr('Links') }}
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a class="nav-link {{ request()->routeIs('links-category.*') ? 'active' : '' }}"
+                                       href="{{ route('links-category.index') }}">
+                                        <i class="nav-icon fas fa-circle"></i>
+                                        <p>{{ MessageService::tr('Link Categories') }}</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link {{ request()->routeIs('links.*') ? 'active' : '' }}"
+                                       href="{{ route('links.index') }}">
+                                        <i class="nav-icon fas fa-circle"></i>
+                                        <p>{{ MessageService::tr('Links') }}</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                         <li class="nav-item {{ request()->routeIs('photos.*', 'photos-category.*') ? 'menu-open' : '' }}">
                             <a
                                 class="nav-link {{ request()->routeIs('photos.*', 'photos-category.*') ? 'active' : '' }}"

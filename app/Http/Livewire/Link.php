@@ -30,8 +30,10 @@ class Link extends Component
     public function render()
     {
         $users = User::all();
-        $linkCategories = ListCategory::where('list_type_id', ListType::LINKS)->get();
-        $query = Lists::query()->where('list_type_id', ListType::LINKS);
+        $linkCategories = ListCategory::query()
+            ->where('list_type_id', 4)
+            ->get();
+        $query = Lists::query()->where('list_type_id', 4);
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);
@@ -46,7 +48,7 @@ class Link extends Component
         });
 
         $query->when($this->filter_title != "", function ($q) {
-            return $q->whereHas('lists_translation', function (Builder $query) {
+            return $q->whereHas('translations', function (Builder $query) {
                 $query->where('title', 'like', '%' . $this->filter_title . '%');
             });
         });
@@ -56,7 +58,7 @@ class Link extends Component
         });
 
         $query->when($this->filter_description != "", function ($q) {
-            return $q->whereHas('lists_translation', function (Builder $query) {
+            return $q->whereHas('translations', function (Builder $query) {
                 $query->where('description', 'like', '%' . $this->filter_description . '%');
             });
         });
@@ -74,7 +76,6 @@ class Link extends Component
         });
 
         $links = $query->paginate($this->perPage);
-
-        return view('livewire.link', compact('links', 'users', 'linkCategories'));
+        return view('livewire.link', compact('linkCategories', 'links', 'users'));
     }
 }

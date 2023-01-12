@@ -111,7 +111,7 @@
         "image": null,
         "status": 2,
         "creator_id": 2,
-        "modifier_id": 3,
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-09-21 16:36:36",
         "updated_at": "2022-11-23 15:42:15"
@@ -180,5 +180,18 @@
         "deleted_at": null,
         "created_at": "2022-11-02 12:04:02",
         "updated_at": "2022-11-02 12:04:02"
+    },
+    {
+        "id": 16,
+        "list_type_id": 5,
+        "parent_id": null,
+        "slug": "ta-lim",
+        "image": null,
+        "status": 2,
+        "creator_id": 2,
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2023-01-12 11:58:16",
+        "updated_at": "2023-01-12 11:58:16"
     }
 ]

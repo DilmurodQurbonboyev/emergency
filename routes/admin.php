@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Admin\ApplicationController;
+use App\Http\Controllers\Admin\LinkCategoryController;
+use App\Http\Controllers\Admin\LinkController;
 use App\Http\Controllers\Admin\StatController;
 use Illuminate\Support\Facades\Auth;
 use UniSharp\LaravelFilemanager\Lfm;
@@ -210,6 +212,22 @@ Route::prefix(LaravelLocalization::setLocale())
                                     Route::delete('{applications}', 'destroy')->name('destroy');
                                 });
 
+                            Route::controller(LinkCategoryController::class)
+                                ->prefix('links-category')
+                                ->as('links-category.')
+                                ->group(function () {
+                                    Route::get('', 'index')->name('index');
+                                    Route::get('create', 'create')->name('create');
+                                    Route::post('', 'store')->name('store');
+                                    Route::get('trashes', 'trashes')->name('trashes');
+                                    Route::get('{links_category}', 'show')->name('show');
+                                    Route::get('{links_category}/edit', 'edit')->name('edit');
+                                    Route::patch('{links_category}', 'update')->name('update');
+                                    Route::delete('{links_category}', 'destroy')->name('destroy');
+                                    Route::post('{links_category}/restore', 'restore')->name('restore');
+                                    Route::post('{links_category}/forceDelete', 'forceDelete')->name('forceDelete');
+                                });
+
                             Route::controller(UsefulCategoryController::class)
                                 ->prefix('useful-category')
                                 ->as('useful-category.')
@@ -224,6 +242,19 @@ Route::prefix(LaravelLocalization::setLocale())
                                     Route::delete('{useful_category}', 'destroy')->name('destroy');
                                     Route::post('{useful_category}/restore', 'restore')->name('restore');
                                     Route::post('{useful_category}/forceDelete', 'forceDelete')->name('forceDelete');
+                                });
+
+                            Route::controller(LinkController::class)
+                                ->prefix('links')
+                                ->as('links.')
+                                ->group(function () {
+                                    Route::get('', 'index')->name('index');
+                                    Route::get('create', 'create')->name('create');
+                                    Route::post('', 'store')->name('store');
+                                    Route::get('{links}', 'show')->name('show');
+                                    Route::get('{links}/edit', 'edit')->name('edit');
+                                    Route::patch('{links}', 'update')->name('update');
+                                    Route::delete('{links}', 'destroy')->name('destroy');
                                 });
 
                             Route::controller(UsefulController::class)

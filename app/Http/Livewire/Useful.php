@@ -48,7 +48,7 @@ class Useful extends Component
         });
 
         $query->when($this->filter_title != "", function ($q) {
-            return $q->whereHas('lists_translation', function (Builder $query) {
+            return $q->whereHas('translations', function (Builder $query) {
                 $query->where('title', 'like', '%' . $this->filter_title . '%');
             });
         });
@@ -58,7 +58,7 @@ class Useful extends Component
         });
 
         $query->when($this->filter_description != "", function ($q) {
-            return $q->whereHas('lists_translation', function (Builder $query) {
+            return $q->whereHas('translations', function (Builder $query) {
                 $query->where('description', 'like', '%' . $this->filter_description . '%');
             });
         });

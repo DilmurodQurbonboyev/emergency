@@ -162,6 +162,23 @@ Breadcrumbs::for('useful-category/show', function ($trail, $id) {
     $trail->push(MessageService::tr('About Useful Category'), route('useful-category.show', $id));
 });
 
+Breadcrumbs::for('links-category', function ($trail) {
+    $trail->parent('admin');
+    $trail->push(MessageService::tr('Link Categories'), route('links-category.index'));
+});
+Breadcrumbs::for('links-category/create', function ($trail) {
+    $trail->parent('links-category');
+    $trail->push(MessageService::tr('Create Useful Link'), route('links-category.create'));
+});
+Breadcrumbs::for('links-category/edit', function ($trail, $id) {
+    $trail->parent('links-category');
+    $trail->push(MessageService::tr('Update Useful Link'), route('links-category.edit', $id));
+});
+Breadcrumbs::for('links-category/show', function ($trail, $id) {
+    $trail->parent('links-category');
+    $trail->push(MessageService::tr('About Useful Link'), route('links-category.show', $id));
+});
+
 Breadcrumbs::for('useful', function ($trail) {
     $trail->parent('admin');
     $trail->push(MessageService::tr('Useful'), route('useful.index'));
@@ -177,6 +194,24 @@ Breadcrumbs::for('useful/edit', function ($trail, $id) {
 Breadcrumbs::for('useful/show', function ($trail, $id) {
     $trail->parent('useful');
     $trail->push(MessageService::tr('About Useful'), route('useful.show', $id));
+});
+
+
+Breadcrumbs::for('links', function ($trail) {
+    $trail->parent('admin');
+    $trail->push(MessageService::tr('Links'), route('links.index'));
+});
+Breadcrumbs::for('links/create', function ($trail) {
+    $trail->parent('links');
+    $trail->push(MessageService::tr('Create Link'), route('links.create'));
+});
+Breadcrumbs::for('links/edit', function ($trail, $id) {
+    $trail->parent('links');
+    $trail->push(MessageService::tr('Update Link'), route('links.edit', $id));
+});
+Breadcrumbs::for('links/show', function ($trail, $id) {
+    $trail->parent('links');
+    $trail->push(MessageService::tr('About Link'), route('links.show', $id));
 });
 
 Breadcrumbs::for('photos-category', function ($trail) {
