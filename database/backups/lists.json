@@ -568,7 +568,7 @@
     },
     {
         "id": 24,
-        "list_type_id": 6,
+        "list_type_id": 4,
         "lists_category_id": 11,
         "slug": "aholiga-tez-tibbiy-yordam-ko-rsatish-tizimini-takomillashtirish-to-g-risida-2",
         "image": null,
@@ -595,7 +595,7 @@
     },
     {
         "id": 25,
-        "list_type_id": 6,
+        "list_type_id": 4,
         "lists_category_id": 12,
         "slug": "tez-tibbiy-yordam-xodimlarini-qo-shimcha-moddiy-rag-batlantirish-to-g-risida",
         "image": null,
@@ -622,7 +622,7 @@
     },
     {
         "id": 26,
-        "list_type_id": 6,
+        "list_type_id": 4,
         "lists_category_id": 11,
         "slug": "o-zbekiston-respublikasida-tez-tibbiy-yordam-xizmatini-takomillashtirish-chora-tadbirlari-to-g-risida",
         "image": null,
@@ -649,7 +649,7 @@
     },
     {
         "id": 27,
-        "list_type_id": 6,
+        "list_type_id": 4,
         "lists_category_id": 11,
         "slug": "shoshilinch-tibbiy-yordam-xizmatining-faoliyatini-tashkil-etishni-yanada-takomillashtirish-va-moddiy-texnika-bazasini-mustahkamlash-chora-tadbirlari-to-g-risida",
         "image": null,
@@ -1585,11 +1585,11 @@
         "right_menu": 2,
         "date": "2023-01-12",
         "order": 50,
-        "count_view": 2,
+        "count_view": 3,
         "status": 2,
         "creator_id": 2,
         "modifier_id": null,
         "created_at": "2023-01-12 11:58:55",
-        "updated_at": "2023-01-12 12:04:09"
+        "updated_at": "2023-01-12 15:04:45"
     }
 ]

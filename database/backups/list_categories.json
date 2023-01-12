@@ -131,7 +131,7 @@
     },
     {
         "id": 11,
-        "list_type_id": 6,
+        "list_type_id": 4,
         "parent_id": null,
         "slug": "prezident-farmon-qaror-va-farmoyishlari",
         "image": null,
@@ -144,7 +144,7 @@
     },
     {
         "id": 12,
-        "list_type_id": 6,
+        "list_type_id": 4,
         "parent_id": null,
         "slug": "hukumat-qarori-va-farmoyishlari",
         "image": null,

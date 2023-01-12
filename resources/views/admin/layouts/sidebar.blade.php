@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary">
     <a class="brand-link">
-        <img src="{{ asset('img/new_logo.png') }}" style="border-radius: 50%" alt="uz">
+        <img src="{{ asset('img/footer-logo.png') }}" style="border-radius: 50%" alt="uz">
         <span class="brand-text">
             {{ MessageService::tr("Emergency") }}
         </span>

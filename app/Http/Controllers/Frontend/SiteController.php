@@ -79,6 +79,9 @@ class SiteController extends Controller
             case ListType::PAGE:
                 $view = 'frontend.pages';
                 break;
+            case ListType::LINKS:
+                $view = 'frontend.pages';
+                break;
             case ListType::PHOTO:
                 $view = 'frontend.photoGallery';
                 break;
