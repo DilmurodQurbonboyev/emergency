@@ -39,7 +39,8 @@
                                                 <img src="{{ $leader->anons_image ?? '' }}"
                                                      alt="{{ $leader->title ?? '' }}">
                                             @else
-                                                <img src="{{ asset('img/empty.jpg') }}" alt="{{ $leader->title ?? '' }}">
+                                                <img src="{{ asset('img/empty.jpg') }}"
+                                                     alt="{{ $leader->title ?? '' }}">
                                             @endif
                                         </div>
                                     </div>
@@ -92,6 +93,52 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+                                            <div class="accordion" id="i1">
+                                                <div class="accardion-nav">
+                                                    <div class="accordion-header" id="headingOne">
+                                                        @if($leader->biography)
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapse_biography_{{$leader->id}}"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="collapse_biography_{{$leader->id}}">
+                                                                {{ tr('Biography') }}
+                                                            </button>
+                                                        @endif
+                                                    </div>
+                                                    <div class="accordion-header" id="headingTwo">
+                                                        @if($leader->description)
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapse_function_{{$leader->id}}"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="collapse_function_{{$leader->id}}">
+                                                                {{ tr('Function') }}
+                                                            </button>
+                                                        @endif
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <div id="collapse_biography_{{$leader->id}}"
+                                                         class="accordion-collapse collapse"
+                                                         aria-labelledby="headingOne" data-bs-parent="#i1">
+                                                        <div class="accordion-body">
+                                                            {!! $leader->biography ?? '' !!}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <div id="collapse_function_{{$leader->id}}"
+                                                         class="accordion-collapse collapse"
+                                                         aria-labelledby="headingTwo" data-bs-parent="#i1">
+                                                        <div class="accordion-body">
+                                                            {!! $leader->description ?? '' !!}
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
                                         </div>
                                     </div>

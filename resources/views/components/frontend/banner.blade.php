@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="banner-text">
-            <div class="container">
+            <div class="h-container container">
                 <div class="banner-text-in">
                     <div class="banner-text-out">
                         <div class="banner-text-span">
