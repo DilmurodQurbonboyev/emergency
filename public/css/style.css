@@ -355,6 +355,12 @@ button:focus {
     background-color: #cfe2ff;
     border: 1px solid #b6d4fe;
     margin-top: 15px;
+    clear: both;
+}
+.pdf-in-next {
+    clear: both;
+    margin-top: 30px;
+    padding-top: 30px;
 }
 /*-------------pdf--------------*/
 /*=============office===========*/
@@ -393,7 +399,19 @@ button:focus {
     margin-left: 5px;
     margin-right: 5px;
 }
-.owl-news .owl-nav {}
+.owl-news .owl-nav button {
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #cfe2ff !important;
+    border-radius: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+.owl-news .owl-nav button svg {
+    fill: #fff;
+}
+
 .news-content-in {
     text-align: justify;
 }

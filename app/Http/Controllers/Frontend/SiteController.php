@@ -77,7 +77,7 @@ class SiteController extends Controller
                 $view = 'frontend.news';
                 break;
             case ListType::PAGE:
-                $view = 'frontend.pages';
+                $view = 'frontend.news';
                 break;
             case ListType::LINKS:
                 $view = 'frontend.pages';
@@ -148,7 +148,7 @@ class SiteController extends Controller
             ->first();
 
         if (is_null($list)) {
-            return view('frontend.errors.404');
+            return view('frontend.404');
         }
 
         $listKey = 'news_' . $list->id;
@@ -177,7 +177,7 @@ class SiteController extends Controller
             ->first();
 
         if (is_null($list)) {
-            return view('frontend.errors.404');
+            return view('frontend.404');
         }
 
         $listKey = 'pages_' . $list->id;
@@ -204,7 +204,7 @@ class SiteController extends Controller
             ->first();
 
         if (is_null($list)) {
-            return view('frontend.errors.404');
+            return view('frontend.404');
         }
 
         $listKey = 'pages_' . $list->id;
@@ -231,7 +231,7 @@ class SiteController extends Controller
             ->first();
 
         if (is_null($list)) {
-            return view('frontend.errors.404');
+            return view('frontend.404');
         }
 
         $listKey = 'about_' . $list->id;

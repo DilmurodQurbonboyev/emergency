@@ -41,13 +41,11 @@
             <div class="page-in">
                 <div class="news-content">
                     <div class="owl-news">
-                        <?php
-                        if (!empty($list->body_image) && is_array(explode(',', $list->body_image))) {
-                            $bodyImages = explode(',', $list->body_image);
-                        }
-                        ?>
+                        @php
+                            $res = explode(',', $list->body_image);
+                        @endphp
                         <div class="owl-carousel owl-theme">
-                            @foreach ($bodyImages as $i)
+                            @foreach ($res as $i)
                                 @if ($i)
                                     <div class="item">
                                         <div class="owl-news-in">
@@ -62,26 +60,26 @@
                         {!! $list->content ?? '' !!}
                     </div>
                     @if($list->pdf && $list->pdf_type == 2)
-                    <div class="pdf-out">
-                        <div class="pdf-left">
-                            <a href="{{ $list->pdf ?? '' }}" download>
-                                <img src="{{ asset('img/pdf.png') }}">
-                            </a>
-                        </div>
-                        <div class="pdf-right">
-                            <div class="pdf-name">
-                                <span>{{ $list->pdf_title ?? '' }}</span>
+                        <div class="pdf-out">
+                            <div class="pdf-left">
+                                <a href="{{ $list->pdf ?? '' }}" download>
+                                    <img src="{{ asset('img/pdf.png') }}" alt="pdf">
+                                </a>
                             </div>
-                            <div class="pdf-download">
-                                <a href="{{ $list->pdf ?? '' }}" download>{{ tr('Download') }}</a>
+                            <div class="pdf-right">
+                                <div class="pdf-name">
+                                    <span>{{ $list->pdf_title ?? '' }}</span>
+                                </div>
+                                <div class="pdf-download">
+                                    <a href="{{ $list->pdf ?? '' }}" download>{{ tr('Download') }}</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     @endif
                     @if($list->pdf && $list->pdf_type == 1)
-                        <div class="pdf-in">
+                        <div class="pdf-in-next">
                             <div class="row justify-content-center">
-                                <div class="col-xxl-8">
+                                <div class="col-xxl-12">
                                     <iframe
                                         src="{{ $list->pdf }}"
                                         style="width: 100%; height:600px;"></iframe>
@@ -91,22 +89,22 @@
                     @endif
                 </div>
             </div>
-{{--            <div class="page-pagination">--}}
-{{--                <nav>--}}
-{{--                    <ul class="pagination">--}}
-{{--                        <li class="page-item">--}}
-{{--                            <a class="page-link" href="#" aria-label="Previous">--}}
-{{--                                <span aria-hidden="true">&laquo;</span>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li class="page-item">--}}
-{{--                            <a class="page-link" href="#" aria-label="Next">--}}
-{{--                                <span aria-hidden="true">&raquo;</span>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </nav>--}}
-{{--            </div>--}}
+            {{--            <div class="page-pagination">--}}
+            {{--                <nav>--}}
+            {{--                    <ul class="pagination">--}}
+            {{--                        <li class="page-item">--}}
+            {{--                            <a class="page-link" href="#" aria-label="Previous">--}}
+            {{--                                <span aria-hidden="true">&laquo;</span>--}}
+            {{--                            </a>--}}
+            {{--                        </li>--}}
+            {{--                        <li class="page-item">--}}
+            {{--                            <a class="page-link" href="#" aria-label="Next">--}}
+            {{--                                <span aria-hidden="true">&raquo;</span>--}}
+            {{--                            </a>--}}
+            {{--                        </li>--}}
+            {{--                    </ul>--}}
+            {{--                </nav>--}}
+            {{--            </div>--}}
         </div>
     </section>
 @endsection
