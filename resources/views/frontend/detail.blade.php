@@ -82,7 +82,7 @@
                                 <div class="col-xxl-12">
                                     <iframe
                                         src="{{ $list->pdf }}"
-                                        style="width: 100%; height:600px;"></iframe>
+                                        style="width: 100%; height:800px;"></iframe>
                                 </div>
                             </div>
                         </div>
