@@ -38,7 +38,9 @@ $name = 'name_' . app()->getLocale();
                                         <span>{{ $leader->regions->$name }}</span>
                                     </div>
                                     <div class="region-img">
-                                        <img src="{{ $leader->anons_image ?? '' }}" alt="region">
+                                        <a data-fancybox data-src="{{ $leader->anons_image ?? '' }}" data-caption="{{ $leader->leader ?? '' }}">
+                                            <img src="{{ $leader->anons_image ?? '' }}" width="200" height="150"/>
+                                        </a>
                                     </div>
                                     <div class="region-leader in-region-leader">
                                         <span>{{ $leader->leader ?? '' }}</span>
